@@ -47,7 +47,7 @@ async fn main() {
             .with_max_level(tracing::Level::DEBUG)
             .init();
     } else {
-        tracing_subscriber::fmt::init()
+        tracing_subscriber::fmt::init();
     }
     debug!("Issue to check: {} ({} repo)", args.issue, args.repo);
     debug!("STDOUT: {}", args.stdout);
