@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.2.1" size="9469">
+<fb version="0.2.1" size="9491">
   <f>
     <added t="I">8</added>
     <cycles t="I">2</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">0.099605809</seconds>
+    <seconds t="F">0.081348711</seconds>
     <version t="S">0.20.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-07-26T04:12:25Z</when>
+    <when t="T">2024-07-26T06:13:50Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -56,6 +56,7 @@
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
     <area t="S">quality</area>
     <qos_days t="I">28</qos_days>
+    <qos_interval t="I">3</qos_interval>
     <what t="S">pmp</what>
   </f>
   <f>
@@ -190,8 +191,8 @@
     <who t="I">83453843</who>
   </f>
   <f>
-    <_id t="I">59</_id>
-    <_time t="T">2024-07-26T04:12:25Z</_time>
+    <_id t="I">62</_id>
+    <_time t="T">2024-07-26T06:13:50Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
     <area t="S">hr</area>
     <bad_branch_name_was_punished t="S">(award (explain 'If a branch has a name that doesn\'t obey the convention, a penalty is given to the author') (aka (let fee -10) (give fee 'as a basis') 'deduct ${fee} points'))</bad_branch_name_was_punished>
@@ -212,17 +213,17 @@
     <what t="S">pmp</what>
   </f>
   <f>
-    <_id t="I">60</_id>
-    <_time t="T">2024-07-26T06:13:46Z</_time>
+    <_id t="I">63</_id>
+    <_time t="T">2024-07-26T07:09:27Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
-    <latest t="I">40483062598</latest>
+    <latest t="I">40484211930</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">61</_id>
-    <_time t="T">2024-07-26T06:13:47Z</_time>
+    <_id t="I">64</_id>
+    <_time t="T">2024-07-26T07:09:28Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
     <latest t="I">0</latest>
     <repository t="I">833604403</repository>

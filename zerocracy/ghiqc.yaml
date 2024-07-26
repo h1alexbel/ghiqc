@@ -2,10 +2,10 @@
 - added: 8
   cycles: 2
   removed: 8
-  seconds: 0.099605809
+  seconds: 0.081348711
   version: 0.20.0
   what: judges-summary
-  when: 2024-07-26 04:12:25.844784306 Z
+  when: 2024-07-26 06:13:50.059487819 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -46,6 +46,7 @@
   _version: 0.2.1/0.20.0/0.0.35
   area: quality
   qos_days: 28
+  qos_interval: 3
   what: pmp
 - _id: 11
   _time: 2024-07-25 17:08:52.769599781 Z
@@ -160,8 +161,8 @@
   when: 2024-07-25 16:32:04.000000000 Z
   where: github
   who: 83453843
-- _id: 59
-  _time: 2024-07-26 04:12:25.813928213 Z
+- _id: 62
+  _time: 2024-07-26 06:13:50.033154880 Z
   _version: 0.2.1/0.20.0/0.0.35
   area: hr
   bad_branch_name_was_punished: "(award (explain 'If a branch has a name that doesn\\'t
@@ -196,15 +197,15 @@
     -20) (set b2 (max b2 days_fee_max)) (give b2 'for #{days} days of delay') 'deduct
     ${day_fee} points for each day of delay, but no more than ${days_fee_max} points'))"
   what: pmp
-- _id: 60
-  _time: 2024-07-26 06:13:46.377510481 Z
+- _id: 63
+  _time: 2024-07-26 07:09:27.756357645 Z
   _version: 0.2.1/0.20.0/0.0.35
-  latest: 40483062598
+  latest: 40484211930
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 61
-  _time: 2024-07-26 06:13:47.533376658 Z
+- _id: 64
+  _time: 2024-07-26 07:09:28.906945204 Z
   _version: 0.2.1/0.20.0/0.0.35
   latest: 0
   repository: 833604403
