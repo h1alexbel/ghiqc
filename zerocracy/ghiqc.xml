@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.2.1" size="9491">
+<fb version="0.2.1" size="12228">
   <f>
     <added t="I">8</added>
     <cycles t="I">2</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">0.097865608</seconds>
+    <seconds t="F">6.81255537</seconds>
     <version t="S">0.20.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-07-26T14:08:39Z</when>
+    <when t="T">2024-07-26T16:15:00Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -191,8 +191,8 @@
     <who t="I">83453843</who>
   </f>
   <f>
-    <_id t="I">86</_id>
-    <_time t="T">2024-07-26T14:08:39Z</_time>
+    <_id t="I">89</_id>
+    <_time t="T">2024-07-26T15:10:11Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
     <area t="S">hr</area>
     <bad_branch_name_was_punished t="S">(award (explain 'If a branch has a name that doesn\'t obey the convention, a penalty is given to the author') (aka (let fee -10) (give fee 'as a basis') 'deduct ${fee} points'))</bad_branch_name_was_punished>
@@ -213,17 +213,127 @@
     <what t="S">pmp</what>
   </f>
   <f>
-    <_id t="I">87</_id>
-    <_time t="T">2024-07-26T15:10:00Z</_time>
+    <_id t="I">90</_id>
+    <_time t="T">2024-07-26T16:14:54Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
-    <latest t="I">40497490623</latest>
+    <commit t="S">0aa69077da40fa2e4d1692f01020bede499dd658</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #19498514003 has arrived to h1alexbel/ghiqc, made by @h1alexbel (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">40500872423</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">19498514003</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">833604403</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2024-07-26T16:03:23Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">91</_id>
+    <_time t="T">2024-07-26T16:14:54Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <commit t="S">5d78c2561b41d11618309eced01aba52d9a61bd7</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #19498461575 has arrived to h1alexbel/ghiqc, made by @h1alexbel (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">40500768829</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">19498461575</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">833604403</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2024-07-26T15:59:31Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">92</_id>
+    <_time t="T">2024-07-26T16:14:55Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <commit t="S">6d95bfaf8849d6390f47790106be7013bf507091</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #19498084292 has arrived to h1alexbel/ghiqc, made by @h1alexbel (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">40499992682</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">19498084292</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">833604403</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2024-07-26T15:30:22Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">93</_id>
+    <_time t="T">2024-07-26T16:14:55Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <commit t="S">0f8160487aa8f9725ab05660489280d960f2bf7d</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #19498063993 has arrived to h1alexbel/ghiqc, made by @h1alexbel (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">40499951569</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">19498063993</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">833604403</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2024-07-26T15:28:56Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">94</_id>
+    <_time t="T">2024-07-26T16:14:55Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <commit t="S">df19628754e254528b2958271860e1a32cad3e41</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #19497934281 has arrived to h1alexbel/ghiqc, made by @h1alexbel (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">40499686021</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">19497934281</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">833604403</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2024-07-26T15:19:27Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">95</_id>
+    <_time t="T">2024-07-26T16:14:55Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <details t="S">The issue h1alexbel/ghiqc#7 has been opened by @h1alexbel.</details>
+    <event_id t="I">40499660641</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">7</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2024-07-26T15:18:36Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">98</_id>
+    <_time t="T">2024-07-26T16:14:58Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <latest t="I">40500872423</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">88</_id>
-    <_time t="T">2024-07-26T15:10:01Z</_time>
+    <_id t="I">99</_id>
+    <_time t="T">2024-07-26T16:15:00Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
     <latest t="I">0</latest>
     <repository t="I">833604403</repository>

@@ -2,10 +2,10 @@
 - added: 8
   cycles: 2
   removed: 8
-  seconds: 0.097865608
+  seconds: 6.81255537
   version: 0.20.0
   what: judges-summary
-  when: 2024-07-26 14:08:39.911943467 Z
+  when: 2024-07-26 16:15:00.369552220 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -161,8 +161,8 @@
   when: 2024-07-25 16:32:04.000000000 Z
   where: github
   who: 83453843
-- _id: 86
-  _time: 2024-07-26 14:08:39.873292422 Z
+- _id: 89
+  _time: 2024-07-26 15:10:11.750293615 Z
   _version: 0.2.1/0.20.0/0.0.35
   area: hr
   bad_branch_name_was_punished: "(award (explain 'If a branch has a name that doesn\\'t
@@ -197,15 +197,118 @@
     -20) (set b2 (max b2 days_fee_max)) (give b2 'for #{days} days of delay') 'deduct
     ${day_fee} points for each day of delay, but no more than ${days_fee_max} points'))"
   what: pmp
-- _id: 87
-  _time: 2024-07-26 15:10:00.102550744 Z
+- _id: 90
+  _time: 2024-07-26 16:14:54.544805639 Z
   _version: 0.2.1/0.20.0/0.0.35
-  latest: 40497490623
+  commit: 0aa69077da40fa2e4d1692f01020bede499dd658
+  default_branch: master
+  details: 'A new Git push #19498514003 has arrived to h1alexbel/ghiqc, made by @h1alexbel
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 40500872423
+  event_type: PushEvent
+  is_human: 1
+  push_id: 19498514003
+  ref: refs/heads/master
+  repository: 833604403
+  to_master: 1
+  what: git-was-pushed
+  when: 2024-07-26 16:03:23.000000000 Z
+  where: github
+  who: 83453843
+- _id: 91
+  _time: 2024-07-26 16:14:54.972028886 Z
+  _version: 0.2.1/0.20.0/0.0.35
+  commit: 5d78c2561b41d11618309eced01aba52d9a61bd7
+  default_branch: master
+  details: 'A new Git push #19498461575 has arrived to h1alexbel/ghiqc, made by @h1alexbel
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 40500768829
+  event_type: PushEvent
+  is_human: 1
+  push_id: 19498461575
+  ref: refs/heads/master
+  repository: 833604403
+  to_master: 1
+  what: git-was-pushed
+  when: 2024-07-26 15:59:31.000000000 Z
+  where: github
+  who: 83453843
+- _id: 92
+  _time: 2024-07-26 16:14:55.217775731 Z
+  _version: 0.2.1/0.20.0/0.0.35
+  commit: 6d95bfaf8849d6390f47790106be7013bf507091
+  default_branch: master
+  details: 'A new Git push #19498084292 has arrived to h1alexbel/ghiqc, made by @h1alexbel
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 40499992682
+  event_type: PushEvent
+  is_human: 1
+  push_id: 19498084292
+  ref: refs/heads/master
+  repository: 833604403
+  to_master: 1
+  what: git-was-pushed
+  when: 2024-07-26 15:30:22.000000000 Z
+  where: github
+  who: 83453843
+- _id: 93
+  _time: 2024-07-26 16:14:55.463502605 Z
+  _version: 0.2.1/0.20.0/0.0.35
+  commit: 0f8160487aa8f9725ab05660489280d960f2bf7d
+  default_branch: master
+  details: 'A new Git push #19498063993 has arrived to h1alexbel/ghiqc, made by @h1alexbel
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 40499951569
+  event_type: PushEvent
+  is_human: 1
+  push_id: 19498063993
+  ref: refs/heads/master
+  repository: 833604403
+  to_master: 1
+  what: git-was-pushed
+  when: 2024-07-26 15:28:56.000000000 Z
+  where: github
+  who: 83453843
+- _id: 94
+  _time: 2024-07-26 16:14:55.713510281 Z
+  _version: 0.2.1/0.20.0/0.0.35
+  commit: df19628754e254528b2958271860e1a32cad3e41
+  default_branch: master
+  details: 'A new Git push #19497934281 has arrived to h1alexbel/ghiqc, made by @h1alexbel
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 40499686021
+  event_type: PushEvent
+  is_human: 1
+  push_id: 19497934281
+  ref: refs/heads/master
+  repository: 833604403
+  to_master: 1
+  what: git-was-pushed
+  when: 2024-07-26 15:19:27.000000000 Z
+  where: github
+  who: 83453843
+- _id: 95
+  _time: 2024-07-26 16:14:55.977131282 Z
+  _version: 0.2.1/0.20.0/0.0.35
+  details: The issue h1alexbel/ghiqc#7 has been opened by @h1alexbel.
+  event_id: 40499660641
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 7
+  repository: 833604403
+  what: issue-was-opened
+  when: 2024-07-26 15:18:36.000000000 Z
+  where: github
+  who: 83453843
+- _id: 98
+  _time: 2024-07-26 16:14:58.467820073 Z
+  _version: 0.2.1/0.20.0/0.0.35
+  latest: 40500872423
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 88
-  _time: 2024-07-26 15:10:01.392087117 Z
+- _id: 99
+  _time: 2024-07-26 16:15:00.366802086 Z
   _version: 0.2.1/0.20.0/0.0.35
   latest: 0
   repository: 833604403
