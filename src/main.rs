@@ -28,8 +28,10 @@ extern crate hamcrest;
 use crate::args::cli::Cli;
 use crate::args::env::env;
 use crate::github::issue::Issue;
+use crate::github::github_issue::GithubIssue;
 use clap::Parser;
 use env_logger::init;
+use hamcrest::is;
 use log::{debug, info};
 
 /// Arguments.
@@ -42,7 +44,7 @@ async fn main() {
     let args = Cli::parse();
     if args.verbose {
         tracing_subscriber::fmt()
-            .with_max_level(tracing::Level::INFO)
+            .with_max_level(tracing::Level::DEBUG)
             .init();
     } else {
         tracing_subscriber::fmt::init()
@@ -52,7 +54,12 @@ async fn main() {
     debug!("Reading GITHUB_TOKEN from environment...");
     let ghtoken = env(String::from("GITHUB_TOKEN"));
     debug!("Reading DEEPINFRA_TOKEN from environment...");
-    let deeptoken = env(String::from("DEEPINFRA_TOKEN"));
-    let body = Issue::new(args.repo, args.issue).body(ghtoken).await;
-    info!("{}", body);
+    let issue = GithubIssue::new(
+        Issue::new(args.repo, args.issue), ghtoken
+    ).await;
+    info!(
+        "Issue says (created by @{}): {}",
+        issue.clone().author(),
+        issue.clone().body()
+    );
 }
