@@ -38,7 +38,7 @@ impl Issue {
 
 impl Issue {
     /// Fetch issue details.
-    pub async fn body(self, token: String) -> String {
+    pub async fn on_github(self, token: String) -> octocrab::models::issues::Issue {
         let parts: Vec<&str> = self.repo.split('/').collect();
         let github = Octocrab::builder()
             .personal_token(token)
@@ -49,9 +49,7 @@ impl Issue {
             .get(self.number as u64)
             .await;
         match option {
-            Ok(response) => response
-                .body
-                .expect("Cannot parse issue body. Probably its NULL"),
+            Ok(response) => response,
             Err(err) => {
                 panic!("Cannot fetch {}#{}: {}", self.repo, self.number, err)
             }
