@@ -30,8 +30,6 @@ use crate::args::env::env;
 use crate::github::issue::Issue;
 use crate::github::github_issue::GithubIssue;
 use clap::Parser;
-use env_logger::init;
-use hamcrest::is;
 use log::{debug, info};
 
 /// Arguments.
