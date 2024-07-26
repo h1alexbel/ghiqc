@@ -36,6 +36,5 @@ fn outputs_help() -> Result<()> {
     assert!(output.contains("--i"));
     assert!(output.contains("--stdout"));
     assert!(output.contains("--verbose"));
-    assert!(output.contains("--v"));
     Ok(())
 }
