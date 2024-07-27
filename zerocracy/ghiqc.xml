@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.2.1" size="20942">
+<fb version="0.2.1" size="21010">
   <f>
     <added t="I">8</added>
     <cycles t="I">3</cycles>
-    <error t="S">The 'ZEROCRAT_TOKEN' secret is not set</error>
+    <error t="S">GET https://api.github.com/user/83453843: 401 - Bad credentials // See: https://docs.github.com/rest</error>
     <removed t="I">8</removed>
-    <seconds t="F">1.839672693</seconds>
+    <seconds t="F">930.909727395</seconds>
     <version t="S">0.20.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-07-27T14:08:59Z</when>
+    <when t="T">2024-07-27T15:24:34Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -625,8 +625,8 @@
     <why t="S">Code was contributed in h1alexbel/ghiqc#12</why>
   </f>
   <f>
-    <_id t="I">198</_id>
-    <_time t="T">2024-07-27T14:08:58Z</_time>
+    <_id t="I">201</_id>
+    <_time t="T">2024-07-27T15:19:23Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.36</_version>
     <area t="S">hr</area>
     <bad_branch_name_was_punished t="S">(award (explain 'If a branch has a name that doesn\'t obey the convention, a penalty is given to the author') (aka (let fee -10) (give fee 'as a basis') 'deduct ${fee} points'))</bad_branch_name_was_punished>
@@ -647,17 +647,17 @@
     <what t="S">pmp</what>
   </f>
   <f>
-    <_id t="I">199</_id>
-    <_time t="T">2024-07-27T15:08:49Z</_time>
+    <_id t="I">202</_id>
+    <_time t="T">2024-07-27T16:11:40Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.36</_version>
-    <latest t="I">40516608157</latest>
+    <latest t="I">40517157735</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">200</_id>
-    <_time t="T">2024-07-27T15:08:51Z</_time>
+    <_id t="I">203</_id>
+    <_time t="T">2024-07-27T16:11:42Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.36</_version>
     <latest t="I">0</latest>
     <repository t="I">833604403</repository>
