@@ -1,12 +1,11 @@
 ---
 - added: 8
-  cycles: 3
-  error: The 'ZEROCRAT_TOKEN' secret is not set
+  cycles: 2
   removed: 8
-  seconds: 1.603356174
+  seconds: 5.386598873
   version: 0.20.0
   what: judges-summary
-  when: 2024-07-27 06:11:46.744048286 Z
+  when: 2024-07-27 08:11:11.495364885 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -286,8 +285,8 @@
   where: github
   who: 83453843
   why: Push 0aa69077d to default branch 'master' in h1alexbel/ghiqc
-- _id: 144
-  _time: 2024-07-27 06:11:46.242476724 Z
+- _id: 147
+  _time: 2024-07-27 07:10:14.614002636 Z
   _version: 0.2.1/0.20.0/0.0.35
   area: hr
   bad_branch_name_was_punished: "(award (explain 'If a branch has a name that doesn\\'t
@@ -322,15 +321,29 @@
     -20) (set b2 (max b2 days_fee_max)) (give b2 'for #{days} days of delay') 'deduct
     ${day_fee} points for each day of delay, but no more than ${days_fee_max} points'))"
   what: pmp
-- _id: 145
-  _time: 2024-07-27 07:09:58.240062008 Z
+- _id: 148
+  _time: 2024-07-27 08:11:07.097301925 Z
   _version: 0.2.1/0.20.0/0.0.35
-  latest: 40512691947
+  branch: renovate/zerocracy-judges-action-0.x
+  details: The pull request h1alexbel/ghiqc#8 has been opened by @renovate[bot].
+  event_id: 40513144409
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 8
+  repository: 833604403
+  what: pull-was-opened
+  when: 2024-07-27 07:10:28.000000000 Z
+  where: github
+  who: 29139614
+- _id: 151
+  _time: 2024-07-27 08:11:09.705613745 Z
+  _version: 0.2.1/0.20.0/0.0.35
+  latest: 40513144409
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 146
-  _time: 2024-07-27 07:09:59.257497123 Z
+- _id: 152
+  _time: 2024-07-27 08:11:11.492926891 Z
   _version: 0.2.1/0.20.0/0.0.35
   latest: 0
   repository: 833604403
