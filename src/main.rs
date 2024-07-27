@@ -31,11 +31,15 @@ use crate::github::issue::Issue;
 use crate::github::github_issue::GithubIssue;
 use clap::Parser;
 use log::{debug, info};
+use crate::probe::deep_infra_request::{ProbeDeepInfra, ProbeMessage};
+use crate::probe::probe_request::ProbeRequest;
 
 /// Arguments.
 pub mod args;
 /// GitHub.
 pub mod github;
+/// Probes.
+pub mod probe;
 
 #[tokio::main]
 async fn main() {
@@ -52,6 +56,7 @@ async fn main() {
     debug!("Reading GITHUB_TOKEN from environment...");
     let ghtoken = env(String::from("GITHUB_TOKEN"));
     debug!("Reading DEEPINFRA_TOKEN from environment...");
+    let deeptoken = env(String::from("DEEPINFRA_TOKEN"));
     let issue = GithubIssue::new(
         Issue::new(args.repo, args.issue), ghtoken
     ).await;
@@ -60,4 +65,19 @@ async fn main() {
         issue.clone().author(),
         issue.clone().body()
     );
+    let response = ProbeDeepInfra::new(
+        String::from("https://api.deepinfra.com/v1/openai/chat/completions"),
+        deeptoken
+    ).complete(
+        vec![
+            ProbeMessage::new(
+                String::from("user"),
+                // @todo #7:30min Develop a prompt as probe message.
+                //  Let's create a prompt for a probe message that would
+                //  analyze quality of given bug report.
+                String::from("Hello!")
+            )
+        ]
+    ).await;
+    info!("{}", response);
 }

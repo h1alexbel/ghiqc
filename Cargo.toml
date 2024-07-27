@@ -36,7 +36,6 @@ missing_docs = "deny"
 
 [lints.clippy]
 unwrap_used = "deny"
-question_mark_used = "deny"
 
 [dependencies]
 anyhow = "1.0.86"
@@ -53,6 +52,8 @@ hamcrest = "0.1.5"
 tracing = "0.1.40"
 tokio = { version = "1.39.1", features = ["rt", "rt-multi-thread", "macros"] }
 tokio-macros = "2.4.0"
+reqwest = { version = "0.12.5", features = ["json"] }
+serde_json = "1.0.120"
 
 [dev-dependencies]
 assert_cmd = "2.0.14"
