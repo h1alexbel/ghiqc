@@ -21,7 +21,7 @@
 // SOFTWARE.
 use crate::probe::probe_request::ProbeRequest;
 use serde::{Deserialize, Serialize};
-use serde_json::{to_string};
+use serde_json::to_string;
 
 /// Deep Infra model probe.
 pub struct ProbeDeepInfra {
@@ -59,13 +59,13 @@ pub struct DeepInfraResponse {
 /// Response choice.
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseChoice {
-    message: ResponseMessage
+    message: ResponseMessage,
 }
 
 /// Response messages.
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseMessage {
-    content: String
+    content: String,
 }
 
 /// Request payload to Deep Infra.
@@ -86,24 +86,30 @@ impl ProbeRequest for ProbeDeepInfra {
     async fn complete(self, messages: Vec<ProbeMessage>) -> String {
         let request = reqwest::Client::new();
         let payload = DeepInfraRequest::new(
-            String::from("Phind/Phind-CodeLlama-34B-v2"), messages,
+            String::from("Phind/Phind-CodeLlama-34B-v2"),
+            messages,
         );
-        let response = request.post(self.url)
+        let response = request
+            .post(self.url)
             .header("Content-Type", "application/json")
             .header("Authorization", format!("Bearer {}", self.token))
-            .body(to_string(&payload).expect("Cannot stringify request payload to probe"))
+            .body(
+                to_string(&payload)
+                    .expect("Cannot stringify request payload to probe"),
+            )
             .send()
             .await;
         match response {
             Ok(response) => {
-                let json = response.json::<DeepInfraResponse>().await.expect("");
+                let json =
+                    response.json::<DeepInfraResponse>().await.expect("");
                 let vec = json.choices;
                 let first = &vec[0];
                 let message = &first.message;
                 let content = &message.content;
                 content.clone()
-            },
-            Err(err) => panic!("Request to probe failed: {}", err)
+            }
+            Err(err) => panic!("Request to probe failed: {}", err),
         }
     }
 }

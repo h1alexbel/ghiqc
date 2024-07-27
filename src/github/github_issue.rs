@@ -38,7 +38,9 @@ impl GithubIssue {
 impl GithubIssue {
     /// Issue body.
     pub fn body(self) -> String {
-        self.origin.body.expect("Cannot parse issue body. Probably its NULL.")
+        self.origin
+            .body
+            .expect("Cannot parse issue body. Probably its NULL.")
     }
 
     /// GitHub nickname of issue author.

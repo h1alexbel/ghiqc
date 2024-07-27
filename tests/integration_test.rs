@@ -24,6 +24,7 @@ use assert_cmd::Command;
 use std::str;
 
 #[test]
+#[allow(clippy::question_mark_used)]
 fn outputs_help() -> Result<()> {
     let assertion = Command::cargo_bin("ghiqc")?.arg("--help").assert();
     let bytes = assertion.get_output().stdout.as_slice();

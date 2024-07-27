@@ -38,7 +38,10 @@ impl Issue {
 
 impl Issue {
     /// Fetch issue details.
-    pub async fn on_github(self, token: String) -> octocrab::models::issues::Issue {
+    pub async fn on_github(
+        self,
+        token: String,
+    ) -> octocrab::models::issues::Issue {
         let parts: Vec<&str> = self.repo.split('/').collect();
         let github = Octocrab::builder()
             .personal_token(token)

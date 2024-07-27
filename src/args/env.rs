@@ -23,9 +23,8 @@ use std::env;
 
 /// Environment variable value by its name.
 pub fn env(name: String) -> String {
-    let value = match env::var(name.clone()) {
+    match env::var(name.clone()) {
         Ok(token) => token,
         Err(err) => panic!("{} was not provided: {}", name, err),
-    };
-    value
+    }
 }

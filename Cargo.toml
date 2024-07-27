@@ -36,6 +36,7 @@ missing_docs = "deny"
 
 [lints.clippy]
 unwrap_used = "deny"
+question_mark_used = "deny"
 
 [dependencies]
 anyhow = "1.0.86"

@@ -24,5 +24,6 @@ use crate::probe::deep_infra_request::ProbeMessage;
 /// Probe request.
 pub trait ProbeRequest {
     /// Complete the request.
+    #[allow(async_fn_in_trait)]
     async fn complete(self, messages: Vec<ProbeMessage>) -> String;
 }
