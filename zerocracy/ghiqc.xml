@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.2.1" size="13537">
+<fb version="0.2.1" size="13595">
   <f>
     <added t="I">8</added>
-    <cycles t="I">2</cycles>
+    <cycles t="I">3</cycles>
+    <error t="S">The 'ZEROCRAT_TOKEN' secret is not set</error>
     <removed t="I">8</removed>
-    <seconds t="F">5.386598873</seconds>
+    <seconds t="F">1.58881708</seconds>
     <version t="S">0.20.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-07-27T08:11:11Z</when>
+    <when t="T">2024-07-27T08:11:20Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -319,8 +320,24 @@
     <why t="S">Push 0aa69077d to default branch 'master' in h1alexbel/ghiqc</why>
   </f>
   <f>
-    <_id t="I">147</_id>
-    <_time t="T">2024-07-27T07:10:14Z</_time>
+    <_id t="I">148</_id>
+    <_time t="T">2024-07-27T08:11:07Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <branch t="S">renovate/zerocracy-judges-action-0.x</branch>
+    <details t="S">The pull request h1alexbel/ghiqc#8 has been opened by @renovate[bot].</details>
+    <event_id t="I">40513144409</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">8</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2024-07-27T07:10:28Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">153</_id>
+    <_time t="T">2024-07-27T08:11:19Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
     <area t="S">hr</area>
     <bad_branch_name_was_punished t="S">(award (explain 'If a branch has a name that doesn\'t obey the convention, a penalty is given to the author') (aka (let fee -10) (give fee 'as a basis') 'deduct ${fee} points'))</bad_branch_name_was_punished>
@@ -341,33 +358,17 @@
     <what t="S">pmp</what>
   </f>
   <f>
-    <_id t="I">148</_id>
-    <_time t="T">2024-07-27T08:11:07Z</_time>
+    <_id t="I">154</_id>
+    <_time t="T">2024-07-27T09:09:03Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
-    <branch t="S">renovate/zerocracy-judges-action-0.x</branch>
-    <details t="S">The pull request h1alexbel/ghiqc#8 has been opened by @renovate[bot].</details>
-    <event_id t="I">40513144409</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">8</issue>
-    <repository t="I">833604403</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2024-07-27T07:10:28Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">151</_id>
-    <_time t="T">2024-07-27T08:11:09Z</_time>
-    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
-    <latest t="I">40513144409</latest>
+    <latest t="I">40513610281</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">152</_id>
-    <_time t="T">2024-07-27T08:11:11Z</_time>
+    <_id t="I">155</_id>
+    <_time t="T">2024-07-27T09:09:05Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
     <latest t="I">0</latest>
     <repository t="I">833604403</repository>
