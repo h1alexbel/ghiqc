@@ -1,12 +1,11 @@
 ---
 - added: 8
-  cycles: 3
-  error: The 'ZEROCRAT_TOKEN' secret is not set
+  cycles: 2
   removed: 8
-  seconds: 1.58881708
+  seconds: 3.174925377
   version: 0.20.0
   what: judges-summary
-  when: 2024-07-27 08:11:20.468925289 Z
+  when: 2024-07-27 10:09:38.785293796 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -300,8 +299,8 @@
   when: 2024-07-27 07:10:28.000000000 Z
   where: github
   who: 29139614
-- _id: 153
-  _time: 2024-07-27 08:11:19.933049995 Z
+- _id: 156
+  _time: 2024-07-27 09:19:41.124962527 Z
   _version: 0.2.1/0.20.0/0.0.35
   area: hr
   bad_branch_name_was_punished: "(award (explain 'If a branch has a name that doesn\\'t
@@ -336,15 +335,33 @@
     -20) (set b2 (max b2 days_fee_max)) (give b2 'for #{days} days of delay') 'deduct
     ${day_fee} points for each day of delay, but no more than ${days_fee_max} points'))"
   what: pmp
-- _id: 154
-  _time: 2024-07-27 09:09:03.558944872 Z
+- _id: 157
+  _time: 2024-07-27 10:09:36.225316404 Z
   _version: 0.2.1/0.20.0/0.0.35
-  latest: 40513610281
+  commit: a91ad57fe910f1ecde7fc51ad2c07ee359a861b1
+  default_branch: master
+  details: 'A new Git push #19506116287 has arrived to h1alexbel/ghiqc, made by @h1alexbel
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 40514447211
+  event_type: PushEvent
+  is_human: 1
+  push_id: 19506116287
+  ref: refs/heads/master
+  repository: 833604403
+  to_master: 1
+  what: git-was-pushed
+  when: 2024-07-27 09:56:57.000000000 Z
+  where: github
+  who: 83453843
+- _id: 160
+  _time: 2024-07-27 10:09:37.841596272 Z
+  _version: 0.2.1/0.20.0/0.0.35
+  latest: 40514447211
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 155
-  _time: 2024-07-27 09:09:05.237561517 Z
+- _id: 161
+  _time: 2024-07-27 10:09:38.782269954 Z
   _version: 0.2.1/0.20.0/0.0.35
   latest: 0
   repository: 833604403

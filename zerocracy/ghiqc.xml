@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.2.1" size="13595">
+<fb version="0.2.1" size="14020">
   <f>
     <added t="I">8</added>
-    <cycles t="I">3</cycles>
-    <error t="S">The 'ZEROCRAT_TOKEN' secret is not set</error>
+    <cycles t="I">2</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">1.58881708</seconds>
+    <seconds t="F">3.174925377</seconds>
     <version t="S">0.20.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-07-27T08:11:20Z</when>
+    <when t="T">2024-07-27T10:09:38Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -336,8 +335,8 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">153</_id>
-    <_time t="T">2024-07-27T08:11:19Z</_time>
+    <_id t="I">156</_id>
+    <_time t="T">2024-07-27T09:19:41Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
     <area t="S">hr</area>
     <bad_branch_name_was_punished t="S">(award (explain 'If a branch has a name that doesn\'t obey the convention, a penalty is given to the author') (aka (let fee -10) (give fee 'as a basis') 'deduct ${fee} points'))</bad_branch_name_was_punished>
@@ -358,17 +357,36 @@
     <what t="S">pmp</what>
   </f>
   <f>
-    <_id t="I">154</_id>
-    <_time t="T">2024-07-27T09:09:03Z</_time>
+    <_id t="I">157</_id>
+    <_time t="T">2024-07-27T10:09:36Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
-    <latest t="I">40513610281</latest>
+    <commit t="S">a91ad57fe910f1ecde7fc51ad2c07ee359a861b1</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #19506116287 has arrived to h1alexbel/ghiqc, made by @h1alexbel (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">40514447211</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">19506116287</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">833604403</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2024-07-27T09:56:57Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">160</_id>
+    <_time t="T">2024-07-27T10:09:37Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <latest t="I">40514447211</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">155</_id>
-    <_time t="T">2024-07-27T09:09:05Z</_time>
+    <_id t="I">161</_id>
+    <_time t="T">2024-07-27T10:09:38Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
     <latest t="I">0</latest>
     <repository t="I">833604403</repository>
