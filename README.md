@@ -5,7 +5,7 @@
 
 [![just](https://github.com/h1alexbel/ghiqc/actions/workflows/just.yml/badge.svg)](https://github.com/h1alexbel/ghiqc/actions/workflows/just.yml)
 [![Crates.io Version](https://img.shields.io/crates/v/ghiqc)](https://crates.io/crates/ghiqc)
-[![codecov](https://codecov.io/gh/h1alexbel/ghiqc/graph/badge.svg?token=)](https://codecov.io/gh/h1alexbel/ghiqc)
+[![codecov](https://codecov.io/gh/h1alexbel/ghiqc/graph/badge.svg?token=G8xGS8zGLS)](https://codecov.io/gh/h1alexbel/ghiqc)
 [![PDD status](http://www.0pdd.com/svg?name=h1alexbel/ghiqc)](http://www.0pdd.com/p?name=h1alexbel/ghiqc)
 [![Hits-of-Code](https://hitsofcode.com/github/h1alexbel/ghiqc)](https://hitsofcode.com/view/github/h1alexbel/ghiqc)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/h1alexbel/ghiqc/blob/master/LICENSE.txt)
