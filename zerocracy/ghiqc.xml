@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.2.1" size="14020">
+<fb version="0.2.1" size="16262">
   <f>
     <added t="I">8</added>
     <cycles t="I">2</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">3.174925377</seconds>
+    <seconds t="F">8.139075209</seconds>
     <version t="S">0.20.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-07-27T10:09:38Z</when>
+    <when t="T">2024-07-27T11:08:24Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -335,8 +335,27 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">156</_id>
-    <_time t="T">2024-07-27T09:19:41Z</_time>
+    <_id t="I">157</_id>
+    <_time t="T">2024-07-27T10:09:36Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <commit t="S">a91ad57fe910f1ecde7fc51ad2c07ee359a861b1</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #19506116287 has arrived to h1alexbel/ghiqc, made by @h1alexbel (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">40514447211</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">19506116287</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">833604403</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2024-07-27T09:56:57Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">162</_id>
+    <_time t="T">2024-07-27T10:09:56Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
     <area t="S">hr</area>
     <bad_branch_name_was_punished t="S">(award (explain 'If a branch has a name that doesn\'t obey the convention, a penalty is given to the author') (aka (let fee -10) (give fee 'as a basis') 'deduct ${fee} points'))</bad_branch_name_was_punished>
@@ -357,36 +376,129 @@
     <what t="S">pmp</what>
   </f>
   <f>
-    <_id t="I">157</_id>
-    <_time t="T">2024-07-27T10:09:36Z</_time>
+    <_id t="I">163</_id>
+    <_time t="T">2024-07-27T11:08:17Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
-    <commit t="S">a91ad57fe910f1ecde7fc51ad2c07ee359a861b1</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #19506116287 has arrived to h1alexbel/ghiqc, made by @h1alexbel (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">40514447211</event_id>
-    <event_type t="S">PushEvent</event_type>
+    <details t="S">The issue h1alexbel/ghiqc#10 has been closed by @rultor.</details>
+    <event_id t="I">40515036013</event_id>
+    <event_type t="S">IssuesEvent</event_type>
     <is_human t="I">1</is_human>
-    <push_id t="I">19506116287</push_id>
-    <ref t="S">refs/heads/master</ref>
+    <issue t="I">10</issue>
     <repository t="I">833604403</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2024-07-27T09:56:57Z</when>
+    <what t="S">issue-was-closed</what>
+    <when t="T">2024-07-27T11:07:29Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">164</_id>
+    <_time t="T">2024-07-27T11:08:17Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <branch t="S">10</branch>
+    <comments t="I">4</comments>
+    <details t="S">The pull request h1alexbel/ghiqc#11 has been closed by @rultor, with 158 HoC and 4 comments.</details>
+    <event_id t="I">40515035931</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <hoc t="I">158</hoc>
+    <is_human t="I">1</is_human>
+    <issue t="I">11</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2024-07-27T11:07:28Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">165</_id>
+    <_time t="T">2024-07-27T11:08:18Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <branch t="S">10</branch>
+    <details t="S">The pull request h1alexbel/ghiqc#11 has been opened by @h1alexbel.</details>
+    <event_id t="I">40514784047</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">11</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2024-07-27T10:35:29Z</when>
     <where t="S">github</where>
     <who t="I">83453843</who>
   </f>
   <f>
-    <_id t="I">160</_id>
-    <_time t="T">2024-07-27T10:09:37Z</_time>
+    <_id t="I">166</_id>
+    <_time t="T">2024-07-27T11:08:18Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
-    <latest t="I">40514447211</latest>
+    <details t="S">The issue h1alexbel/ghiqc#10 has been opened by @h1alexbel.</details>
+    <event_id t="I">40514678365</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">10</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2024-07-27T10:23:44Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">167</_id>
+    <_time t="T">2024-07-27T11:08:18Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <details t="S">The issue h1alexbel/ghiqc#9 has been opened by @0pdd.</details>
+    <event_id t="I">40514555206</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">9</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2024-07-27T10:10:05Z</when>
+    <where t="S">github</where>
+    <who t="I">24456188</who>
+  </f>
+  <f>
+    <_id t="I">168</_id>
+    <_time t="T">2024-07-27T11:08:18Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <commit t="S">bc08f4ab8cbf34709c62ed54f2920d4183b4ab55</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #19506189004 has arrived to h1alexbel/ghiqc, made by @h1alexbel (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">40514555026</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">19506189004</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">833604403</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2024-07-27T10:10:03Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">170</_id>
+    <_time t="T">2024-07-27T11:08:20Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <details t="S">The '#bug' label was attached by @0pdd to the issue h1alexbel/ghiqc#9.</details>
+    <is_human t="I">1</is_human>
+    <issue t="I">9</issue>
+    <label t="S">bug</label>
+    <repository t="I">833604403</repository>
+    <what t="S">label-was-attached</what>
+    <when t="T">2024-07-27T10:10:04Z</when>
+    <where t="S">github</where>
+    <who t="I">24456188</who>
+  </f>
+  <f>
+    <_id t="I">172</_id>
+    <_time t="T">2024-07-27T11:08:22Z</_time>
+    <_version t="S">0.2.1/0.20.0/0.0.35</_version>
+    <latest t="I">40515037226</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">161</_id>
-    <_time t="T">2024-07-27T10:09:38Z</_time>
+    <_id t="I">173</_id>
+    <_time t="T">2024-07-27T11:08:24Z</_time>
     <_version t="S">0.2.1/0.20.0/0.0.35</_version>
     <latest t="I">0</latest>
     <repository t="I">833604403</repository>
