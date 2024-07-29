@@ -36,5 +36,6 @@ jobs:
         with:
           formula-name: ghiqc
           formula-path: Formula/g/ghiqc.rb
+          base-branch: master
         env:
           COMMITTER_TOKEN: ${{ secrets.HOMEBREW_COMMITTER_TOKEN }}
