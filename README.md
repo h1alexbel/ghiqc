@@ -113,3 +113,4 @@ Here is the [contribution vitals][Zerocracy Vitals], made by [zerocracy/judges-a
 [just]: https://just.systems/man/en/chapter_4.html
 [Zerocracy Vitals]: https://www.h1alexbel.xyz/ghiqc/zerocracy/ghiqc-vitals.html
 [zerocracy/judges-action]: https://github.com/zerocracy/judges-action
+[GitHub Actions]: https://github.com/features/actions
