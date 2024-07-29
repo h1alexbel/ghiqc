@@ -27,10 +27,15 @@ Application entry point.
 extern crate hamcrest;
 use crate::args::cli::Cli;
 use crate::args::env::env;
+use crate::github::github::github;
 use crate::github::github_issue::GithubIssue;
 use crate::github::issue::Issue;
-use crate::probe::deep_infra_request::{ProbeDeepInfra, ProbeMessage};
+use crate::probe::assistant::assistant;
+use crate::probe::probe_deep_infra::ProbeDeepInfra;
 use crate::probe::probe_request::ProbeRequest;
+use crate::report::report::Report;
+use crate::report::report_fork::ReportFork;
+use crate::report::tagged_response::tagged;
 use clap::Parser;
 use log::{debug, info};
 
@@ -40,6 +45,8 @@ pub mod args;
 pub mod github;
 /// Probes.
 pub mod probe;
+/// Reporting.
+pub mod report;
 
 #[tokio::main]
 async fn main() {
@@ -57,24 +64,26 @@ async fn main() {
     let ghtoken = env(String::from("GITHUB_TOKEN"));
     debug!("Reading DEEPINFRA_TOKEN from environment...");
     let deeptoken = env(String::from("DEEPINFRA_TOKEN"));
-    let issue =
-        GithubIssue::new(Issue::new(args.repo, args.issue), ghtoken).await;
+    let github = github(ghtoken);
+    let issue = GithubIssue::new(
+        Issue::new(args.repo.clone(), args.issue),
+        github.clone(),
+    )
+    .await;
     info!(
         "Issue says (created by @{}): {}",
         issue.clone().author(),
         issue.clone().body()
     );
+    let author = issue.clone().author();
     let response = ProbeDeepInfra::new(
         String::from("https://api.deepinfra.com/v1/openai/chat/completions"),
         deeptoken,
     )
-    .complete(vec![ProbeMessage::new(
-        String::from("user"),
-        // @todo #7:30min Develop a prompt as probe message.
-        //  Let's create a prompt for a probe message that would
-        //  analyze quality of given bug report.
-        String::from("Hello!"),
-    )])
+    .complete(assistant(issue))
     .await;
-    info!("{}", response);
+    debug!("Received response: {}", response);
+    ReportFork::new(args.stdout, github, args.repo, args.issue)
+        .publish(tagged(response, author))
+        .await;
 }

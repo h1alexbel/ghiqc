@@ -19,7 +19,7 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-use crate::probe::deep_infra_request::ProbeMessage;
+use crate::probe::probe_deep_infra::ProbeMessage;
 
 /// Probe request.
 pub trait ProbeRequest {

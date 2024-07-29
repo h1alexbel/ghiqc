@@ -19,7 +19,9 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
+/// Assistant with prompts.
+pub mod assistant;
 /// Deep Infra request.
-pub mod deep_infra_request;
+pub mod probe_deep_infra;
 /// Probe request.
 pub mod probe_request;

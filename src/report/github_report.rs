@@ -19,33 +19,45 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-use crate::github::issue::Issue;
+use crate::report::report::Report;
+use log::debug;
 use octocrab::Octocrab;
+use tracing::info;
 
-/// GitHub issue.
+/// GitHub report in issue comments.
 #[derive(Clone)]
-pub struct GithubIssue {
-    origin: octocrab::models::issues::Issue,
+pub struct GithubReport {
+    /// GitHub.
+    github: Octocrab,
+    /// Repo.
+    repo: String,
+    /// Issue number.
+    issue: usize,
 }
 
-impl GithubIssue {
-    /// GitHub issue from origin.
-    pub async fn new(origin: Issue, github: Octocrab) -> GithubIssue {
-        let issue = origin.on_github(github).await;
-        GithubIssue { origin: issue }
+impl GithubReport {
+    /// New GitHub report.
+    pub fn new(github: Octocrab, repo: String, issue: usize) -> GithubReport {
+        GithubReport {
+            github,
+            repo,
+            issue,
+        }
     }
 }
 
-impl GithubIssue {
-    /// Issue body.
-    pub fn body(self) -> String {
-        self.origin
-            .body
-            .expect("Cannot parse issue body. Probably its NULL.")
-    }
-
-    /// GitHub nickname of issue author.
-    pub fn author(self) -> String {
-        self.origin.user.login
+impl Report for GithubReport {
+    async fn publish(self, text: String) {
+        debug!("Publishing to {}#{}...", self.repo, self.issue);
+        let parts: Vec<&str> = self.repo.split('/').collect();
+        self.github
+            .issues(parts[0], parts[1])
+            .create_comment(self.issue as u64, text)
+            .await
+            .expect("Cannot post report to the GitHub issue comments");
+        info!(
+            "Report should be delivered to {}#{}!",
+            self.repo, self.issue
+        );
     }
 }
