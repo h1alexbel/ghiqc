@@ -30,13 +30,13 @@ permissions:
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   DEEPINFRA_TOKEN: ${{ secrets.DEEPINFRA_TOKEN }}
-  ISSUE: ${{ github.event.issue.id }}
+  ISSUE: ${{ github.event.issue.number }}
 jobs:
   check:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - name: Run ghiqc
+      - name: Run ghiqc # install it too
         run: |
           cargo install ghiqc
           ghiqc --repo ${{ github.repository }} --issue $ISSUE
