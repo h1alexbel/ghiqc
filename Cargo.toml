@@ -21,7 +21,7 @@
 # SOFTWARE.
 [package]
 name = "ghiqc"
-version = "0.0.0"
+version = "0.0.1"
 edition = "2021"
 license = "MIT"
 description = "Command-line tool for checking quality of bug reports in GitHub Issues"
