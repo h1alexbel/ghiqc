@@ -25,7 +25,7 @@ architect:
 docker:
   image: yegor256/rultor-image:1.23.1
 assets:
-  credentials: h1alexbel/home#assets/crates
+  credentials: h1alexbel/home#assets/crates.toml
 install: |
   cargo install --version 1.30.1 just
 merge:
