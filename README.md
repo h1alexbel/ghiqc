@@ -86,7 +86,8 @@ jobs:
       - name: Install ghiqc
         run: cargo install ghiqc
       - name: Run ghiqc
-        run: ghiqc --repo ${{ github.repository }} --issue $ISSUE
+        run: |
+          ghiqc --repo "${{ github.repository }}" --issue "$ISSUE"
 ```
 
 ## How to contribute?
