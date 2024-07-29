@@ -99,7 +99,7 @@ they don't violate our quality standards. To avoid frustration, before sending
 us your pull request please run full build:
 
 ```bash
-just full
+just build
 ```
 
 Here is the [contribution vitals][Zerocracy Vitals], made by [zerocracy/judges-action]
