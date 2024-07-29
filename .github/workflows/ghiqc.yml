@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - name: Run ghiqc # install it too
-        run: |
-          cargo install ghiqc
-          ghiqc --repo ${{ github.repository }} --issue $ISSUE
+      - name: Install ghiqc
+        run: cargo install ghiqc
+      - name: Run ghiqc
+        run: ghiqc --repo ${{ github.repository }} --issue $ISSUE
