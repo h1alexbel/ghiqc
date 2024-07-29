@@ -47,7 +47,7 @@ You can use the following options within `ghiqc` command-line tool:
 
 | Name         | Value   | Default | Description                                                    |
 |--------------|---------|---------|----------------------------------------------------------------|
-| `repo`, `r`  | String  | -       | Repository to check, in @owner/repo format, i.e. jeff/foo.     |
+| `repo`, `r`  | String  | -       | Repository to check, in @owner/repo format, i.e. `jeff/foo`.   |
 | `issue`, `i` | int     | -       | Issue number to check.                                         |
 | `stdout`     | boolean | `false` | Print the result to the console, instead of posting on GitHub. |
 | `verbose`    | boolean | `false` | Verbose run output, i.e. debug logs, etc.                      |
@@ -59,6 +59,34 @@ them like that:
 ```bash
 export GITHUB_TOKEN=...
 export DEEPINFRA_TOKEN=...
+```
+
+### Using with GitHub Actions
+
+In order to use `ghiqc` within [GitHub Actions], you can make the following
+configuration:
+
+```yml
+name: ghiqc
+on:
+  issues:
+    types: [ opened ]
+permissions:
+  issues: write
+  contents: read
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  DEEPINFRA_TOKEN: ${{ secrets.DEEPINFRA_TOKEN }}
+  ISSUE: ${{ github.event.issue.number }}
+jobs:
+  check:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ghiqc
+        run: cargo install ghiqc
+      - name: Run ghiqc
+        run: ghiqc --repo ${{ github.repository }} --issue $ISSUE
 ```
 
 ## How to contribute?
