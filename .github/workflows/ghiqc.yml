@@ -30,7 +30,6 @@ permissions:
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   DEEPINFRA_TOKEN: ${{ secrets.DEEPINFRA_TOKEN }}
-  REPO: ${{ github.event.repository }}
   ISSUE: ${{ github.event.issue.id }}
 jobs:
   check:
@@ -40,4 +39,4 @@ jobs:
       - name: Run ghiqc
         run: |
           cargo install ghiqc
-          ghiqc --repo $REPO --issue $ISSUE
+          ghiqc --repo ${{ github.repository }} --issue $ISSUE
