@@ -19,56 +19,56 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-use octocrab::Octocrab;
-/// GitHub issue.
-#[derive(Clone)]
-pub struct Issue {
-    /// Repository.
-    repo: String,
-    /// Issue number.
-    number: usize,
-}
+use crate::report::report::Report;
+use log::{debug, info};
 
-impl Issue {
-    /// Issue with number.
-    pub fn new(repo: String, number: usize) -> Issue {
-        Issue { repo, number }
+/// Report to stdout.
+pub struct StdoutReport {}
+
+impl StdoutReport {
+    /// New stdout report.
+    pub fn new() -> StdoutReport {
+        StdoutReport {}
     }
 }
 
-impl Issue {
-    /// Fetch issue details.
-    pub async fn on_github(
-        self,
-        github: Octocrab,
-    ) -> octocrab::models::issues::Issue {
-        let parts: Vec<&str> = self.repo.split('/').collect();
-        let option = github
-            .issues(parts[0], parts[1])
-            .get(self.number as u64)
-            .await;
-        match option {
-            Ok(response) => response,
-            Err(err) => {
-                panic!("Cannot fetch {}#{}: {}", self.repo, self.number, err)
-            }
-        }
+impl Default for StdoutReport {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
+impl Report for StdoutReport {
+    async fn publish(self, text: String) {
+        debug!("Printing response to the stdout...");
+        info!("Answer: {}", text);
     }
 }
 
 #[cfg(test)]
 mod tests {
-    use crate::github::issue::Issue;
+    use crate::report::report::Report;
+    use crate::report::stdout_report::StdoutReport;
     use anyhow::Result;
     use hamcrest::{equal_to, is, HamcrestMatcher};
 
-    #[test]
-    fn creates_issue_struct() -> Result<()> {
-        let number = 1;
-        let repo = "jeff/foo";
-        let issue = Issue::new(String::from(repo), number);
-        assert_that!(issue.number, is(equal_to(number)));
-        assert_that!(issue.repo, is(equal_to(String::from(repo))));
+    #[tokio::test]
+    async fn reports_to_std() -> Result<()> {
+        testing_logger::setup();
+        let report = StdoutReport::new();
+        let dummy = "dummy text";
+        report.publish(String::from(dummy)).await;
+        testing_logger::validate(|logs| {
+            assert_that!(logs.len(), is(equal_to(2)));
+            assert_that!(
+                &logs[0].body,
+                is(equal_to("Printing response to the stdout..."))
+            );
+            assert_that!(
+                logs[1].body.clone(),
+                is(equal_to(format!("Answer: {}", dummy)))
+            );
+        });
         Ok(())
     }
 }

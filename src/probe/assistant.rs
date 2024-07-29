@@ -19,33 +19,27 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-use crate::github::issue::Issue;
-use octocrab::Octocrab;
+use crate::github::github_issue::GithubIssue;
+use crate::probe::probe_deep_infra::ProbeMessage;
 
-/// GitHub issue.
-#[derive(Clone)]
-pub struct GithubIssue {
-    origin: octocrab::models::issues::Issue,
-}
-
-impl GithubIssue {
-    /// GitHub issue from origin.
-    pub async fn new(origin: Issue, github: Octocrab) -> GithubIssue {
-        let issue = origin.on_github(github).await;
-        GithubIssue { origin: issue }
-    }
-}
-
-impl GithubIssue {
-    /// Issue body.
-    pub fn body(self) -> String {
-        self.origin
-            .body
-            .expect("Cannot parse issue body. Probably its NULL.")
-    }
-
-    /// GitHub nickname of issue author.
-    pub fn author(self) -> String {
-        self.origin.user.login
-    }
+/// Assistant.
+pub fn assistant(issue: GithubIssue) -> Vec<ProbeMessage> {
+    vec![
+        ProbeMessage::new(
+            String::from("system"),
+            String::from(
+                "You are developer tasked to review incoming bug reports that developers are submit on GitHub Issue platform"
+            ),
+        ), ProbeMessage::new(
+            String::from("user"),
+            format!(
+                "Please review the following bug report and generate a simple summary.\
+                 Summary should contain 1 main quality problem related to this bug report formulation, and 1 specific suggestion on how to improve it.\
+                 Summary should be short, less than 30 words.\
+                 Don't generate any other info.\
+                 Bug report: {}",
+                issue.body()
+            ),
+        ),
+    ]
 }

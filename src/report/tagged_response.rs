@@ -19,33 +19,22 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-use crate::github::issue::Issue;
-use octocrab::Octocrab;
-
-/// GitHub issue.
-#[derive(Clone)]
-pub struct GithubIssue {
-    origin: octocrab::models::issues::Issue,
+/// Response tagged with GitHub username of bug report author.
+pub fn tagged(origin: String, nickname: String) -> String {
+    format!("@{}\n {}", nickname, origin)
 }
 
-impl GithubIssue {
-    /// GitHub issue from origin.
-    pub async fn new(origin: Issue, github: Octocrab) -> GithubIssue {
-        let issue = origin.on_github(github).await;
-        GithubIssue { origin: issue }
-    }
-}
+#[cfg(test)]
+mod tests {
+    use crate::report::tagged_response::tagged;
+    use anyhow::Result;
+    use hamcrest::{equal_to, is, HamcrestMatcher};
 
-impl GithubIssue {
-    /// Issue body.
-    pub fn body(self) -> String {
-        self.origin
-            .body
-            .expect("Cannot parse issue body. Probably its NULL.")
-    }
-
-    /// GitHub nickname of issue author.
-    pub fn author(self) -> String {
-        self.origin.user.login
+    #[test]
+    fn tags_text() -> Result<()> {
+        let tagged =
+            tagged(String::from("this is test text"), String::from("jeff"));
+        assert_that!(&tagged, is(equal_to("@jeff\n this is test text")));
+        Ok(())
     }
 }
