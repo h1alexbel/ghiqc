@@ -36,7 +36,4 @@ pub struct Cli {
     /// Verbose output.
     #[arg(short, long, default_value = "false")]
     pub verbose: bool,
-    /// Ignore if expression.
-    #[arg(long)]
-    ignore_if: String,
 }
