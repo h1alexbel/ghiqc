@@ -31,9 +31,12 @@ pub struct Cli {
     #[arg(short, long, required = true)]
     pub issue: usize,
     /// Print to stdout instead of publishing in the issue.
-    #[arg(short, long, default_value = "false")]
+    #[arg(long, default_value = "false")]
     pub stdout: bool,
     /// Verbose output.
     #[arg(short, long, default_value = "false")]
     pub verbose: bool,
+    /// Ignore if expression.
+    #[arg(long)]
+    ignore_if: String,
 }

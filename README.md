@@ -45,12 +45,13 @@ ghiqc --repo h1alexbel/fakehub --issue 1
 
 You can use the following options within `ghiqc` command-line tool:
 
-| Name         | Value   | Default | Description                                                    |
-|--------------|---------|---------|----------------------------------------------------------------|
-| `repo`, `r`  | String  | -       | Repository to check, in @owner/repo format, i.e. `jeff/foo`.   |
-| `issue`, `i` | int     | -       | Issue number to check.                                         |
-| `stdout`     | boolean | `false` | Print the result to the console, instead of posting on GitHub. |
-| `verbose`    | boolean | `false` | Verbose run output, i.e. debug logs, etc.                      |
+| Name              | Value   | Default | Description                                                    |
+|-------------------|---------|---------|----------------------------------------------------------------|
+| `--repo`, `-r`    | String  | -       | Repository to check, in @owner/repo format, i.e. `jeff/foo`.   |
+| `--issue`, `-i`   | int     | -       | Issue number to check.                                         |
+| `--stdout`        | boolean | `false` | Print the result to the console, instead of posting on GitHub. |
+| `--verbose`, `-v` | boolean | `false` | Verbose run output, i.e. debug logs, etc.                      |
+| `--ignore-if`     | String  | -       | Ignore if expression.                                          |
 
 There are two more arguments `ghiqc` will look for: `GITHUB_TOKEN` and
 `DEEPINFRA_TOKEN`. They should be located in your environment variables. Export
