@@ -61,6 +61,28 @@ export GITHUB_TOKEN=...
 export DEEPINFRA_TOKEN=...
 ```
 
+### Ignore issues from checking
+
+You can prevent `ghiqc` from running checks on the issue. In order to do that,
+include special file `ignore.ghiqc` in the root of your repo. In this file you
+can specify a list of rules - what kind of issues to ignore:
+
+```text
+author:jeff
+label:enhancement
+title:new feature request
+title:!*something
+```
+
+We support the following issue scope dimensions: `author`, `label`, and
+`title`. Supported syntax features:
+
+* assignment: `author:jeff`
+* exclusion: `label:!bug`
+* multiple values: `author:[jeff,foo,max]` (no space in between!)
+* multiple values to exclude: `author:![jeff,foo]`
+* starts with (a.k.a `*`) with `title`: `title:*this is feature request:`
+
 ### Using with GitHub Actions
 
 In order to use `ghiqc` within [GitHub Actions], you can make the following
