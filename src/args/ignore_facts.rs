@@ -48,20 +48,20 @@ mod tests {
         assert_that!(facts.get("label").unwrap().to_vec(), is(equal_to(label)));
         let title = vec![
             String::from("new feature request"),
-            String::from("!*something")
+            String::from("!*something"),
         ];
         assert_that!(facts.get("title").unwrap().to_vec(), is(equal_to(title)));
         Ok(())
     }
 
     #[test]
-    fn panics_on_supported_syntax() -> Result<()> {
-        let facts = parse_facts(
+    #[should_panic(expected = "Parsing error in line invalid:something: unsupported syntax")]
+    fn panics_on_supported_syntax() {
+        parse_facts(
             vec![
                 String::from("author:jeff"),
-                String::from("invalid:something")
+                String::from("invalid:something"),
             ]
         );
-        Ok(())
     }
 }
