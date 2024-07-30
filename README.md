@@ -81,7 +81,7 @@ We support the following issue scope dimensions: `author`, `label`, and
 * exclusion: `label:!bug`
 * multiple values: `author:[jeff,foo,max]` (no space in between!)
 * multiple values to exclude: `author:![jeff,foo]`
-* starts with (a.k.a `*`) with `title`: `title:*this is feature request:`
+* "starts with" with `title`: `title:*this is feature request:`
 
 ### Using with GitHub Actions
 
