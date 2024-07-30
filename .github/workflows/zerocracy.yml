@@ -41,7 +41,7 @@ jobs:
             vitals_url=https://www.h1alexbel.xyz/ghiqc/zerocracy/ghiqc-vitals.html
             repositories=h1alexbel/ghiqc
           factbase: ghiqc.fb
-      - uses: zerocracy/pages-action@0.0.25
+      - uses: zerocracy/pages-action@0.0.30
         with:
           factbase: ghiqc.fb
           output: pages
