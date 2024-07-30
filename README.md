@@ -51,11 +51,10 @@ You can use the following options within `ghiqc` command-line tool:
 | `--issue`, `-i`   | int     | -       | Issue number to check.                                         |
 | `--stdout`        | boolean | `false` | Print the result to the console, instead of posting on GitHub. |
 | `--verbose`, `-v` | boolean | `false` | Verbose run output, i.e. debug logs, etc.                      |
-| `--ignore-if`     | String  | -       | Ignore if expression.                                          |
 
 There are two more arguments `ghiqc` will look for: `GITHUB_TOKEN` and
-`DEEPINFRA_TOKEN`. They should be located in your environment variables. Export
-them like that:
+`DEEPINFRA_TOKEN` (you can obtain it [here][Deep Infra API Tokens]). They
+should be located in your environment variables. Export them like that:
 
 ```bash
 export GITHUB_TOKEN=...
@@ -115,3 +114,4 @@ Here is the [contribution vitals][Zerocracy Vitals], made by [zerocracy/judges-a
 [Zerocracy Vitals]: https://www.h1alexbel.xyz/ghiqc/zerocracy/ghiqc-vitals.html
 [zerocracy/judges-action]: https://github.com/zerocracy/judges-action
 [GitHub Actions]: https://github.com/features/actions
+[Deep Infra API Tokens]: https://deepinfra.com/dash/api_keys
