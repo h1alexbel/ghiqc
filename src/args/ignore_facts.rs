@@ -22,11 +22,50 @@ pub fn parse_facts(content: Vec<String>) -> HashMap<String, Vec<String>> {
     facts
 }
 
+pub fn ignores(issue: String, facts: HashMap<String, Vec<String>>) -> bool {
+    let title = facts.get("title").expect("Failed to obtain title facts");
+    // let collected = title.iter()
+    //     .filter(
+    //         |f|
+    //         if f.starts_with("!") {
+    //             return if f[1..].starts_with("*") {
+    //                 !issue.title.starts_with(f.clone())
+    //             } else {
+    //                 !issue.title.eq(f.clone())
+    //             };
+    //         } else {
+    //             if f.starts_with("*") {
+    //                 issue.title.starts_with(f.clone())
+    //             } else {
+    //                 issue.title.eq(f.clone())
+    //             }
+    //         }
+    //     )
+    //     .collect();
+    let matches_title = title.iter().any(|f| {
+        if f.starts_with("!") {
+            if f[1..].starts_with("*") {
+                !issue.starts_with(&f[1..])
+            } else {
+                !issue.eq(f)
+            }
+        } else {
+            if f.starts_with("*") {
+                issue.starts_with(&f[1..])
+            } else {
+                issue.eq(f)
+            }
+        }
+    });
+    matches_title
+}
+
 #[cfg(test)]
 mod tests {
     use anyhow::Result;
-    use crate::args::ignore_facts::parse_facts;
-    use hamcrest::{equal_to, is, HamcrestMatcher};
+    use hamcrest::{equal_to, HamcrestMatcher, is};
+
+    use crate::args::ignore_facts::{ignores, parse_facts};
 
     #[test]
     fn parses_facts_in_map() -> Result<()> {
@@ -63,5 +102,49 @@ mod tests {
                 String::from("invalid:something"),
             ]
         );
+    }
+
+    #[test]
+    fn ignores_on_title_exact_match() -> Result<()> {
+        let ignore = ignores(
+            String::from("new feature request"),
+            parse_facts(
+                vec![
+                    String::from("title:new feature request"),
+                    String::from("title:!*something"),
+                ]
+            ),
+        );
+        assert_that!(ignore, is(equal_to(true)));
+        Ok(())
+    }
+
+    #[test]
+    pub fn ignores_on_title_star_match() -> Result<()> {
+        let ignore = ignores(
+            String::from("new feature request: ABC"),
+            parse_facts(
+                vec![
+                    String::from("title:*new feature request")
+                ]
+            ),
+        );
+        assert_that!(ignore, is(equal_to(true)));
+        Ok(())
+    }
+    
+    #[test]
+    pub fn ignores_on_partial_facts_match() -> Result<()> {
+        let ignore = ignores(
+            String::from("something!"),
+            parse_facts(
+                vec![
+                    String::from("title:*something"),
+                    String::from("title:different")
+                ]
+            )
+        );
+        assert_that!(ignore, is(equal_to(true)));
+        Ok(())
     }
 }
