@@ -29,7 +29,9 @@ fn outputs_help() -> Result<()> {
     let assertion = Command::cargo_bin("ghiqc")?.arg("--help").assert();
     let bytes = assertion.get_output().stdout.as_slice();
     let output = str::from_utf8(bytes)?;
-    assert!(output.contains("Usage: ghiqc [OPTIONS] --repo <REPO> --issue <ISSUE>"));
+    assert!(
+        output.contains("Usage: ghiqc [OPTIONS] --repo <REPO> --issue <ISSUE>")
+    );
     assert!(output.contains("--help"));
     assert!(output.contains("Print help"));
     assert!(output.contains("--repo"));
