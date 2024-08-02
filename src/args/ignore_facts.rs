@@ -295,8 +295,17 @@ mod tests {
     }
 
     #[test]
-    fn skips_on_empty_facts() -> Result<()> {
-        ignores_dim()
+    fn skips_on_empty_dim_facts() -> Result<()> {
+        let ignore = ignores_dim(
+            String::from("foo"),
+            String::from("author"),
+            parse_facts(
+                vec![
+                    String::from("label:none")
+                ]
+            ),
+        );
+        assert_that!(ignore, is(equal_to(false)));
         Ok(())
     }
 }
