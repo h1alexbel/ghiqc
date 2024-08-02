@@ -105,7 +105,7 @@ pub fn ignores_dim(
 #[cfg(test)]
 mod tests {
     use anyhow::Result;
-    use hamcrest::{equal_to, is, HamcrestMatcher};
+    use hamcrest::{equal_to, HamcrestMatcher, is};
 
     use crate::args::ignore_facts::{ignores_dim, ignores_title, parse_facts};
 
@@ -303,16 +303,14 @@ mod tests {
         assert_that!(ignore, is(equal_to(false)));
         Ok(())
     }
-    
+
     #[test]
-    #[should_panic(
-        expected = "Failed to obtain unknown facts"
-    )]
+    #[should_panic(expected = "Failed to obtain unknown facts")]
     fn panics_on_unknown_fact_set() {
         ignores_dim(
             String::from("foo"),
             String::from("unknown"),
-            parse_facts(vec![String::from("label:none")])
+            parse_facts(vec![String::from("label:none")]),
         );
     }
 }
