@@ -48,14 +48,6 @@ pub fn parse_facts(content: Vec<String>) -> HashMap<String, Vec<String>> {
 }
 
 /// Ignore title?
-// @todo #27:35min Implement ignores_author.
-//  Let's do this similarly to ignores_title function. Check
-//  README.md#ignore-issues-from-checking for more information about the rules.
-//  Don't forget to remove this puzzle.
-// @todo #27:35min Implement ignores_label.
-//  Let's do this similarly to ignores_title function. Check
-//  README.md#ignore-issues-from-checking for more information about the rules.
-//  Don't forget to remove this puzzle.
 pub fn ignores_title(
     issue: String,
     facts: HashMap<String, Vec<String>>,
@@ -79,12 +71,44 @@ pub fn ignores_title(
         })
 }
 
+fn contains_in_array(array: &str, value: String) -> bool {
+    let inside = &array.replace(']', "");
+    let mut values = inside.split(",");
+    values.any(|f| {
+        f.eq(&value)
+    })
+}
+
+/// Ignore issue in dimension `dim`?
+pub fn ignores_dim(
+    issue: String,
+    dim: String,
+    facts: HashMap<String, Vec<String>>,
+) -> bool {
+    facts.get(&dim)
+        .expect("Failed to obtain author facts")
+        .iter()
+        .any(|f| {
+            if let Some(value) = f.strip_prefix('!') {
+                if let Some(array) = value.strip_prefix('[') {
+                    !contains_in_array(array, issue.clone())
+                } else {
+                    !issue.eq(value)
+                }
+            } else if let Some(value) = f.strip_prefix('[') {
+                contains_in_array(value, issue.clone())
+            } else {
+                issue.eq(f)
+            }
+        })
+}
+
 #[cfg(test)]
 mod tests {
     use anyhow::Result;
-    use hamcrest::{equal_to, is, HamcrestMatcher};
+    use hamcrest::{equal_to, HamcrestMatcher, is};
 
-    use crate::args::ignore_facts::{ignores_title, parse_facts};
+    use crate::args::ignore_facts::{ignores_dim, ignores_title, parse_facts};
 
     #[allow(clippy::unwrap_used)]
     #[test]
@@ -132,7 +156,7 @@ mod tests {
     }
 
     #[test]
-    pub fn ignores_on_title_star_match() -> Result<()> {
+    fn ignores_on_title_star_match() -> Result<()> {
         let ignore = ignores_title(
             String::from("new feature request: ABC"),
             parse_facts(vec![String::from("title:*new feature request")]),
@@ -142,7 +166,7 @@ mod tests {
     }
 
     #[test]
-    pub fn ignores_on_partial_facts_match() -> Result<()> {
+    fn ignores_on_partial_facts_match() -> Result<()> {
         let ignore = ignores_title(
             String::from("something!"),
             parse_facts(vec![
@@ -155,7 +179,7 @@ mod tests {
     }
 
     #[test]
-    pub fn does_not_ignore_when_unmatch() -> Result<()> {
+    fn does_not_ignore_when_unmatch() -> Result<()> {
         let ignore = ignores_title(
             String::from("different"),
             parse_facts(vec![String::from("title:exact")]),
@@ -165,7 +189,7 @@ mod tests {
     }
 
     #[test]
-    pub fn does_not_ignore_on_star_unmatch() -> Result<()> {
+    fn does_not_ignore_on_star_unmatch() -> Result<()> {
         let ignore = ignores_title(
             String::from("different"),
             parse_facts(vec![String::from("title:*something")]),
@@ -175,7 +199,7 @@ mod tests {
     }
 
     #[test]
-    pub fn ignores_on_inverse_match() -> Result<()> {
+    fn ignores_on_inverse_match() -> Result<()> {
         let ignore = ignores_title(
             String::from("i'm good one!"),
             parse_facts(vec![String::from("title:!bad")]),
@@ -185,7 +209,7 @@ mod tests {
     }
 
     #[test]
-    pub fn does_not_ignore_on_inverse_unmatch() -> Result<()> {
+    fn does_not_ignore_on_inverse_unmatch() -> Result<()> {
         let ignore = ignores_title(
             String::from("bad"),
             parse_facts(vec![String::from("title:!bad")]),
@@ -195,12 +219,83 @@ mod tests {
     }
 
     #[test]
-    pub fn ignores_on_inverse_star_match() -> Result<()> {
+    fn ignores_on_inverse_star_match() -> Result<()> {
         let ignore = ignores_title(
             String::from("good one"),
             parse_facts(vec![String::from("title:!*good")]),
         );
         assert_that!(ignore, is(equal_to(false)));
+        Ok(())
+    }
+
+    #[test]
+    fn ignores_author_on_exact_match() -> Result<()> {
+        let ignore = ignores_dim(
+            String::from("jeff"),
+            String::from("author"),
+            parse_facts(vec![String::from("author:jeff")]),
+        );
+        assert_that!(ignore, is(equal_to(true)));
+        Ok(())
+    }
+
+    #[test]
+    fn skips_author_on_inverse_match() -> Result<()> {
+        let ignore = ignores_dim(
+            String::from("jeff"),
+            String::from("author"),
+            parse_facts(vec![String::from("author:!jeff")]),
+        );
+        assert_that!(ignore, is(equal_to(false)));
+        Ok(())
+    }
+
+    #[test]
+    fn skips_on_inverse_array_match() -> Result<()> {
+        let ignore = ignores_dim(
+            String::from("jeff"),
+            String::from("author"),
+            parse_facts(vec![String::from("author:![jeff,foo,bar]")]),
+        );
+        assert_that!(ignore, is(equal_to(false)));
+        Ok(())
+    }
+
+    #[test]
+    fn ignores_on_array_match() -> Result<()> {
+        let ignore = ignores_dim(
+            String::from("jeff"),
+            String::from("author"),
+            parse_facts(vec![String::from("author:[foo,bar,jeff]")]),
+        );
+        assert_that!(ignore, is(equal_to(true)));
+        Ok(())
+    }
+    
+    #[test]
+    fn ignores_label_too() -> Result<()> {
+        let ignore = ignores_dim(
+            String::from("enhancement"),
+            String::from("label"),
+            parse_facts(vec![String::from("label:enhancement")])
+        );
+        assert_that!(ignore, is(equal_to(true)));
+        Ok(())
+    }
+    
+    #[test]
+    fn skips_label() -> Result<()> {
+        let ignore = ignores_dim(
+            String::from("bug"),
+            String::from("label"),
+            parse_facts(vec![String::from("label:!bug")])
+        );
+        assert_that!(ignore, is(equal_to(false)));
+        Ok(())
+    }
+    
+    #[test]
+    fn skips_on_empty_facts() -> Result<()> {
         Ok(())
     }
 }
