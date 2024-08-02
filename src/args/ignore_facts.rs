@@ -86,7 +86,7 @@ pub fn ignores_dim(
     facts: HashMap<String, Vec<String>>,
 ) -> bool {
     facts.get(&dim)
-        .expect("Failed to obtain author facts")
+        .expect(&format!("Failed to obtain {} facts", dim))
         .iter()
         .any(|f| {
             if let Some(value) = f.strip_prefix('!') {
@@ -271,31 +271,32 @@ mod tests {
         assert_that!(ignore, is(equal_to(true)));
         Ok(())
     }
-    
+
     #[test]
     fn ignores_label_too() -> Result<()> {
         let ignore = ignores_dim(
             String::from("enhancement"),
             String::from("label"),
-            parse_facts(vec![String::from("label:enhancement")])
+            parse_facts(vec![String::from("label:enhancement")]),
         );
         assert_that!(ignore, is(equal_to(true)));
         Ok(())
     }
-    
+
     #[test]
     fn skips_label() -> Result<()> {
         let ignore = ignores_dim(
             String::from("bug"),
             String::from("label"),
-            parse_facts(vec![String::from("label:!bug")])
+            parse_facts(vec![String::from("label:!bug")]),
         );
         assert_that!(ignore, is(equal_to(false)));
         Ok(())
     }
-    
+
     #[test]
     fn skips_on_empty_facts() -> Result<()> {
+        ignores_dim()
         Ok(())
     }
 }
