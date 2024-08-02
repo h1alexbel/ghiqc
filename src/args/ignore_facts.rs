@@ -105,7 +105,7 @@ pub fn ignores_dim(
 #[cfg(test)]
 mod tests {
     use anyhow::Result;
-    use hamcrest::{equal_to, HamcrestMatcher, is};
+    use hamcrest::{equal_to, is, HamcrestMatcher};
 
     use crate::args::ignore_facts::{ignores_dim, ignores_title, parse_facts};
 
