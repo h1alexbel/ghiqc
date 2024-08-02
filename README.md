@@ -79,11 +79,13 @@ We support the following issue scope dimensions: `author`, `label`, and
 
 * assignment: `author:jeff`
 * exclusion: `label:!bug`
-* multiple values with `author` and `label`: `author:[jeff,foo,max]`
-* multiple values to exclude with `author` and `label`: `author:![jeff,foo]`
+* multiple values with `author` and `label`: `author:[jeff,foo,max]`,
+`label:[enhancement]`
+* multiple values to exclude with `author` and `label`: `author:![jeff,foo]`,
+`labelL:![bug,question]`
 * "starts with" with `title`: `title:*this is feature request:`
-* "starts with" exclusion with `title`: `title:!*[BUG]`, thus it will skip
-everything that not matches `[BUG]...`.
+* "starts with" exclusion with `title`: `title:!*BUG:`, thus it will skip
+everything that not starts with `BUG:`.
 
 ### Using with GitHub Actions
 
