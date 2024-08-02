@@ -73,10 +73,8 @@ pub fn ignores_title(
 
 fn contains_in_array(array: &str, value: String) -> bool {
     let inside = &array.replace(']', "");
-    let mut values = inside.split(",");
-    values.any(|f| {
-        f.eq(&value)
-    })
+    let mut values = inside.split(',');
+    values.any(|f| f.eq(&value))
 }
 
 /// Ignore issue in dimension `dim`?
@@ -85,8 +83,9 @@ pub fn ignores_dim(
     dim: String,
     facts: HashMap<String, Vec<String>>,
 ) -> bool {
-    facts.get(&dim)
-        .expect(&format!("Failed to obtain {} facts", dim))
+    facts
+        .get(&dim)
+        .unwrap_or_else(|| panic!("Failed to obtain {} facts", dim))
         .iter()
         .any(|f| {
             if let Some(value) = f.strip_prefix('!') {
@@ -106,7 +105,7 @@ pub fn ignores_dim(
 #[cfg(test)]
 mod tests {
     use anyhow::Result;
-    use hamcrest::{equal_to, HamcrestMatcher, is};
+    use hamcrest::{equal_to, is, HamcrestMatcher};
 
     use crate::args::ignore_facts::{ignores_dim, ignores_title, parse_facts};
 
@@ -299,11 +298,7 @@ mod tests {
         let ignore = ignores_dim(
             String::from("foo"),
             String::from("author"),
-            parse_facts(
-                vec![
-                    String::from("label:none")
-                ]
-            ),
+            parse_facts(vec![String::from("label:none")]),
         );
         assert_that!(ignore, is(equal_to(false)));
         Ok(())
