@@ -303,4 +303,16 @@ mod tests {
         assert_that!(ignore, is(equal_to(false)));
         Ok(())
     }
+    
+    #[test]
+    #[should_panic(
+        expected = "Failed to obtain unknown facts"
+    )]
+    fn panics_on_such_fact_set() {
+        ignores_dim(
+            String::from("foo"),
+            String::from("unknown"),
+            parse_facts(vec![String::from("label:none")])
+        );
+    }
 }
