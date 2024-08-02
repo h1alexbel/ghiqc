@@ -308,7 +308,7 @@ mod tests {
     #[should_panic(
         expected = "Failed to obtain unknown facts"
     )]
-    fn panics_on_such_fact_set() {
+    fn panics_on_unknown_fact_set() {
         ignores_dim(
             String::from("foo"),
             String::from("unknown"),
