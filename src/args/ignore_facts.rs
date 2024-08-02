@@ -31,12 +31,12 @@ pub fn parse_facts(content: Vec<String>) -> HashMap<String, Vec<String>> {
     let mut label = vec![];
     let mut title = vec![];
     for line in content {
-        if line.starts_with("author:") {
-            author.push(String::from(&line[7..]));
-        } else if line.starts_with("label:") {
-            label.push(String::from(&line[6..]));
-        } else if line.starts_with("title:") {
-            title.push(String::from(&line[6..]));
+        if let Some(value) = line.strip_prefix("author:") {
+            author.push(String::from(value));
+        } else if let Some(value) = line.strip_prefix("label:") {
+            label.push(String::from(value));
+        } else if let Some(value) = line.strip_prefix("title:") {
+            title.push(String::from(value));
         } else {
             panic!("Parsing error in line {}: unsupported syntax", line);
         }
@@ -65,18 +65,16 @@ pub fn ignores_title(
         .expect("Failed to obtain title facts")
         .iter()
         .any(|f| {
-            if f.starts_with('!') {
-                if f[1..].starts_with('*') {
-                    !issue.starts_with(&f[2..])
+            if let Some(value) = f.strip_prefix('!') {
+                if let Some(start) = value.strip_prefix('*') {
+                    !issue.starts_with(start)
                 } else {
-                    !issue.eq(&f[1..])
+                    !issue.eq(value)
                 }
+            } else if let Some(star) = f.strip_prefix('*') {
+                issue.starts_with(star)
             } else {
-                if f.starts_with('*') {
-                    issue.starts_with(&f[1..])
-                } else {
-                    issue.eq(f)
-                }
+                issue.eq(f)
             }
         })
 }
