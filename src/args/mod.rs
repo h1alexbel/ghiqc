@@ -23,3 +23,5 @@
 pub mod cli;
 /// Environment variables.
 pub mod env;
+/// Ignore issue based on facts.
+pub mod ignore_facts;

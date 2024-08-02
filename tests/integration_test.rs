@@ -32,10 +32,24 @@ fn outputs_help() -> Result<()> {
     assert!(output.contains("--help"));
     assert!(output.contains("Print help"));
     assert!(output.contains("--repo"));
-    assert!(output.contains("--r"));
+    assert!(output.contains("-r"));
     assert!(output.contains("--issue"));
-    assert!(output.contains("--i"));
+    assert!(output.contains("-i"));
     assert!(output.contains("--stdout"));
     assert!(output.contains("--verbose"));
+    assert!(output.contains("-v"));
+    Ok(())
+}
+
+#[test]
+#[allow(clippy::question_mark_used)]
+#[cfg_attr(target_os = "windows", ignore)]
+fn outputs_usage() -> Result<()> {
+    let assertion = Command::cargo_bin("ghiqc")?.arg("--help").assert();
+    let bytes = assertion.get_output().stdout.as_slice();
+    let output = str::from_utf8(bytes)?;
+    assert!(
+        output.contains("Usage: ghiqc [OPTIONS] --repo <REPO> --issue <ISSUE>")
+    );
     Ok(())
 }

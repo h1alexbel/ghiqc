@@ -45,21 +45,45 @@ ghiqc --repo h1alexbel/fakehub --issue 1
 
 You can use the following options within `ghiqc` command-line tool:
 
-| Name         | Value   | Default | Description                                                    |
-|--------------|---------|---------|----------------------------------------------------------------|
-| `repo`, `r`  | String  | -       | Repository to check, in @owner/repo format, i.e. `jeff/foo`.   |
-| `issue`, `i` | int     | -       | Issue number to check.                                         |
-| `stdout`     | boolean | `false` | Print the result to the console, instead of posting on GitHub. |
-| `verbose`    | boolean | `false` | Verbose run output, i.e. debug logs, etc.                      |
+| Name              | Value   | Default | Description                                                    |
+|-------------------|---------|---------|----------------------------------------------------------------|
+| `--repo`, `-r`    | String  | -       | Repository to check, in @owner/repo format, i.e. `jeff/foo`.   |
+| `--issue`, `-i`   | int     | -       | Issue number to check.                                         |
+| `--stdout`        | boolean | `false` | Print the result to the console, instead of posting on GitHub. |
+| `--verbose`, `-v` | boolean | `false` | Verbose run output, i.e. debug logs, etc.                      |
 
 There are two more arguments `ghiqc` will look for: `GITHUB_TOKEN` and
-`DEEPINFRA_TOKEN`. They should be located in your environment variables. Export
-them like that:
+`DEEPINFRA_TOKEN` (you can obtain it [here][Deep Infra API Tokens]). They
+should be located in your environment variables. Export them like that:
 
 ```bash
 export GITHUB_TOKEN=...
 export DEEPINFRA_TOKEN=...
 ```
+
+### Ignore issues from checking
+
+You can prevent `ghiqc` from running checks on the issue. In order to do that,
+include special file `ignore.ghiqc` in the root of your repo. In this file you
+can specify a list of rules - what kind of issues to ignore:
+
+```text
+author:jeff
+label:enhancement
+title:new feature request
+title:!*something
+```
+
+We support the following issue scope dimensions: `author`, `label`, and
+`title`. Supported syntax features:
+
+* assignment: `author:jeff`
+* exclusion: `label:!bug`
+* multiple values with `author` and `label`: `author:[jeff,foo,max]`
+* multiple values to exclude with `author` and `label`: `author:![jeff,foo]`
+* "starts with" with `title`: `title:*this is feature request:`
+* "starts with" exclusion with `title`: `title:!*[BUG]`, thus it will skip
+everything that not matches `[BUG]...`.
 
 ### Using with GitHub Actions
 
@@ -114,3 +138,4 @@ Here is the [contribution vitals][Zerocracy Vitals], made by [zerocracy/judges-a
 [Zerocracy Vitals]: https://www.h1alexbel.xyz/ghiqc/zerocracy/ghiqc-vitals.html
 [zerocracy/judges-action]: https://github.com/zerocracy/judges-action
 [GitHub Actions]: https://github.com/features/actions
+[Deep Infra API Tokens]: https://deepinfra.com/dash/api_keys
