@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="82310">
+<fb version="0.4.0" size="83053">
   <f>
     <added t="I">8</added>
-    <cycles t="I">2</cycles>
+    <cycles t="I">1</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">10.510481323</seconds>
+    <seconds t="F">9.308670659</seconds>
     <version t="S">0.25.2</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-18T15:08:43Z</when>
+    <when t="T">2024-08-18T16:10:52Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -3109,19 +3109,55 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">1406</_id>
-    <_time t="T">2024-08-18T15:08:42Z</_time>
+    <_id t="I">1408</_id>
+    <_job t="I">4800</_job>
+    <_time t="T">2024-08-18T15:08:50Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.47</_version>
+    <comments t="I">3</comments>
+    <details t="S">The pull request h1alexbel/ghiqc#40 with 2 HoC created by @renovate[bot] was merged by @rultor after 15 days of being in review and 3 comments.</details>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">40</issue>
+    <merger t="I">8086956</merger>
+    <repository t="I">833604403</repository>
+    <seconds t="I">1301087</seconds>
+    <what t="S">code-was-contributed</what>
+    <when t="T">2024-08-18T14:34:09Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">1409</_id>
+    <_job t="I">4800</_job>
+    <_time t="T">2024-08-18T15:08:51Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.47</_version>
+    <comments t="I">3</comments>
+    <details t="S">The pull request h1alexbel/ghiqc#41 with 2 HoC created by @renovate[bot] was merged by @rultor after 14 days of being in review and 3 comments.</details>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">41</issue>
+    <merger t="I">8086956</merger>
+    <repository t="I">833604403</repository>
+    <seconds t="I">1222665</seconds>
+    <what t="S">code-was-contributed</what>
+    <when t="T">2024-08-18T14:14:00Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">1410</_id>
+    <_time t="T">2024-08-18T16:10:45Z</_time>
     <_version t="S">0.4.0/0.25.2/</_version>
-    <latest t="I">41116005353</latest>
+    <latest t="I">41116329717</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">1407</_id>
-    <_time t="T">2024-08-18T15:08:43Z</_time>
+    <_id t="I">1411</_id>
+    <_time t="T">2024-08-18T16:10:52Z</_time>
     <_version t="S">0.4.0/0.25.2/</_version>
-    <latest t="I">0</latest>
+    <latest t="I">36</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>

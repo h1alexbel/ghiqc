@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 2
+  cycles: 1
   removed: 8
-  seconds: 10.510481323
+  seconds: 9.308670659
   version: 0.25.2
   what: judges-summary
-  when: 2024-08-18 15:08:43.640359500 Z
+  when: 2024-08-18 16:10:52.740913768 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -2916,17 +2916,51 @@
   when: 2024-08-18 14:14:00.000000000 Z
   where: github
   who: 8086956
-- _id: 1406
-  _time: 2024-08-18 15:08:42.890018133 Z
+- _id: 1408
+  _job: 4800
+  _time: 2024-08-18 15:08:50.982671899 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  comments: 3
+  details: The pull request h1alexbel/ghiqc#40 with 2 HoC created by @renovate[bot]
+    was merged by @rultor after 15 days of being in review and 3 comments.
+  hoc: 2
+  is_human: 0
+  issue: 40
+  merger: 8086956
+  repository: 833604403
+  seconds: 1301087
+  what: code-was-contributed
+  when: 2024-08-18 14:34:09.000000000 Z
+  where: github
+  who: 29139614
+- _id: 1409
+  _job: 4800
+  _time: 2024-08-18 15:08:51.231978734 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  comments: 3
+  details: The pull request h1alexbel/ghiqc#41 with 2 HoC created by @renovate[bot]
+    was merged by @rultor after 14 days of being in review and 3 comments.
+  hoc: 2
+  is_human: 0
+  issue: 41
+  merger: 8086956
+  repository: 833604403
+  seconds: 1222665
+  what: code-was-contributed
+  when: 2024-08-18 14:14:00.000000000 Z
+  where: github
+  who: 29139614
+- _id: 1410
+  _time: 2024-08-18 16:10:45.827289115 Z
   _version: 0.4.0/0.25.2/
-  latest: 41116005353
+  latest: 41116329717
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 1407
-  _time: 2024-08-18 15:08:43.627695410 Z
+- _id: 1411
+  _time: 2024-08-18 16:10:52.723641436 Z
   _version: 0.4.0/0.25.2/
-  latest: 0
+  latest: 36
   repository: 833604403
   what: labels-were-scanned
   where: github
