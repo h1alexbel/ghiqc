@@ -2,10 +2,10 @@
 - added: 8
   cycles: 1
   removed: 8
-  seconds: 6.691700097
+  seconds: 2.84140951
   version: 0.25.2
   what: judges-summary
-  when: 2024-08-19 10:12:49.559255322 Z
+  when: 2024-08-19 11:08:31.545842230 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -2821,12 +2821,6 @@
   qod_days: 7
   qod_interval: 2
   what: pmp
-- _id: 1396
-  _job: 4784
-  _time: 2024-08-18 12:17:40.240497771 Z
-  _version: 0.4.0/0.25.2/0.0.39
-  what: learn-eva
-  when: 2024-08-18 12:17:40.214207704 Z
 - _id: 1402
   _time: 2024-08-18 15:08:35.139118696 Z
   _version: 0.4.0/0.25.2/
@@ -2959,17 +2953,23 @@
     min (total)) 0)) (give least 'to give you at least something') 'make sure the
     reward is not larger than ${max} points and not smaller than ${min} points'))"
   what: pmp
-- _id: 1448
-  _time: 2024-08-19 10:12:44.620929825 Z
+- _id: 1450
+  _job: 4846
+  _time: 2024-08-19 10:14:57.651241518 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  what: learn-eva
+  when: 2024-08-19 10:14:57.634424170 Z
+- _id: 1451
+  _time: 2024-08-19 11:08:30.705727225 Z
   _version: 0.4.0/0.25.2/
-  latest: 41131205737
+  latest: 41133188780
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 1449
-  _time: 2024-08-19 10:12:49.546828792 Z
+- _id: 1452
+  _time: 2024-08-19 11:08:31.532029168 Z
   _version: 0.4.0/0.25.2/
-  latest: 36
+  latest: 0
   repository: 833604403
   what: labels-were-scanned
   where: github
