@@ -2,10 +2,10 @@
 - added: 8
   cycles: 1
   removed: 8
-  seconds: 11.53336042
+  seconds: 3.114030468
   version: 0.25.2
   what: judges-summary
-  when: 2024-08-20 14:09:57.094716893 Z
+  when: 2024-08-20 15:10:22.845730706 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -3034,17 +3034,17 @@
   _version: 0.4.0/0.26.0/0.0.47
   what: earned-value-prev
   when: *2
-- _id: 1533
-  _time: 2024-08-20 14:09:48.394959195 Z
+- _id: 1535
+  _time: 2024-08-20 15:10:21.943893093 Z
   _version: 0.4.0/0.25.2/
   latest: 41175359453
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 1534
-  _time: 2024-08-20 14:09:57.081015708 Z
+- _id: 1536
+  _time: 2024-08-20 15:10:22.832040463 Z
   _version: 0.4.0/0.25.2/
-  latest: 36
+  latest: 0
   repository: 833604403
   what: labels-were-scanned
   where: github
