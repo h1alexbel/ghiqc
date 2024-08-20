@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="84251">
+<fb version="0.4.0" size="84253">
   <f>
     <added t="I">8</added>
-    <cycles t="I">2</cycles>
+    <cycles t="I">1</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">10.128992932</seconds>
+    <seconds t="F">2.213423829</seconds>
     <version t="S">0.25.2</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-20T02:37:42Z</when>
+    <when t="T">2024-08-20T03:12:07Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -2940,14 +2940,6 @@
     <what t="S">pmp</what>
   </f>
   <f>
-    <_id t="I">1450</_id>
-    <_job t="I">4846</_job>
-    <_time t="T">2024-08-19T10:14:57Z</_time>
-    <_version t="S">0.4.0/0.26.0/0.0.47</_version>
-    <what t="S">learn-eva</what>
-    <when t="T">2024-08-19T10:14:57Z</when>
-  </f>
-  <f>
     <_id t="I">1485</_id>
     <_job t="I">4902</_job>
     <_time t="T">2024-08-20T02:00:49Z</_time>
@@ -3223,19 +3215,27 @@
     <when t="T">2024-08-20T02:37:32Z</when>
   </f>
   <f>
-    <_id t="I">1505</_id>
-    <_time t="T">2024-08-20T02:37:36Z</_time>
+    <_id t="I">1507</_id>
+    <_job t="I">4905</_job>
+    <_time t="T">2024-08-20T02:37:54Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.47</_version>
+    <what t="S">learn-eva</what>
+    <when t="T">2024-08-20T02:37:54Z</when>
+  </f>
+  <f>
+    <_id t="I">1508</_id>
+    <_time t="T">2024-08-20T03:12:06Z</_time>
     <_version t="S">0.4.0/0.25.2/</_version>
-    <latest t="I">41154161681</latest>
+    <latest t="I">41155273610</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">1506</_id>
-    <_time t="T">2024-08-20T02:37:42Z</_time>
+    <_id t="I">1509</_id>
+    <_time t="T">2024-08-20T03:12:07Z</_time>
     <_version t="S">0.4.0/0.25.2/</_version>
-    <latest t="I">36</latest>
+    <latest t="I">0</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
