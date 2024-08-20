@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 2
   removed: 8
-  seconds: 9.926307042
+  seconds: 10.128992932
   version: 0.25.2
   what: judges-summary
-  when: 2024-08-20 02:00:42.065063976 Z
+  when: 2024-08-20 02:37:42.418966814 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -1796,19 +1796,6 @@
   when: 2024-08-02 12:49:38.000000000 Z
   where: github
   who: 24456188
-- _id: 293
-  _time: 2024-08-03 16:11:08.633105128 Z
-  _version: 0.2.1/0.21.0/0.0.39
-  average_backlog_size: 9
-  average_build_success_rate: 0.7425414364640884
-  average_forks: 0
-  average_issue_lifetime: 78295.35714285714
-  average_pull_lifetime: 30138.235294117647
-  average_release_interval: 6740.5
-  average_stars: 3
-  composite: 0.84
-  what: quality-of-service
-  when: 2024-08-03 16:11:08.633221294 Z
 - _id: 296
   _time: 2024-08-03 16:11:45.379891786 Z
   _version: 0.2.1/0.21.0/0.0.39
@@ -2504,19 +2491,6 @@
   total_stars: 3
   what: dimensions-of-terrain
   when: 2024-08-05 17:08:22.614716664 Z
-- _id: 572
-  _time: 2024-08-06 16:11:24.066040586 Z
-  _version: 0.2.1/0.21.0/0.0.39
-  average_backlog_size: 10
-  average_build_success_rate: 0.697
-  average_forks: 0
-  average_issue_lifetime: 78295.35714285714
-  average_pull_lifetime: 30138.235294117647
-  average_release_interval: 6740.5
-  average_stars: 3
-  composite: 0.83
-  what: quality-of-service
-  when: 2024-08-06 16:11:24.066186089 Z
 - _id: 576
   _time: 2024-08-06 17:09:46.610785088 Z
   _version: 0.2.1/0.21.0/0.0.39
@@ -2544,19 +2518,6 @@
   total_stars: 3
   what: dimensions-of-terrain
   when: 2024-08-08 18:13:31.505428855 Z
-- _id: 795
-  _time: 2024-08-09 17:08:46.460455218 Z
-  _version: 0.2.1/0.21.0/0.0.39
-  average_backlog_size: 10
-  average_build_success_rate: 0.643
-  average_forks: 0
-  average_issue_lifetime: 78295.35714285714
-  average_pull_lifetime: 30138.235294117647
-  average_release_interval: 6740.5
-  average_stars: 3
-  composite: 0.817
-  what: quality-of-service
-  when: 2024-08-09 17:08:46.460621478 Z
 - _id: 805
   _time: 2024-08-09 19:07:39.529881144 Z
   _version: 0.2.1/0.21.0/0.0.39
@@ -2582,19 +2543,6 @@
   total_stars: 3
   what: dimensions-of-terrain
   when: 2024-08-10 20:09:21.844026391 Z
-- _id: 977
-  _time: 2024-08-11 18:13:24.941335291 Z
-  _version: 0.2.1/0.21.0/0.0.39
-  average_backlog_size: 10
-  average_build_success_rate: 0.1497326203208556
-  average_forks: 0
-  average_issue_lifetime: 0
-  average_pull_lifetime: 0
-  average_release_interval: 0
-  average_stars: 3
-  composite: 0.035
-  what: quality-of-service
-  when: 2024-08-11 18:13:24.941487085 Z
 - _id: 992
   _time: 2024-08-11 20:09:50.767564726 Z
   _version: 0.2.1/0.21.0/0.0.39
@@ -2630,19 +2578,6 @@
   total_stars: 3
   what: dimensions-of-terrain
   when: 2024-08-12 20:10:36.624885540 Z
-- _id: 1129
-  _time: 2024-08-13 18:13:45.867477017 Z
-  _version: 0.2.1/0.21.0/0.0.39
-  average_backlog_size: 10
-  average_build_success_rate: 0.16129032258064516
-  average_forks: 0
-  average_issue_lifetime: 0
-  average_pull_lifetime: 0
-  average_release_interval: 0
-  average_stars: 3
-  composite: 0.038
-  what: quality-of-service
-  when: 2024-08-13 18:13:45.868067702 Z
 - _id: 1137
   _time: 2024-08-13 21:09:12.908052873 Z
   _version: 0.2.1/0.21.0/0.0.39
@@ -2661,19 +2596,6 @@
   total_stars: 3
   what: dimensions-of-terrain
   when: 2024-08-14 22:09:56.344894154 Z
-- _id: 1234
-  _time: 2024-08-15 18:13:51.145284432 Z
-  _version: 0.2.1/0.21.0/0.0.39
-  average_backlog_size: 10
-  average_build_success_rate: 0.24271844660194175
-  average_forks: 0
-  average_issue_lifetime: 0
-  average_pull_lifetime: 0
-  average_release_interval: 0
-  average_stars: 3
-  composite: 0.057
-  what: quality-of-service
-  when: 2024-08-15 18:13:51.145594339 Z
 - _id: 1245
   _time: 2024-08-15 22:10:05.702789284 Z
   _version: 0.2.1/0.21.0/0.0.39
@@ -2692,29 +2614,6 @@
   total_stars: 3
   what: dimensions-of-terrain
   when: 2024-08-16 23:10:26.679469430 Z
-- _id: 1347
-  _time: 2024-08-17 19:08:04.187881468 Z
-  _version: 0.2.1/0.21.0/0.0.39
-  average_backlog_size: 10
-  average_build_success_rate: 0.2694063926940639
-  average_forks: 0
-  average_issue_lifetime: 0
-  average_pull_lifetime: 0
-  average_release_interval: 0
-  average_stars: 3
-  composite: 0.063
-  what: quality-of-service
-  when: 2024-08-17 19:08:04.188080900 Z
-- _id: 1348
-  _time: 2024-08-17 19:08:09.281368932 Z
-  _version: 0.2.1/0.21.0/0.0.39
-  composite: 2.304
-  total_commits_pushed: 0
-  total_hoc_committed: 0
-  total_issues_created: 3
-  total_pulls_submitted: 2
-  what: quantity-of-deliverables
-  when: 2024-08-17 19:08:09.281511068 Z
 - _id: 1359
   _time: 2024-08-18 00:47:02.414890422 Z
   _version: 0.2.1/0.21.0/0.0.39
@@ -2724,83 +2623,6 @@
   total_stars: 3
   what: dimensions-of-terrain
   when: 2024-08-18 00:47:02.415070800 Z
-- _id: 1373
-  _job: 4754
-  _time: 2024-08-18 05:10:10.748906087 Z
-  _version: 0.4.0/0.25.2/0.0.39
-  composite: 27.618
-  total_commits_pushed: 68
-  total_hoc_committed: 3775
-  total_issues_created: 9
-  total_pulls_submitted: 1
-  what: quantity-of-deliverables
-  when: 2024-08-03 16:11:27.441471264 Z
-- _id: 1374
-  _job: 4754
-  _time: 2024-08-18 05:10:10.766228226 Z
-  _version: 0.4.0/0.25.2/0.0.39
-  composite: 28.56
-  total_commits_pushed: 68
-  total_hoc_committed: 3775
-  total_issues_created: 10
-  total_pulls_submitted: 2
-  what: quantity-of-deliverables
-  when: 2024-08-05 16:11:34.202355388 Z
-- _id: 1375
-  _job: 4754
-  _time: 2024-08-18 05:10:10.789213730 Z
-  _version: 0.4.0/0.25.2/0.0.39
-  composite: 28.56
-  total_commits_pushed: 68
-  total_hoc_committed: 3775
-  total_issues_created: 10
-  total_pulls_submitted: 2
-  what: quantity-of-deliverables
-  when: 2024-08-07 17:10:11.403644630 Z
-- _id: 1376
-  _job: 4754
-  _time: 2024-08-18 05:10:10.802468068 Z
-  _version: 0.4.0/0.25.2/0.0.39
-  composite: 28.56
-  total_commits_pushed: 68
-  total_hoc_committed: 3775
-  total_issues_created: 10
-  total_pulls_submitted: 2
-  what: quantity-of-deliverables
-  when: 2024-08-09 18:12:37.009267550 Z
-- _id: 1377
-  _job: 4754
-  _time: 2024-08-18 05:10:10.824510970 Z
-  _version: 0.4.0/0.25.2/0.0.39
-  composite: 1.361
-  total_commits_pushed: 0
-  total_hoc_committed: 0
-  total_issues_created: 2
-  total_pulls_submitted: 1
-  what: quantity-of-deliverables
-  when: 2024-08-11 18:13:29.171264295 Z
-- _id: 1378
-  _job: 4754
-  _time: 2024-08-18 05:10:10.839596778 Z
-  _version: 0.4.0/0.25.2/0.0.39
-  composite: 1.361
-  total_commits_pushed: 0
-  total_hoc_committed: 0
-  total_issues_created: 2
-  total_pulls_submitted: 1
-  what: quantity-of-deliverables
-  when: 2024-08-13 18:13:50.215532500 Z
-- _id: 1379
-  _job: 4754
-  _time: 2024-08-18 05:10:10.862113959 Z
-  _version: 0.4.0/0.25.2/0.0.39
-  composite: 1.361
-  total_commits_pushed: 0
-  total_hoc_committed: 0
-  total_issues_created: 2
-  total_pulls_submitted: 1
-  what: quantity-of-deliverables
-  when: 2024-08-15 18:13:56.182485077 Z
 - _id: 1380
   _job: 4754
   _time: 2024-08-18 05:10:10.909399711 Z
@@ -2959,9 +2781,224 @@
   _version: 0.4.0/0.26.0/0.0.47
   what: learn-eva
   when: 2024-08-19 10:14:57.634424170 Z
-- _id: 1471
-  _time: 2024-08-19 20:10:25.895059577 Z
-  _version: 0.4.0/0.25.2/
+- _id: 1485
+  _job: 4902
+  _time: 2024-08-20 02:00:49.178169784 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  composite: 2.304
+  ffact: 1385
+  total_commits_pushed: 0
+  total_hoc_committed: 0
+  total_issues_created: 3
+  total_pulls_submitted: 2
+  what: quantity-of-deliverables
+  when: 2024-08-17 19:08:09.281511068 Z
+- _id: 1486
+  _job: 4902
+  _time: 2024-08-20 02:00:49.196275555 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  composite: 27.618
+  ffact: 1385
+  total_commits_pushed: 68
+  total_hoc_committed: 3775
+  total_issues_created: 9
+  total_pulls_submitted: 1
+  what: quantity-of-deliverables
+  when: 2024-08-03 16:11:27.441471264 Z
+- _id: 1487
+  _job: 4902
+  _time: 2024-08-20 02:00:49.211718457 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  composite: 28.56
+  ffact: 1385
+  total_commits_pushed: 68
+  total_hoc_committed: 3775
+  total_issues_created: 10
+  total_pulls_submitted: 2
+  what: quantity-of-deliverables
+  when: 2024-08-05 16:11:34.202355388 Z
+- _id: 1488
+  _job: 4902
+  _time: 2024-08-20 02:00:49.227563623 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  composite: 28.56
+  ffact: 1385
+  total_commits_pushed: 68
+  total_hoc_committed: 3775
+  total_issues_created: 10
+  total_pulls_submitted: 2
+  what: quantity-of-deliverables
+  when: 2024-08-07 17:10:11.403644630 Z
+- _id: 1489
+  _job: 4902
+  _time: 2024-08-20 02:00:49.244344812 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  composite: 28.56
+  ffact: 1385
+  total_commits_pushed: 68
+  total_hoc_committed: 3775
+  total_issues_created: 10
+  total_pulls_submitted: 2
+  what: quantity-of-deliverables
+  when: 2024-08-09 18:12:37.009267550 Z
+- _id: 1490
+  _job: 4902
+  _time: 2024-08-20 02:00:49.259135496 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  composite: 1.361
+  ffact: 1385
+  total_commits_pushed: 0
+  total_hoc_committed: 0
+  total_issues_created: 2
+  total_pulls_submitted: 1
+  what: quantity-of-deliverables
+  when: 2024-08-11 18:13:29.171264295 Z
+- _id: 1491
+  _job: 4902
+  _time: 2024-08-20 02:00:49.272822538 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  composite: 1.361
+  ffact: 1385
+  total_commits_pushed: 0
+  total_hoc_committed: 0
+  total_issues_created: 2
+  total_pulls_submitted: 1
+  what: quantity-of-deliverables
+  when: 2024-08-13 18:13:50.215532500 Z
+- _id: 1492
+  _job: 4902
+  _time: 2024-08-20 02:00:49.293357963 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  composite: 1.361
+  ffact: 1385
+  total_commits_pushed: 0
+  total_hoc_committed: 0
+  total_issues_created: 2
+  total_pulls_submitted: 1
+  what: quantity-of-deliverables
+  when: 2024-08-15 18:13:56.182485077 Z
+- _id: 1493
+  _job: 4902
+  _time: 2024-08-20 02:00:49.312406686 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  composite: 0.607
+  ffact: 1385
+  since: 2024-08-12 20:11:03.041967420 Z
+  total_commits_pushed: 3
+  total_hoc_committed: 6
+  total_issues_created: 1
+  total_pulls_submitted: 0
+  what: quantity-of-deliverables
+  when: 2024-08-19 20:11:03.041878374 Z
+- _id: 1494
+  _job: 4902
+  _time: 2024-08-20 02:00:49.366491227 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  average_backlog_size: 9
+  average_build_success_rate: 0.7425414364640884
+  average_forks: 0
+  average_issue_lifetime: 78295.35714285714
+  average_pull_lifetime: 30138.235294117647
+  average_release_interval: 6740.5
+  average_stars: 3
+  composite: 0.84
+  ffact: 1047
+  what: quality-of-service
+  when: 2024-08-03 16:11:08.633221294 Z
+- _id: 1495
+  _job: 4902
+  _time: 2024-08-20 02:00:49.386655041 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  average_backlog_size: 10
+  average_build_success_rate: 0.697
+  average_forks: 0
+  average_issue_lifetime: 78295.35714285714
+  average_pull_lifetime: 30138.235294117647
+  average_release_interval: 6740.5
+  average_stars: 3
+  composite: 0.83
+  ffact: 1047
+  what: quality-of-service
+  when: 2024-08-06 16:11:24.066186089 Z
+- _id: 1496
+  _job: 4902
+  _time: 2024-08-20 02:00:49.402503153 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  average_backlog_size: 10
+  average_build_success_rate: 0.643
+  average_forks: 0
+  average_issue_lifetime: 78295.35714285714
+  average_pull_lifetime: 30138.235294117647
+  average_release_interval: 6740.5
+  average_stars: 3
+  composite: 0.817
+  ffact: 1047
+  what: quality-of-service
+  when: 2024-08-09 17:08:46.460621478 Z
+- _id: 1497
+  _job: 4902
+  _time: 2024-08-20 02:00:49.422700811 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  average_backlog_size: 10
+  average_build_success_rate: 0.1497326203208556
+  average_forks: 0
+  average_issue_lifetime: 0
+  average_pull_lifetime: 0
+  average_release_interval: 0
+  average_stars: 3
+  composite: 0.035
+  ffact: 1047
+  what: quality-of-service
+  when: 2024-08-11 18:13:24.941487085 Z
+- _id: 1498
+  _job: 4902
+  _time: 2024-08-20 02:00:49.437265938 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  average_backlog_size: 10
+  average_build_success_rate: 0.16129032258064516
+  average_forks: 0
+  average_issue_lifetime: 0
+  average_pull_lifetime: 0
+  average_release_interval: 0
+  average_stars: 3
+  composite: 0.038
+  ffact: 1047
+  what: quality-of-service
+  when: 2024-08-13 18:13:45.868067702 Z
+- _id: 1499
+  _job: 4902
+  _time: 2024-08-20 02:00:49.455055232 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  average_backlog_size: 10
+  average_build_success_rate: 0.24271844660194175
+  average_forks: 0
+  average_issue_lifetime: 0
+  average_pull_lifetime: 0
+  average_release_interval: 0
+  average_stars: 3
+  composite: 0.057
+  ffact: 1047
+  what: quality-of-service
+  when: 2024-08-15 18:13:51.145594339 Z
+- _id: 1500
+  _job: 4902
+  _time: 2024-08-20 02:00:49.474664849 Z
+  _version: 0.4.0/0.26.0/0.0.47
+  average_backlog_size: 10
+  average_build_success_rate: 0.2694063926940639
+  average_forks: 0
+  average_issue_lifetime: 0
+  average_pull_lifetime: 0
+  average_release_interval: 0
+  average_stars: 3
+  composite: 0.063
+  ffact: 1047
+  what: quality-of-service
+  when: 2024-08-17 19:08:04.188080900 Z
+- _id: 1501
+  _job: 4902
+  _time: 2024-08-20 02:00:49.491635329 Z
+  _version: 0.4.0/0.26.0/0.0.47
   average_backlog_size: 0.0
   average_build_duration: 54.6605504587156
   average_build_success_rate: 0.3944954128440367
@@ -2970,29 +3007,28 @@
   average_pull_rejection_rate: 0.0
   average_release_interval: 0
   composite: 0.096
+  ffact: 1047
   since: 2024-08-12 20:10:25.895295238 Z
   what: quality-of-service
   when: 2024-08-19 20:10:25.895215599 Z
-- _id: 1472
-  _time: 2024-08-19 20:11:03.041731970 Z
+- _id: 1502
+  _time: 2024-08-20 02:37:32.498874940 Z
   _version: 0.4.0/0.25.2/
-  composite: 0.607
-  since: 2024-08-12 20:11:03.041967420 Z
-  total_commits_pushed: 3
-  total_hoc_committed: 6
-  total_issues_created: 1
-  total_pulls_submitted: 0
-  what: quantity-of-deliverables
-  when: 2024-08-19 20:11:03.041878374 Z
-- _id: 1483
-  _time: 2024-08-20 02:00:34.337545679 Z
+  total_forks: 0
+  total_releases: 3
+  total_repositories: 1
+  total_stars: 3
+  what: dimensions-of-terrain
+  when: 2024-08-20 02:37:32.499059597 Z
+- _id: 1505
+  _time: 2024-08-20 02:37:36.736595743 Z
   _version: 0.4.0/0.25.2/
   latest: 41154161681
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 1484
-  _time: 2024-08-20 02:00:42.051725019 Z
+- _id: 1506
+  _time: 2024-08-20 02:37:42.406436088 Z
   _version: 0.4.0/0.25.2/
   latest: 36
   repository: 833604403
