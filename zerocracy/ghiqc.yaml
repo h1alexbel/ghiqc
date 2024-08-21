@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 2
   removed: 8
-  seconds: 6.16018589
+  seconds: 8.894949672
   version: 0.25.2
   what: judges-summary
-  when: 2024-08-21 18:12:51.525241856 Z
+  when: 2024-08-21 19:08:44.005272283 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -3043,15 +3043,29 @@
   _version: 0.4.0/0.26.0/0.0.47
   what: learn-eva
   when: 2024-08-21 15:09:58.979702844 Z
-- _id: 1592
-  _time: 2024-08-21 18:12:46.869099577 Z
+- _id: 1594
+  _time: 2024-08-21 19:08:36.721855896 Z
   _version: 0.4.0/0.25.2/
-  latest: 41216889300
+  branch: renovate/zerocracy-judges-action-0.x
+  details: The pull request h1alexbel/ghiqc#42 has been opened by @renovate[bot].
+  event_id: 41219036810
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 42
+  repository: 833604403
+  what: pull-was-opened
+  when: 2024-08-21 16:13:39.000000000 Z
+  where: github
+  who: 29139614
+- _id: 1597
+  _time: 2024-08-21 19:08:38.882249822 Z
+  _version: 0.4.0/0.25.2/
+  latest: 41219036810
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 1593
-  _time: 2024-08-21 18:12:51.512674413 Z
+- _id: 1598
+  _time: 2024-08-21 19:08:43.990533022 Z
   _version: 0.4.0/0.25.2/
   latest: 36
   repository: 833604403
