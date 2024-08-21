@@ -2,10 +2,10 @@
 - added: 8
   cycles: 1
   removed: 8
-  seconds: 7.760954739
+  seconds: 2.688803903
   version: 0.25.2
   what: judges-summary
-  when: 2024-08-21 08:13:11.683823361 Z
+  when: 2024-08-21 09:11:05.515789727 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -3043,17 +3043,17 @@
   _version: 0.4.0/0.26.0/0.0.47
   what: learn-eva
   when: 2024-08-21 06:16:20.042891946 Z
-- _id: 1571
-  _time: 2024-08-21 08:13:05.888196798 Z
+- _id: 1573
+  _time: 2024-08-21 09:11:04.729436310 Z
   _version: 0.4.0/0.25.2/
-  latest: 41200426130
+  latest: 41202384433
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 1572
-  _time: 2024-08-21 08:13:11.667761478 Z
+- _id: 1574
+  _time: 2024-08-21 09:11:05.501983756 Z
   _version: 0.4.0/0.25.2/
-  latest: 36
+  latest: 0
   repository: 833604403
   what: labels-were-scanned
   where: github
