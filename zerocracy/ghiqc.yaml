@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 2
+  cycles: 1
   removed: 8
-  seconds: 29.623850299
+  seconds: 7.293112926
   version: 0.26.0
   what: judges-summary
-  when: 2024-08-22 11:09:21.149387306 Z
+  when: 2024-08-22 12:17:27.175576185 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -3152,17 +3152,54 @@
   when: 2024-08-22 10:35:27.000000000 Z
   where: github
   who: 8086956
-- _id: 1641
-  _time: 2024-08-22 11:09:20.285760727 Z
+- _id: 1643
+  _job: 5099
+  _time: 2024-08-22 11:09:29.298816701 Z
+  _version: 0.4.0/0.26.0/0.0.49
+  award: 4
+  details: It's time to reward @h1alexbel for the code review in h1alexbel/ghiqc#42,
+    the reward amount is 4.
+  greeting: "Great job on the review! \U0001F389 You've earned +4 points, bringing
+    your total to [+79](https://www.h1alexbel.xyz/ghiqc/zerocracy/ghiqc-vitals.html).
+    While we'd love to see more comments and hits-of-code next time, your effort is
+    appreciated. Keep up the good work and aim for even better results in future reviews!"
+  href: https://github.com/h1alexbel/ghiqc/issues/42/#issuecomment-2304399351
+  is_human: 1
+  issue: 42
+  repository: 833604403
+  what: code-review-was-rewarded
+  when: 2024-08-22 11:09:29.302371903 Z
+  where: github
+  who: 83453843
+  why: Reviewed code in h1alexbel/ghiqc#42
+- _id: 1644
+  _job: 5099
+  _time: 2024-08-22 11:09:33.450701438 Z
+  _version: 0.4.0/0.26.0/0.0.49
+  comments: 3
+  details: The pull request h1alexbel/ghiqc#42 with 2 HoC created by @renovate[bot]
+    was merged by @rultor after 18 hours of being in review and 3 comments.
+  hoc: 2
+  is_human: 0
+  issue: 42
+  merger: 8086956
+  repository: 833604403
+  seconds: 66108
+  what: code-was-contributed
+  when: 2024-08-22 10:35:27.000000000 Z
+  where: github
+  who: 29139614
+- _id: 1645
+  _time: 2024-08-22 12:17:22.173862941 Z
   _version: 0.4.0/0.26.0/
-  latest: 41244477763
+  latest: 41245495316
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 1642
-  _time: 2024-08-22 11:09:21.099679004 Z
+- _id: 1646
+  _time: 2024-08-22 12:17:27.161197831 Z
   _version: 0.4.0/0.26.0/
-  latest: 0
+  latest: 36
   repository: 833604403
   what: labels-were-scanned
   where: github

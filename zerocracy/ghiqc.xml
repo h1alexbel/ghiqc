@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="87062">
+<fb version="0.4.0" size="88228">
   <f>
     <added t="I">8</added>
-    <cycles t="I">2</cycles>
+    <cycles t="I">1</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">29.623850299</seconds>
+    <seconds t="F">7.293112926</seconds>
     <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-22T11:09:21Z</when>
+    <when t="T">2024-08-22T12:17:27Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -3372,19 +3372,55 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">1641</_id>
-    <_time t="T">2024-08-22T11:09:20Z</_time>
+    <_id t="I">1643</_id>
+    <_job t="I">5099</_job>
+    <_time t="T">2024-08-22T11:09:29Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.49</_version>
+    <award t="I">4</award>
+    <details t="S">It's time to reward @h1alexbel for the code review in h1alexbel/ghiqc#42, the reward amount is 4.</details>
+    <greeting t="S">Great job on the review! 🎉 You've earned +4 points, bringing your total to [+79](https://www.h1alexbel.xyz/ghiqc/zerocracy/ghiqc-vitals.html). While we'd love to see more comments and hits-of-code next time, your effort is appreciated. Keep up the good work and aim for even better results in future reviews!</greeting>
+    <href t="S">https://github.com/h1alexbel/ghiqc/issues/42/#issuecomment-2304399351</href>
+    <is_human t="I">1</is_human>
+    <issue t="I">42</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">code-review-was-rewarded</what>
+    <when t="T">2024-08-22T11:09:29Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+    <why t="S">Reviewed code in h1alexbel/ghiqc#42</why>
+  </f>
+  <f>
+    <_id t="I">1644</_id>
+    <_job t="I">5099</_job>
+    <_time t="T">2024-08-22T11:09:33Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.49</_version>
+    <comments t="I">3</comments>
+    <details t="S">The pull request h1alexbel/ghiqc#42 with 2 HoC created by @renovate[bot] was merged by @rultor after 18 hours of being in review and 3 comments.</details>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">42</issue>
+    <merger t="I">8086956</merger>
+    <repository t="I">833604403</repository>
+    <seconds t="I">66108</seconds>
+    <what t="S">code-was-contributed</what>
+    <when t="T">2024-08-22T10:35:27Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">1645</_id>
+    <_time t="T">2024-08-22T12:17:22Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">41244477763</latest>
+    <latest t="I">41245495316</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">1642</_id>
-    <_time t="T">2024-08-22T11:09:21Z</_time>
+    <_id t="I">1646</_id>
+    <_time t="T">2024-08-22T12:17:27Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">0</latest>
+    <latest t="I">36</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
