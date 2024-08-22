@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="86118">
+<fb version="0.4.0" size="87062">
   <f>
     <added t="I">8</added>
     <cycles t="I">2</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">13.170097217</seconds>
-    <version t="S">0.25.2</version>
+    <seconds t="F">29.623850299</seconds>
+    <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-22T10:11:21Z</when>
+    <when t="T">2024-08-22T11:09:21Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -3329,18 +3329,61 @@
     <who t="I">83453843</who>
   </f>
   <f>
-    <_id t="I">1635</_id>
-    <_time t="T">2024-08-22T10:11:20Z</_time>
-    <_version t="S">0.4.0/0.25.2/</_version>
-    <latest t="I">41242842181</latest>
+    <_id t="I">1637</_id>
+    <_job t="I">5096</_job>
+    <_time t="T">2024-08-22T10:11:27Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.47!0.0.49</_version>
+    <author t="I">29139614</author>
+    <comments t="I">3</comments>
+    <details t="S">The pull request h1alexbel/ghiqc#42 with 2 HoC created by @renovate[bot] was reviewed by @h1alexbel after 17 hours and 3 comments.</details>
+    <hoc t="I">2</hoc>
+    <is_human t="I">1</is_human>
+    <issue t="I">42</issue>
+    <repository t="I">833604403</repository>
+    <seconds t="I">63015</seconds>
+    <what t="S">code-was-reviewed</what>
+    <when t="T">2024-08-22T09:43:54Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">1638</_id>
+    <_time t="T">2024-08-22T11:08:54Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <branch t="S">renovate/zerocracy-judges-action-0.x</branch>
+    <comments t="I">3</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">4</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request h1alexbel/ghiqc#42 has been closed by @rultor, with 2 HoC and 3 comments.</details>
+    <event_id t="I">41244447292</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">42</issue>
+    <repository t="I">833604403</repository>
+    <succeeded_builds t="I">11</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2024-08-22T10:35:27Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">1641</_id>
+    <_time t="T">2024-08-22T11:09:20Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <latest t="I">41244477763</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">1636</_id>
-    <_time t="T">2024-08-22T10:11:21Z</_time>
-    <_version t="S">0.4.0/0.25.2/</_version>
+    <_id t="I">1642</_id>
+    <_time t="T">2024-08-22T11:09:21Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
     <latest t="I">0</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
