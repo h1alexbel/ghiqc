@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 2
   removed: 8
-  seconds: 3.263276771
+  seconds: 71.864807855
   version: 0.26.0
   what: judges-summary
-  when: 2024-08-23 21:08:49.856206691 Z
+  when: 2024-08-23 22:10:16.698904912 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -2982,12 +2982,6 @@
   total_stars: 3
   what: dimensions-of-terrain
   when: 2024-08-21 03:10:35.240995638 Z
-- _id: 1587
-  _job: 5023
-  _time: 2024-08-21 15:09:58.994222919 Z
-  _version: 0.4.0/0.26.0/0.0.47
-  what: learn-eva
-  when: 2024-08-21 15:09:58.979702844 Z
 - _id: 1594
   _time: 2024-08-21 19:08:36.721855896 Z
   _version: 0.4.0/0.25.2/
@@ -3198,15 +3192,47 @@
   total_stars: 3
   what: dimensions-of-terrain
   when: 2024-08-23 04:12:27.139057528 Z
-- _id: 1713
-  _time: 2024-08-23 21:08:49.020088177 Z
+- _id: 1715
+  _job: 5205
+  _time: 2024-08-23 21:08:57.461777486 Z
+  _version: 0.4.0/0.26.0/0.0.49
+  what: learn-eva
+  when: 2024-08-23 21:08:57.443753815 Z
+- _id: 1718
+  _time: 2024-08-23 22:09:14.584366742 Z
   _version: 0.4.0/0.26.0/
-  latest: 41296122945
+  average_backlog_size: 0.0
+  average_build_duration: 57.833333333333336
+  average_build_success_rate: 0.8142857142857143
+  average_issue_lifetime: 0
+  average_pull_files_size: 1.0
+  average_pull_hoc_size: 2.0
+  average_pull_lifetime: 863287.3333333334
+  average_pull_rejection_rate: 0.0
+  average_release_interval: 0
+  since: 2024-08-16 22:09:14.584566736 Z
+  what: quality-of-service
+  when: 2024-08-23 22:09:14.584481477 Z
+- _id: 1719
+  _time: 2024-08-23 22:10:12.604350435 Z
+  _version: 0.4.0/0.26.0/
+  since: 2024-08-16 22:10:12.604541573 Z
+  total_commits_pushed: 3
+  total_hoc_committed: 6
+  total_issues_created: 1
+  total_pulls_submitted: 0
+  total_releases_published: 0
+  what: quantity-of-deliverables
+  when: 2024-08-23 22:10:12.604466222 Z
+- _id: 1720
+  _time: 2024-08-23 22:10:15.829636948 Z
+  _version: 0.4.0/0.26.0/
+  latest: 41297304704
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 1714
-  _time: 2024-08-23 21:08:49.842768353 Z
+- _id: 1721
+  _time: 2024-08-23 22:10:16.687080528 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 833604403

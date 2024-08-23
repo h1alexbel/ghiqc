@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="88399">
+<fb version="0.4.0" size="89012">
   <f>
     <added t="I">8</added>
-    <cycles t="I">1</cycles>
+    <cycles t="I">2</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">3.263276771</seconds>
+    <seconds t="F">71.864807855</seconds>
     <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-23T21:08:49Z</when>
+    <when t="T">2024-08-23T22:10:16Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -3216,14 +3216,6 @@
     <when t="T">2024-08-21T03:10:35Z</when>
   </f>
   <f>
-    <_id t="I">1587</_id>
-    <_job t="I">5023</_job>
-    <_time t="T">2024-08-21T15:09:58Z</_time>
-    <_version t="S">0.4.0/0.26.0/0.0.47</_version>
-    <what t="S">learn-eva</what>
-    <when t="T">2024-08-21T15:09:58Z</when>
-  </f>
-  <f>
     <_id t="I">1594</_id>
     <_time t="T">2024-08-21T19:08:36Z</_time>
     <_version t="S">0.4.0/0.25.2/</_version>
@@ -3419,17 +3411,55 @@
     <when t="T">2024-08-23T04:12:27Z</when>
   </f>
   <f>
-    <_id t="I">1713</_id>
-    <_time t="T">2024-08-23T21:08:49Z</_time>
+    <_id t="I">1715</_id>
+    <_job t="I">5205</_job>
+    <_time t="T">2024-08-23T21:08:57Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.49</_version>
+    <what t="S">learn-eva</what>
+    <when t="T">2024-08-23T21:08:57Z</when>
+  </f>
+  <f>
+    <_id t="I">1718</_id>
+    <_time t="T">2024-08-23T22:09:14Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">41296122945</latest>
+    <average_backlog_size t="F">0.0</average_backlog_size>
+    <average_build_duration t="F">57.833333333333336</average_build_duration>
+    <average_build_success_rate t="F">0.8142857142857143</average_build_success_rate>
+    <average_issue_lifetime t="I">0</average_issue_lifetime>
+    <average_pull_files_size t="F">1.0</average_pull_files_size>
+    <average_pull_hoc_size t="F">2.0</average_pull_hoc_size>
+    <average_pull_lifetime t="F">863287.3333333334</average_pull_lifetime>
+    <average_pull_rejection_rate t="F">0.0</average_pull_rejection_rate>
+    <average_release_interval t="I">0</average_release_interval>
+    <since t="T">2024-08-16T22:09:14Z</since>
+    <what t="S">quality-of-service</what>
+    <when t="T">2024-08-23T22:09:14Z</when>
+  </f>
+  <f>
+    <_id t="I">1719</_id>
+    <_time t="T">2024-08-23T22:10:12Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <since t="T">2024-08-16T22:10:12Z</since>
+    <total_commits_pushed t="I">3</total_commits_pushed>
+    <total_hoc_committed t="I">6</total_hoc_committed>
+    <total_issues_created t="I">1</total_issues_created>
+    <total_pulls_submitted t="I">0</total_pulls_submitted>
+    <total_releases_published t="I">0</total_releases_published>
+    <what t="S">quantity-of-deliverables</what>
+    <when t="T">2024-08-23T22:10:12Z</when>
+  </f>
+  <f>
+    <_id t="I">1720</_id>
+    <_time t="T">2024-08-23T22:10:15Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <latest t="I">41297304704</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">1714</_id>
-    <_time t="T">2024-08-23T21:08:49Z</_time>
+    <_id t="I">1721</_id>
+    <_time t="T">2024-08-23T22:10:16Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
     <latest t="I">0</latest>
     <repository t="I">833604403</repository>
