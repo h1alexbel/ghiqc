@@ -22,9 +22,6 @@
 use std::collections::HashMap;
 
 /// Parse facts from list of strings (lines).
-// @todo #27:30min Read ignore.ghiqc file as list of strings.
-//  We should read file first in the main.rs, and then pass list of strings in
-//  parse_facts function.
 pub fn parse_facts(content: Vec<String>) -> HashMap<String, Vec<String>> {
     let mut facts: HashMap<String, Vec<String>> = HashMap::new();
     let mut author = vec![];

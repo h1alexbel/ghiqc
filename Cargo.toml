@@ -59,6 +59,7 @@ testing_logger = "0.1.1"
 
 [dev-dependencies]
 assert_cmd = "2.0.14"
+tempdir = "0.3.7"
 
 [features]
 default = ["cli"]
