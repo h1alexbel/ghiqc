@@ -1,11 +1,13 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 5
+  error: 'GET https://api.github.com/repos/h1alexbel/ghiqc/actions/jobs/29245356637:
+    404 - Not Found // See: https://docs.github.com/rest/actions/workflow-jobs#get-a-job-for-a-workflow-run'
   removed: 8
-  seconds: 3.118847616
+  seconds: 53.031265017
   version: 0.26.0
   what: judges-summary
-  when: 2024-08-26 10:11:26.323680205 Z
+  when: 2024-08-26 11:09:52.845704846 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -3287,17 +3289,129 @@
   total_stars: 3
   what: dimensions-of-terrain
   when: 2024-08-26 06:14:12.271730376 Z
-- _id: 1851
-  _time: 2024-08-26 10:11:25.601037057 Z
+- _id: 1853
+  _time: 2024-08-26 11:09:02.106045888 Z
   _version: 0.4.0/0.26.0/
-  latest: 41334159221
+  details: The issue h1alexbel/ghiqc#46 has been opened by @h1alexbel.
+  event_id: 41335748286
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 46
   repository: 833604403
-  what: events-were-scanned
+  what: issue-was-opened
+  when: 2024-08-26 10:04:42.000000000 Z
   where: github
-- _id: 1852
-  _time: 2024-08-26 10:11:26.309908284 Z
+  who: 83453843
+- _id: 1854
+  _time: 2024-08-26 11:09:02.142673103 Z
   _version: 0.4.0/0.26.0/
-  latest: 0
+  commit: 5be468ecdd210753e4b7d108a589b6fd4d6b3abd
+  default_branch: master
+  details: 'A new Git push #19933101409 has arrived to h1alexbel/ghiqc, made by @h1alexbel
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 41335602730
+  event_type: PushEvent
+  is_human: 1
+  push_id: 19933101409
+  ref: refs/heads/master
+  repository: 833604403
+  to_master: 1
+  what: git-was-pushed
+  when: 2024-08-26 10:00:08.000000000 Z
+  where: github
+  who: 83453843
+- _id: 1855
+  _time: 2024-08-26 11:09:02.629912679 Z
+  _version: 0.4.0/0.26.0/
+  details: The issue h1alexbel/ghiqc#27 has been closed by @h1alexbel.
+  event_id: 41335418861
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 27
+  repository: 833604403
+  what: issue-was-closed
+  when: 2024-08-26 09:54:08.000000000 Z
+  where: github
+  who: 83453843
+- _id: 1856
+  _time: 2024-08-26 11:09:02.818719512 Z
+  _version: 0.4.0/0.26.0/
+  details: The issue h1alexbel/ghiqc#45 has been opened by @0pdd.
+  event_id: 41335362369
+  event_type: IssuesEvent
+  is_human: 0
+  issue: 45
+  repository: 833604403
+  what: issue-was-opened
+  when: 2024-08-26 09:52:14.000000000 Z
+  where: github
+  who: 24456188
+- _id: 1857
+  _time: 2024-08-26 11:09:02.852184619 Z
+  _version: 0.4.0/0.26.0/
+  details: The issue h1alexbel/ghiqc#44 has been opened by @0pdd.
+  event_id: 41335361665
+  event_type: IssuesEvent
+  is_human: 0
+  issue: 44
+  repository: 833604403
+  what: issue-was-opened
+  when: 2024-08-26 09:52:13.000000000 Z
+  where: github
+  who: 24456188
+- _id: 1858
+  _time: 2024-08-26 11:09:02.950699671 Z
+  _version: 0.4.0/0.26.0/
+  details: The issue h1alexbel/ghiqc#36 has been closed by @0pdd.
+  event_id: 41335360361
+  event_type: IssuesEvent
+  is_human: 0
+  issue: 36
+  repository: 833604403
+  what: issue-was-closed
+  when: 2024-08-26 09:52:10.000000000 Z
+  where: github
+  who: 24456188
+- _id: 1859
+  _time: 2024-08-26 11:09:20.965048701 Z
+  _version: 0.4.0/0.26.0/
+  details: The '#bug' label was attached by @0pdd to the issue h1alexbel/ghiqc#44.
+  is_human: 0
+  issue: 44
+  label: bug
+  repository: 833604403
+  what: label-was-attached
+  when: 2024-08-26 09:52:12.000000000 Z
+  where: github
+  who: 24456188
+- _id: 1860
+  _time: 2024-08-26 11:09:21.310429227 Z
+  _version: 0.4.0/0.26.0/
+  details: The '#bug' label was attached by @0pdd to the issue h1alexbel/ghiqc#45.
+  is_human: 0
+  issue: 45
+  label: bug
+  repository: 833604403
+  what: label-was-attached
+  when: 2024-08-26 09:52:13.000000000 Z
+  where: github
+  who: 24456188
+- _id: 1861
+  _time: 2024-08-26 11:09:21.529630869 Z
+  _version: 0.4.0/0.26.0/
+  details: The '#bug' label was attached by @h1alexbel to the issue h1alexbel/ghiqc#46.
+  is_human: 1
+  issue: 46
+  label: bug
+  repository: 833604403
+  what: label-was-attached
+  when: 2024-08-26 10:04:34.000000000 Z
+  where: github
+  who: 83453843
+- _id: 1862
+  _time: 2024-08-26 11:09:52.832247751 Z
+  _version: 0.4.0/0.26.0/
+  latest: 36
   repository: 833604403
   what: labels-were-scanned
   where: github

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="90215">
+<fb version="0.4.0" size="92862">
   <f>
     <added t="I">8</added>
-    <cycles t="I">1</cycles>
+    <cycles t="I">5</cycles>
+    <error t="S">GET https://api.github.com/repos/h1alexbel/ghiqc/actions/jobs/29245356637: 404 - Not Found // See: https://docs.github.com/rest/actions/workflow-jobs#get-a-job-for-a-workflow-run</error>
     <removed t="I">8</removed>
-    <seconds t="F">3.118847616</seconds>
+    <seconds t="F">53.031265017</seconds>
     <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-26T10:11:26Z</when>
+    <when t="T">2024-08-26T11:09:52Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -3522,19 +3523,146 @@
     <when t="T">2024-08-26T06:14:12Z</when>
   </f>
   <f>
-    <_id t="I">1851</_id>
-    <_time t="T">2024-08-26T10:11:25Z</_time>
+    <_id t="I">1853</_id>
+    <_time t="T">2024-08-26T11:09:02Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">41334159221</latest>
+    <details t="S">The issue h1alexbel/ghiqc#46 has been opened by @h1alexbel.</details>
+    <event_id t="I">41335748286</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">46</issue>
     <repository t="I">833604403</repository>
-    <what t="S">events-were-scanned</what>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2024-08-26T10:04:42Z</when>
     <where t="S">github</where>
+    <who t="I">83453843</who>
   </f>
   <f>
-    <_id t="I">1852</_id>
-    <_time t="T">2024-08-26T10:11:26Z</_time>
+    <_id t="I">1854</_id>
+    <_time t="T">2024-08-26T11:09:02Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">0</latest>
+    <commit t="S">5be468ecdd210753e4b7d108a589b6fd4d6b3abd</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #19933101409 has arrived to h1alexbel/ghiqc, made by @h1alexbel (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">41335602730</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">19933101409</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">833604403</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2024-08-26T10:00:08Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">1855</_id>
+    <_time t="T">2024-08-26T11:09:02Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <details t="S">The issue h1alexbel/ghiqc#27 has been closed by @h1alexbel.</details>
+    <event_id t="I">41335418861</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">27</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">issue-was-closed</what>
+    <when t="T">2024-08-26T09:54:08Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">1856</_id>
+    <_time t="T">2024-08-26T11:09:02Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <details t="S">The issue h1alexbel/ghiqc#45 has been opened by @0pdd.</details>
+    <event_id t="I">41335362369</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">45</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2024-08-26T09:52:14Z</when>
+    <where t="S">github</where>
+    <who t="I">24456188</who>
+  </f>
+  <f>
+    <_id t="I">1857</_id>
+    <_time t="T">2024-08-26T11:09:02Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <details t="S">The issue h1alexbel/ghiqc#44 has been opened by @0pdd.</details>
+    <event_id t="I">41335361665</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">44</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2024-08-26T09:52:13Z</when>
+    <where t="S">github</where>
+    <who t="I">24456188</who>
+  </f>
+  <f>
+    <_id t="I">1858</_id>
+    <_time t="T">2024-08-26T11:09:02Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <details t="S">The issue h1alexbel/ghiqc#36 has been closed by @0pdd.</details>
+    <event_id t="I">41335360361</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">36</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">issue-was-closed</what>
+    <when t="T">2024-08-26T09:52:10Z</when>
+    <where t="S">github</where>
+    <who t="I">24456188</who>
+  </f>
+  <f>
+    <_id t="I">1859</_id>
+    <_time t="T">2024-08-26T11:09:20Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <details t="S">The '#bug' label was attached by @0pdd to the issue h1alexbel/ghiqc#44.</details>
+    <is_human t="I">0</is_human>
+    <issue t="I">44</issue>
+    <label t="S">bug</label>
+    <repository t="I">833604403</repository>
+    <what t="S">label-was-attached</what>
+    <when t="T">2024-08-26T09:52:12Z</when>
+    <where t="S">github</where>
+    <who t="I">24456188</who>
+  </f>
+  <f>
+    <_id t="I">1860</_id>
+    <_time t="T">2024-08-26T11:09:21Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <details t="S">The '#bug' label was attached by @0pdd to the issue h1alexbel/ghiqc#45.</details>
+    <is_human t="I">0</is_human>
+    <issue t="I">45</issue>
+    <label t="S">bug</label>
+    <repository t="I">833604403</repository>
+    <what t="S">label-was-attached</what>
+    <when t="T">2024-08-26T09:52:13Z</when>
+    <where t="S">github</where>
+    <who t="I">24456188</who>
+  </f>
+  <f>
+    <_id t="I">1861</_id>
+    <_time t="T">2024-08-26T11:09:21Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <details t="S">The '#bug' label was attached by @h1alexbel to the issue h1alexbel/ghiqc#46.</details>
+    <is_human t="I">1</is_human>
+    <issue t="I">46</issue>
+    <label t="S">bug</label>
+    <repository t="I">833604403</repository>
+    <what t="S">label-was-attached</what>
+    <when t="T">2024-08-26T10:04:34Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">1862</_id>
+    <_time t="T">2024-08-26T11:09:52Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <latest t="I">36</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
