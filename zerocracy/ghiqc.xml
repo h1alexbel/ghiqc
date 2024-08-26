@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="94611">
+<fb version="0.4.0" size="94905">
   <f>
     <added t="I">8</added>
     <cycles t="I">5</cycles>
     <error t="S">GET https://api.github.com/repos/h1alexbel/ghiqc/actions/jobs/29245356637: 404 - Not Found // See: https://docs.github.com/rest/actions/workflow-jobs#get-a-job-for-a-workflow-run</error>
     <removed t="I">8</removed>
-    <seconds t="F">92.799189435</seconds>
+    <seconds t="F">88.887025814</seconds>
     <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-26T15:11:16Z</when>
+    <when t="T">2024-08-26T16:14:29Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -3713,10 +3713,25 @@
     <who t="I">83453843</who>
   </f>
   <f>
-    <_id t="I">1868</_id>
-    <_time t="T">2024-08-26T15:11:16Z</_time>
+    <_id t="I">1869</_id>
+    <_time t="T">2024-08-26T16:13:03Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">36</latest>
+    <details t="S">A new tag '0.0.5' has been created in h1alexbel/ghiqc by @rultor.</details>
+    <event_id t="I">41343547909</event_id>
+    <event_type t="S">CreateEvent</event_type>
+    <is_human t="I">0</is_human>
+    <repository t="I">833604403</repository>
+    <tag t="S">0.0.5</tag>
+    <what t="S">tag-was-created</what>
+    <when t="T">2024-08-26T14:11:18Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">1870</_id>
+    <_time t="T">2024-08-26T16:14:29Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <latest t="I">0</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
