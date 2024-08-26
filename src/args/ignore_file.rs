@@ -49,7 +49,7 @@ impl IgnoreFile {
             Ok(file) => {
                 let reader = BufReader::new(file);
                 let facts: Vec<String> =
-                    reader.lines().filter_map(Result::ok).collect();
+                    reader.lines().map_while(Result::ok).collect();
                 parse_facts(facts)
             }
             Err(err) => {
@@ -68,6 +68,7 @@ mod tests {
     use tempdir::TempDir;
 
     #[test]
+    #[allow(clippy::question_mark_used)]
     fn creates_new_ignore_file() -> Result<()> {
         let temp = TempDir::new("temp")?;
         let name = "ignore.ghiqc";
@@ -81,6 +82,7 @@ mod tests {
     }
 
     #[test]
+    #[allow(clippy::question_mark_used)]
     fn returns_true_if_exists() -> Result<()> {
         let temp = TempDir::new("temp")?;
         let name = "ignore.ghiqc";
@@ -94,6 +96,7 @@ mod tests {
     }
 
     #[test]
+    #[allow(clippy::question_mark_used)]
     fn returns_false_if_absent() -> Result<()> {
         let temp = TempDir::new("temp")?;
         let name = "ignore.ghiqc";

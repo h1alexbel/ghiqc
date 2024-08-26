@@ -25,7 +25,7 @@ pub mod cli;
 pub mod env;
 /// Ignore issue based on facts.
 pub mod ignore_facts;
-/// Ignore issue.
-pub mod ignore_issue;
 /// Ignore file.
 pub mod ignore_file;
+/// Ignore issue.
+pub mod ignore_issue;

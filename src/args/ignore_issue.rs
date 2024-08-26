@@ -26,6 +26,7 @@ use crate::github::github_issue::GithubIssue;
 /// Ignore issue?
 /// * `issue`: Issue
 /// * `file`: File with facts
+#[allow(clippy::if_same_then_else)]
 pub fn ignore_issue(issue: GithubIssue, file: IgnoreFile) -> bool {
     let facts = file.facts();
     let mut result = false;
@@ -46,13 +47,13 @@ pub fn ignore_issue(issue: GithubIssue, file: IgnoreFile) -> bool {
 
 #[cfg(test)]
 mod tests {
+    use crate::args::ignore_file::IgnoreFile;
+    use crate::args::ignore_issue::ignore_issue;
     use crate::github::github::github;
     use crate::github::github_issue::GithubIssue;
     use crate::github::issue::Issue;
     use anyhow::Result;
     use hamcrest::{equal_to, is, HamcrestMatcher};
-    use crate::args::ignore_file::IgnoreFile;
-    use crate::args::ignore_issue::ignore_issue;
 
     // @todo #36:30min Enable returns_true_on_ignore test when fake GitHub
     //  instance will be ready. After fake GitHub instance will be connected,

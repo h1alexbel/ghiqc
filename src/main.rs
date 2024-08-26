@@ -28,7 +28,6 @@ extern crate hamcrest;
 
 use crate::args::cli::Cli;
 use crate::args::env::env;
-use crate::args::ignore_facts::{ignores_title, parse_facts};
 use crate::args::ignore_file::IgnoreFile;
 use crate::args::ignore_issue::ignore_issue;
 use crate::github::github::github;
@@ -41,11 +40,7 @@ use crate::report::report::Report;
 use crate::report::report_fork::ReportFork;
 use crate::report::tagged_response::tagged;
 use clap::Parser;
-use hamcrest::is;
 use log::{debug, info};
-use std::io::{BufRead, BufReader};
-use std::path::Path;
-use tokio::io::AsyncBufReadExt;
 
 /// Arguments.
 pub mod args;
