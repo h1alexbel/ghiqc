@@ -17,7 +17,7 @@ pub fn ignore_issue(issue: GithubIssue, file: IgnoreFile) -> bool {
     ) {
         result = true
     } else if ignores_dim(
-        issue.labels(),
+        String::from(""),
         String::from("label"),
         facts,
     ) {

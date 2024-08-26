@@ -26,9 +26,11 @@ Application entry point.
 #[macro_use]
 extern crate hamcrest;
 
-use std::io::{BufRead, BufReader};
 use crate::args::cli::Cli;
 use crate::args::env::env;
+use crate::args::ignore_facts::{ignores_title, parse_facts};
+use crate::args::ignore_file::IgnoreFile;
+use crate::args::ignore_issue::ignore_issue;
 use crate::github::github::github;
 use crate::github::github_issue::GithubIssue;
 use crate::github::issue::Issue;
@@ -40,12 +42,10 @@ use crate::report::report_fork::ReportFork;
 use crate::report::tagged_response::tagged;
 use clap::Parser;
 use hamcrest::is;
-use hamcrest::matchers::existing_path::PathType::File;
 use log::{debug, info};
+use std::io::{BufRead, BufReader};
+use std::path::Path;
 use tokio::io::AsyncBufReadExt;
-use crate::args::ignore_facts::{ignores_title, parse_facts};
-use crate::args::ignore_file::IgnoreFile;
-use crate::args::ignore_issue::ignore_issue;
 
 /// Arguments.
 pub mod args;
@@ -55,6 +55,9 @@ pub mod github;
 pub mod probe;
 /// Reporting.
 pub mod report;
+
+/// Ignore file name.
+pub const IGNORE_FILE_NAME: &str = "ignore.ghiqc";
 
 #[tokio::main]
 async fn main() {
@@ -77,26 +80,28 @@ async fn main() {
         Issue::new(args.repo.clone(), args.issue),
         github.clone(),
     )
-        .await;
+    .await;
     info!(
         "Issue says (created by @{}): {}",
         issue.clone().author(),
         issue.clone().body()
     );
     let author = issue.clone().author();
-    let ignore = IgnoreFile::new(String::from("ignore.ghiqc"));
+    let ignore = IgnoreFile::new(String::from(IGNORE_FILE_NAME));
     if ignore.clone().exists() && ignore_issue(issue.clone(), ignore) {
         info!(
-            "We are going to ignore issue #{}, since title {} matches with ignore facts in ignore.ghiqc",
-            issue.clone().number(), issue.title()
+            "We are going to ignore issue #{}, since title {} matches with ignore facts in {}",
+            issue.clone().number(), issue.title(), IGNORE_FILE_NAME
         );
     } else {
         let response = ProbeDeepInfra::new(
-            String::from("https://api.deepinfra.com/v1/openai/chat/completions"),
+            String::from(
+                "https://api.deepinfra.com/v1/openai/chat/completions",
+            ),
             deeptoken,
         )
-            .complete(assistant(issue))
-            .await;
+        .complete(assistant(issue))
+        .await;
         debug!("Received response: {}", response);
         ReportFork::new(args.stdout, github, args.repo, args.issue)
             .publish(tagged(response, author))
