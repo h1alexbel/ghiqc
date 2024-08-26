@@ -24,11 +24,36 @@ impl IgnoreFile {
 
     /// Facts.
     pub fn facts(self) -> HashMap<String, Vec<String>> {
-        let file = File::open(self.name);
-        let reader = BufReader::new(file);
-        let facts: Vec<String> = reader.lines()
-            .filter_map(Result::ok)
-            .collect();
-        parse_facts(facts)
+        match File::open(self.name.clone()) {
+            Ok(file) => {
+                let reader = BufReader::new(file);
+                let facts: Vec<String> =
+                    reader.lines().filter_map(Result::ok).collect();
+                parse_facts(facts)
+            }
+            Err(err) => {
+                panic!("Can not read facts from {}, due to: {}", self.name, err)
+            }
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use crate::args::ignore_file::IgnoreFile;
+    use anyhow::Result;
+    use hamcrest::{equal_to, is, HamcrestMatcher};
+    use tempdir::TempDir;
+
+    #[test]
+    fn creates_new_ignore_file() -> Result<()> {
+        let temp = TempDir::new("temp")?;
+        let name = "ignore.ghiqc";
+        let path = temp.path().join(name);
+        let ignore = IgnoreFile::new(String::from(
+            path.to_str().expect("Path does not exists"),
+        ));
+        assert_that!(ignore.name.is_empty(), is(equal_to(false)));
+        Ok(())
     }
 }
