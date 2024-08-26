@@ -30,7 +30,8 @@ pub struct GithubIssue {
 
 // @todo #36:30min Pass Fake GitHub in order to test GitHubIssue.
 //  We should configure this struct not only to accept real GitHub instance,
-//  but fake one too. This should boost our testing abilities.
+//  but fake one too. This should boost our testing abilities. This functionality
+//  should affect args.ignore_issue.rs too.
 impl GithubIssue {
     /// GitHub issue from origin.
     pub async fn new(origin: Issue, github: Octocrab) -> GithubIssue {
