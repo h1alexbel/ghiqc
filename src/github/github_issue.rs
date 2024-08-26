@@ -37,6 +37,11 @@ impl GithubIssue {
 }
 
 impl GithubIssue {
+    /// Issue number.
+    pub fn number(self) -> u64 {
+        self.origin.number
+    }
+
     /// Issue body.
     pub fn body(self) -> String {
         self.origin
@@ -47,5 +52,10 @@ impl GithubIssue {
     /// GitHub nickname of issue author.
     pub fn author(self) -> String {
         self.origin.user.login
+    }
+
+    /// Issue title.
+    pub fn title(self) -> String {
+        self.origin.title
     }
 }

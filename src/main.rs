@@ -25,6 +25,8 @@ Application entry point.
 #[allow(unused_imports)]
 #[macro_use]
 extern crate hamcrest;
+
+use std::io::{BufRead, BufReader};
 use crate::args::cli::Cli;
 use crate::args::env::env;
 use crate::github::github::github;
@@ -37,7 +39,13 @@ use crate::report::report::Report;
 use crate::report::report_fork::ReportFork;
 use crate::report::tagged_response::tagged;
 use clap::Parser;
+use hamcrest::is;
+use hamcrest::matchers::existing_path::PathType::File;
 use log::{debug, info};
+use tokio::io::AsyncBufReadExt;
+use crate::args::ignore_facts::{ignores_title, parse_facts};
+use crate::args::ignore_file::IgnoreFile;
+use crate::args::ignore_issue::ignore_issue;
 
 /// Arguments.
 pub mod args;
@@ -69,21 +77,29 @@ async fn main() {
         Issue::new(args.repo.clone(), args.issue),
         github.clone(),
     )
-    .await;
+        .await;
     info!(
         "Issue says (created by @{}): {}",
         issue.clone().author(),
         issue.clone().body()
     );
     let author = issue.clone().author();
-    let response = ProbeDeepInfra::new(
-        String::from("https://api.deepinfra.com/v1/openai/chat/completions"),
-        deeptoken,
-    )
-    .complete(assistant(issue))
-    .await;
-    debug!("Received response: {}", response);
-    ReportFork::new(args.stdout, github, args.repo, args.issue)
-        .publish(tagged(response, author))
-        .await;
+    let ignore = IgnoreFile::new(String::from("ignore.ghiqc"));
+    if ignore.clone().exists() && ignore_issue(issue.clone(), ignore) {
+        info!(
+            "We are going to ignore issue #{}, since title {} matches with ignore facts in ignore.ghiqc",
+            issue.clone().number(), issue.title()
+        );
+    } else {
+        let response = ProbeDeepInfra::new(
+            String::from("https://api.deepinfra.com/v1/openai/chat/completions"),
+            deeptoken,
+        )
+            .complete(assistant(issue))
+            .await;
+        debug!("Received response: {}", response);
+        ReportFork::new(args.stdout, github, args.repo, args.issue)
+            .publish(tagged(response, author))
+            .await;
+    }
 }
