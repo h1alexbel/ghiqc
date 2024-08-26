@@ -4,10 +4,10 @@
   error: 'GET https://api.github.com/repos/h1alexbel/ghiqc/actions/jobs/29245356637:
     404 - Not Found // See: https://docs.github.com/rest/actions/workflow-jobs#get-a-job-for-a-workflow-run'
   removed: 8
-  seconds: 53.031265017
+  seconds: 54.481144789
   version: 0.26.0
   what: judges-summary
-  when: 2024-08-26 11:09:52.845704846 Z
+  when: 2024-08-26 12:18:31.747988183 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -3242,14 +3242,6 @@
   total_stars: 3
   what: dimensions-of-terrain
   when: 2024-08-25 05:10:49.819957577 Z
-- _id: 1789
-  _job: 5272
-  _time: 2024-08-25 05:11:03.021580749 Z
-  _version: 0.4.0/0.26.0/0.0.49
-  cost_of_qod: 6.589785831960461
-  qod_per_day: 0.0867142857250893
-  what: learn-eva
-  when: 2024-08-25 05:11:03.005387170 Z
 - _id: 1826
   _time: 2024-08-25 23:10:15.300380838 Z
   _version: 0.4.0/0.26.0/
@@ -3408,10 +3400,45 @@
   when: 2024-08-26 10:04:34.000000000 Z
   where: github
   who: 83453843
-- _id: 1862
-  _time: 2024-08-26 11:09:52.832247751 Z
+- _id: 1863
+  _job: 5337
+  _time: 2024-08-26 11:09:58.363859429 Z
+  _version: 0.4.0/0.26.0/0.0.49
+  cost_of_qod:
+  - 6.589785831960461
+  - 8.298755186721992
+  qod_per_day:
+  - 0.0867142857250893
+  - 0.06885714286545011
+  what: learn-eva
+  when: 2024-08-26 11:09:58.344994594 Z
+- _id: 1864
+  _job: 5337
+  _time: 2024-08-26 11:10:02.956557936 Z
+  _version: 0.4.0/0.26.0/0.0.49
+  award: -16
+  commit: 5be468ecdd210753e4b7d108a589b6fd4d6b3abd
+  default_branch: master
+  details: It's time to punish @h1alexbel for pushing to the default branch 'master'
+    in h1alexbel/ghiqc, the penalty amount is -16.
+  greeting: 'It is [not a good idea](https://www.yegor256.com/2014/07/21/read-only-master-branch.html)
+    to push directly to the default branch `master`. You''ve earned -16 points. Next
+    time, create a new branch, push your changes over there, then make a pull request
+    and merge it. Even if you are flying solo, contributing via pull requests is a
+    [good practice](https://www.yegor256.com/2020/07/29/open-source-etiquette.html).
+    Your running balance is [+103](https://www.h1alexbel.xyz/ghiqc/zerocracy/ghiqc-vitals.html). '
+  href: https://github.com/h1alexbel/ghiqc/commit/5be468ecdd210753e4b7d108a589b6fd4d6b3abd/#commitcomment-145829514
+  is_human: 1
+  repository: 833604403
+  what: push-to-master-was-punished
+  when: 2024-08-26 11:10:02.958502620 Z
+  where: github
+  who: 83453843
+  why: Pushed 5be468ecd to the default branch 'master' in h1alexbel/ghiqc
+- _id: 1865
+  _time: 2024-08-26 12:18:31.715273154 Z
   _version: 0.4.0/0.26.0/
-  latest: 36
+  latest: 0
   repository: 833604403
   what: labels-were-scanned
   where: github
