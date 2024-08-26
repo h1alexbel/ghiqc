@@ -11,7 +11,8 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/h1alexbel/ghiqc/blob/master/LICENSE.txt)
 [![Known Vulnerabilities](https://snyk.io/test/github/h1alexbel/ghiqc/badge.svg)](https://snyk.io/test/github/h1alexbel/ghiqc)
 
-Command-line tool for checking quality of bug reports in GitHub Issues.
+Command-line tool for checking quality of bug reports in GitHub Issues,
+with a help of [LLM].
 
 **Motivation**.
 The quality of bug reports is paramount for the overall quality of a
@@ -141,3 +142,4 @@ Here is the [contribution vitals][Zerocracy Vitals], made by [zerocracy/judges-a
 [zerocracy/judges-action]: https://github.com/zerocracy/judges-action
 [GitHub Actions]: https://github.com/features/actions
 [Deep Infra API Tokens]: https://deepinfra.com/dash/api_keys
+[LLM]: https://en.wikipedia.org/wiki/Large_language_model
