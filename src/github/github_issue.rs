@@ -28,6 +28,9 @@ pub struct GithubIssue {
     origin: octocrab::models::issues::Issue,
 }
 
+// @todo #36:30min Pass Fake GitHub in order to test GitHubIssue.
+//  We should configure this struct not only to accept real GitHub instance,
+//  but fake one too. This should boost our testing abilities.
 impl GithubIssue {
     /// GitHub issue from origin.
     pub async fn new(origin: Issue, github: Octocrab) -> GithubIssue {
@@ -57,5 +60,14 @@ impl GithubIssue {
     /// Issue title.
     pub fn title(self) -> String {
         self.origin.title
+    }
+
+    /// Issue labels.
+    pub fn labels(self) -> Vec<String> {
+        let mut result = vec![];
+        for label in self.origin.labels {
+            result.push(label.name)
+        }
+        result
     }
 }
