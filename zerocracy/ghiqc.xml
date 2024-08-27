@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="95419">
+<fb version="0.4.0" size="96490">
   <f>
     <added t="I">8</added>
-    <cycles t="I">5</cycles>
-    <error t="S">GET https://api.github.com/repos/h1alexbel/ghiqc/actions/jobs/29245356637: 404 - Not Found // See: https://docs.github.com/rest/actions/workflow-jobs#get-a-job-for-a-workflow-run</error>
+    <cycles t="I">2</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">74.632845157</seconds>
+    <seconds t="F">36.395058456</seconds>
     <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-27T06:15:19Z</when>
+    <when t="T">2024-08-27T07:10:20Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -3755,8 +3754,83 @@
     <when t="T">2024-08-27T06:14:21Z</when>
   </f>
   <f>
-    <_id t="I">1875</_id>
-    <_time t="T">2024-08-27T06:15:19Z</_time>
+    <_id t="I">1876</_id>
+    <_time t="T">2024-08-27T07:09:46Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <branch t="S">renovate/zerocracy-judges-action-0.x</branch>
+    <comments t="I">3</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">4</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request h1alexbel/ghiqc#48 has been closed by @rultor, with 2 HoC and 3 comments.</details>
+    <event_id t="I">41366415099</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">48</issue>
+    <repository t="I">833604403</repository>
+    <succeeded_builds t="I">11</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2024-08-27T06:56:58Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">1877</_id>
+    <_time t="T">2024-08-27T07:09:59Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <branch t="S">36</branch>
+    <comments t="I">1</comments>
+    <comments_appreciated t="I">3</comments_appreciated>
+    <comments_by_author t="I">3</comments_by_author>
+    <comments_by_reviewers t="I">7</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request h1alexbel/ghiqc#43 has been closed by @h1alexbel, with 250 HoC and 1 comments.</details>
+    <event_id t="I">41335358945</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">250</hoc>
+    <is_human t="I">1</is_human>
+    <issue t="I">43</issue>
+    <repository t="I">833604403</repository>
+    <succeeded_builds t="I">11</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2024-08-26T09:52:08Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">1878</_id>
+    <_time t="T">2024-08-27T07:10:05Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <branch t="S">36</branch>
+    <details t="S">The pull request h1alexbel/ghiqc#43 has been opened by @h1alexbel.</details>
+    <event_id t="I">41335231579</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">43</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2024-08-26T09:48:01Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+  </f>
+  <f>
+    <_id t="I">1881</_id>
+    <_time t="T">2024-08-27T07:10:15Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <latest t="I">41366451225</latest>
+    <repository t="I">833604403</repository>
+    <what t="S">events-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">1882</_id>
+    <_time t="T">2024-08-27T07:10:20Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
     <latest t="I">36</latest>
     <repository t="I">833604403</repository>
