@@ -4,10 +4,10 @@
   error: 'GET https://api.github.com/repos/h1alexbel/ghiqc/actions/jobs/29245356637:
     404 - Not Found // See: https://docs.github.com/rest/actions/workflow-jobs#get-a-job-for-a-workflow-run'
   removed: 8
-  seconds: 95.236789634
+  seconds: 57.554867881
   version: 0.26.0
   what: judges-summary
-  when: 2024-08-27 02:04:56.497225558 Z
+  when: 2024-08-27 03:11:48.312349803 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -3488,9 +3488,9 @@
   where: github
   who: 29139614
 - _id: 1873
-  _time: 2024-08-27 02:04:56.481294722 Z
+  _time: 2024-08-27 03:11:48.288943237 Z
   _version: 0.4.0/0.26.0/
-  latest: 36
+  latest: 0
   repository: 833604403
   what: labels-were-scanned
   where: github
