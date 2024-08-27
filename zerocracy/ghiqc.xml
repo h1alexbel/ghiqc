@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="97230">
+<fb version="0.4.0" size="98427">
   <f>
     <added t="I">8</added>
     <cycles t="I">1</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">3.913430223</seconds>
+    <seconds t="F">7.909092398</seconds>
     <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-27T08:13:27Z</when>
+    <when t="T">2024-08-27T09:10:29Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -3620,22 +3620,6 @@
     <who t="I">83453843</who>
   </f>
   <f>
-    <_id t="I">1863</_id>
-    <_job t="I">5337</_job>
-    <_time t="T">2024-08-26T11:09:58Z</_time>
-    <_version t="S">0.4.0/0.26.0/0.0.49</_version>
-    <cost_of_qod>
-      <v t="F">6.589785831960461</v>
-      <v t="F">8.298755186721992</v>
-    </cost_of_qod>
-    <qod_per_day>
-      <v t="F">0.0867142857250893</v>
-      <v t="F">0.06885714286545011</v>
-    </qod_per_day>
-    <what t="S">learn-eva</what>
-    <when t="T">2024-08-26T11:09:58Z</when>
-  </f>
-  <f>
     <_id t="I">1864</_id>
     <_job t="I">5337</_job>
     <_time t="T">2024-08-26T11:10:02Z</_time>
@@ -3856,19 +3840,53 @@
     <who t="I">83453843</who>
   </f>
   <f>
-    <_id t="I">1885</_id>
-    <_time t="T">2024-08-27T08:13:25Z</_time>
+    <_id t="I">1887</_id>
+    <_job t="I">5411</_job>
+    <_time t="T">2024-08-27T08:17:04Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.50</_version>
+    <award t="I">4</award>
+    <details t="S">It's time to reward @h1alexbel for the code contributed in h1alexbel/ghiqc#43, the reward amount is 4.</details>
+    <greeting t="S">Thank you for your contribution! We appreciate your effort, but there are a few areas for improvement. According to our policy, you've earned +4 points as a base, but we've had to apply some deductions: -8 for exceeding 200 hits-of-code (250), -16 for the lack of code review, and -4 for insufficient comments (only 1). However, to ensure you receive some recognition, we've adjusted the total to +4 points. Your running balance is now [+87](https://www.h1alexbel.xyz/ghiqc/zerocracy/ghiqc-vitals.html). Please remember to keep your contributions [concise](https://www.yegor256.com/2018/03/06/speed-vs-quality.html) and encourage code reviews for future submissions. We look forward to your next contribution!</greeting>
+    <href t="S">https://github.com/h1alexbel/ghiqc/issues/43/#issuecomment-2311861090</href>
+    <is_human t="I">1</is_human>
+    <issue t="I">43</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">code-contribution-was-rewarded</what>
+    <when t="T">2024-08-27T08:17:04Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+    <why t="S">Contributed code in h1alexbel/ghiqc#43</why>
+  </f>
+  <f>
+    <_id t="I">1888</_id>
+    <_job t="I">5411</_job>
+    <_time t="T">2024-08-27T08:17:08Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.50</_version>
+    <cost_of_qod>
+      <v t="F">6.589785831960461</v>
+      <v t="F">8.298755186721992</v>
+    </cost_of_qod>
+    <qod_per_day>
+      <v t="F">0.0867142857250893</v>
+      <v t="F">0.06885714286545011</v>
+    </qod_per_day>
+    <what t="S">learn-eva</what>
+    <when t="T">2024-08-27T08:17:08Z</when>
+  </f>
+  <f>
+    <_id t="I">1889</_id>
+    <_time t="T">2024-08-27T09:10:23Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">41366806416</latest>
+    <latest t="I">41368918298</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">1886</_id>
-    <_time t="T">2024-08-27T08:13:27Z</_time>
+    <_id t="I">1890</_id>
+    <_time t="T">2024-08-27T09:10:29Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">0</latest>
+    <latest t="I">36</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
