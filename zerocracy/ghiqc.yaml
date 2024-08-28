@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 2
+  cycles: 1
   removed: 8
-  seconds: 10.334673275
+  seconds: 11.330270241
   version: 0.26.0
   what: judges-summary
-  when: 2024-08-28 07:09:25.761780848 Z
+  when: 2024-08-28 08:12:58.678822653 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -3603,18 +3603,6 @@
   where: github
   who: 83453843
   why: Contributed code in h1alexbel/ghiqc#43
-- _id: 1888
-  _job: 5411
-  _time: 2024-08-27 08:17:08.473044752 Z
-  _version: 0.4.0/0.26.0/0.0.50
-  cost_of_qod:
-  - 6.589785831960461
-  - 8.298755186721992
-  qod_per_day:
-  - 0.0867142857250893
-  - 0.06885714286545011
-  what: learn-eva
-  when: 2024-08-27 08:17:08.453282427 Z
 - _id: 1919
   _time: 2024-08-27 23:10:19.804429590 Z
   _version: 0.4.0/0.26.0/
@@ -3654,17 +3642,31 @@
   total_stars: 4
   what: dimensions-of-terrain
   when: 2024-08-28 07:09:15.766908369 Z
-- _id: 1938
-  _time: 2024-08-28 07:09:23.959014631 Z
+- _id: 1940
+  _job: 5480
+  _time: 2024-08-28 07:09:30.452454325 Z
+  _version: 0.4.0/0.26.0/0.0.50
+  cost_of_qod:
+  - 6.589785831960461
+  - 8.298755186721992
+  - -1.3740982480247337
+  qod_per_day:
+  - 0.0867142857250893
+  - 0.06885714286545011
+  - 0.8317142858188166
+  what: learn-eva
+  when: 2024-08-28 07:09:30.432520660 Z
+- _id: 1941
+  _time: 2024-08-28 08:12:50.409702986 Z
   _version: 0.4.0/0.26.0/
-  latest: 41403706351
+  latest: 41405209594
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 1939
-  _time: 2024-08-28 07:09:25.747341405 Z
+- _id: 1942
+  _time: 2024-08-28 08:12:58.662776596 Z
   _version: 0.4.0/0.26.0/
-  latest: 0
+  latest: 36
   repository: 833604403
   what: labels-were-scanned
   where: github
