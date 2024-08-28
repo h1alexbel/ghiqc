@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="98947">
+<fb version="0.4.0" size="98991">
   <f>
     <added t="I">8</added>
-    <cycles t="I">2</cycles>
+    <cycles t="I">1</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">53.883503651</seconds>
+    <seconds t="F">7.390619837</seconds>
     <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-27T23:11:06Z</when>
+    <when t="T">2024-08-28T00:44:11Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -3886,6 +3886,8 @@
     <average_pull_lifetime t="F">39746.0</average_pull_lifetime>
     <average_pull_rejection_rate t="F">0.0</average_pull_rejection_rate>
     <average_release_interval t="I">0</average_release_interval>
+    <composite t="F">0.462</composite>
+    <ffact t="I">1047</ffact>
     <since t="T">2024-08-20T23:10:19Z</since>
     <what t="S">quality-of-service</what>
     <when t="T">2024-08-27T23:10:19Z</when>
@@ -3894,6 +3896,8 @@
     <_id t="I">1920</_id>
     <_time t="T">2024-08-27T23:11:01Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
+    <composite t="F">5.822</composite>
+    <ffact t="I">1385</ffact>
     <since t="T">2024-08-20T23:11:01Z</since>
     <total_commits_pushed t="I">10</total_commits_pushed>
     <total_hoc_committed t="I">612</total_hoc_committed>
@@ -3904,19 +3908,19 @@
     <when t="T">2024-08-27T23:11:01Z</when>
   </f>
   <f>
-    <_id t="I">1921</_id>
-    <_time t="T">2024-08-27T23:11:04Z</_time>
+    <_id t="I">1923</_id>
+    <_time t="T">2024-08-28T00:44:06Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">41395427289</latest>
+    <latest t="I">41396499212</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">1922</_id>
-    <_time t="T">2024-08-27T23:11:06Z</_time>
+    <_id t="I">1924</_id>
+    <_time t="T">2024-08-28T00:44:11Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">0</latest>
+    <latest t="I">36</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
