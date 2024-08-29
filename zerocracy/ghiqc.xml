@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="99380">
+<fb version="0.4.0" size="99377">
   <f>
     <added t="I">8</added>
     <cycles t="I">1</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">7.668027199</seconds>
+    <seconds t="F">3.823310412</seconds>
     <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-29T22:09:23Z</when>
+    <when t="T">2024-08-29T23:10:14Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -3914,9 +3914,9 @@
     <when t="T">2024-08-29T07:10:19Z</when>
   </f>
   <f>
-    <_id t="I">2002</_id>
-    <_job t="I">5577</_job>
-    <_time t="T">2024-08-29T13:21:50Z</_time>
+    <_id t="I">2021</_id>
+    <_job t="I">5604</_job>
+    <_time t="T">2024-08-29T22:09:31Z</_time>
     <_version t="S">0.4.0/0.26.0/0.0.50</_version>
     <cost_of_qod>
       <v t="F">6.589785831960461</v>
@@ -3929,22 +3929,22 @@
       <v t="F">0.8317142858188166</v>
     </qod_per_day>
     <what t="S">learn-eva</what>
-    <when t="T">2024-08-29T13:21:50Z</when>
+    <when t="T">2024-08-29T22:09:31Z</when>
   </f>
   <f>
-    <_id t="I">2019</_id>
-    <_time t="T">2024-08-29T22:09:17Z</_time>
+    <_id t="I">2022</_id>
+    <_time t="T">2024-08-29T23:10:12Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">41469906343</latest>
+    <latest t="I">41471106937</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">2020</_id>
-    <_time t="T">2024-08-29T22:09:23Z</_time>
+    <_id t="I">2023</_id>
+    <_time t="T">2024-08-29T23:10:14Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">36</latest>
+    <latest t="I">0</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
