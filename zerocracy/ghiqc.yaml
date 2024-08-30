@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 2
   removed: 8
-  seconds: 3.823310412
+  seconds: 56.645189188
   version: 0.26.0
   what: judges-summary
-  when: 2024-08-29 23:10:14.724955111 Z
+  when: 2024-08-30 00:45:51.977575030 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -3665,15 +3665,41 @@
   - 0.8317142858188166
   what: learn-eva
   when: 2024-08-29 22:09:31.682041250 Z
-- _id: 2022
-  _time: 2024-08-29 23:10:12.866070359 Z
+- _id: 2026
+  _time: 2024-08-30 00:45:03.796763503 Z
   _version: 0.4.0/0.26.0/
-  latest: 41471106937
+  average_backlog_size: 2.5
+  average_build_duration: 60.85353535353536
+  average_build_success_rate: 0.9646464646464646
+  average_issue_lifetime: 2236767.5
+  average_pull_files_size: 4.0
+  average_pull_hoc_size: 126.0
+  average_pull_lifetime: 26565.0
+  average_pull_rejection_rate: 0.0
+  average_release_interval: 0
+  since: 2024-08-23 00:45:03.796959511 Z
+  what: quality-of-service
+  when: 2024-08-30 00:45:03.796879460 Z
+- _id: 2027
+  _time: 2024-08-30 00:45:46.289804572 Z
+  _version: 0.4.0/0.26.0/
+  since: 2024-08-23 00:45:46.290032440 Z
+  total_commits_pushed: 9
+  total_hoc_committed: 610
+  total_issues_created: 5
+  total_pulls_submitted: 0
+  total_releases_published: 0
+  what: quantity-of-deliverables
+  when: 2024-08-30 00:45:46.289943553 Z
+- _id: 2028
+  _time: 2024-08-30 00:45:49.983907454 Z
+  _version: 0.4.0/0.26.0/
+  latest: 41472171334
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 2023
-  _time: 2024-08-29 23:10:14.707729428 Z
+- _id: 2029
+  _time: 2024-08-30 00:45:51.963209841 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 833604403
