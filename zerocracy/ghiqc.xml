@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="100361">
+<fb version="0.4.0" size="100356">
   <f>
     <added t="I">8</added>
     <cycles t="I">1</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">8.074868897</seconds>
+    <seconds t="F">4.888611945</seconds>
     <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-31T06:12:50Z</when>
+    <when t="T">2024-08-31T07:08:46Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -3959,9 +3959,19 @@
     <when t="T">2024-08-30T08:13:39Z</when>
   </f>
   <f>
-    <_id t="I">2055</_id>
-    <_job t="I">5671</_job>
-    <_time t="T">2024-08-30T12:19:32Z</_time>
+    <_id t="I">2060</_id>
+    <_job t="I">5676</_job>
+    <_time t="T">2024-08-30T14:09:30Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.50</_version>
+    <ac t="I">91</ac>
+    <start t="T">2024-08-03T16:11:26Z</start>
+    <what t="S">earned-value</what>
+    <when t="T">2024-08-30T14:09:30Z</when>
+  </f>
+  <f>
+    <_id t="I">2091</_id>
+    <_job t="I">5721</_job>
+    <_time t="T">2024-08-31T06:12:55Z</_time>
     <_version t="S">0.4.0/0.26.0/0.0.50</_version>
     <cost_of_qod>
       <v t="F">6.589785831960461</v>
@@ -3976,32 +3986,22 @@
       <v t="F">0.8227142858351995</v>
     </qod_per_day>
     <what t="S">learn-eva</what>
-    <when t="T">2024-08-30T12:19:32Z</when>
+    <when t="T">2024-08-31T06:12:55Z</when>
   </f>
   <f>
-    <_id t="I">2060</_id>
-    <_job t="I">5676</_job>
-    <_time t="T">2024-08-30T14:09:30Z</_time>
-    <_version t="S">0.4.0/0.26.0/0.0.50</_version>
-    <ac t="I">91</ac>
-    <start t="T">2024-08-03T16:11:26Z</start>
-    <what t="S">earned-value</what>
-    <when t="T">2024-08-30T14:09:30Z</when>
-  </f>
-  <f>
-    <_id t="I">2089</_id>
-    <_time t="T">2024-08-31T06:12:44Z</_time>
+    <_id t="I">2092</_id>
+    <_time t="T">2024-08-31T07:08:43Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">41508084335</latest>
+    <latest t="I">41508597034</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">2090</_id>
-    <_time t="T">2024-08-31T06:12:50Z</_time>
+    <_id t="I">2093</_id>
+    <_time t="T">2024-08-31T07:08:46Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">36</latest>
+    <latest t="I">0</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
