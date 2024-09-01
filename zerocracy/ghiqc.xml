@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="101277">
+<fb version="0.4.0" size="101318">
   <f>
     <added t="I">8</added>
     <cycles t="I">1</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">6.575743221</seconds>
+    <seconds t="F">3.856572551</seconds>
     <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-09-01T22:09:55Z</when>
+    <when t="T">2024-09-01T23:09:18Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -3980,26 +3980,6 @@
     <when t="T">2024-08-31T09:09:08Z</when>
   </f>
   <f>
-    <_id t="I">2117</_id>
-    <_job t="I">5760</_job>
-    <_time t="T">2024-08-31T17:08:11Z</_time>
-    <_version t="S">0.4.0/0.26.0/0.0.50</_version>
-    <cost_of_qod>
-      <v t="F">6.589785831960461</v>
-      <v t="F">8.298755186721992</v>
-      <v t="F">-1.3740982480247337</v>
-      <v t="F">-2.083695085952422</v>
-    </cost_of_qod>
-    <qod_per_day>
-      <v t="F">0.0867142857250893</v>
-      <v t="F">0.06885714286545011</v>
-      <v t="F">0.8317142858188166</v>
-      <v t="F">0.8227142858351995</v>
-    </qod_per_day>
-    <what t="S">learn-eva</what>
-    <when t="T">2024-08-31T17:08:11Z</when>
-  </f>
-  <f>
     <_id t="I">2132</_id>
     <_time t="T">2024-09-01T00:54:23Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
@@ -4045,19 +4025,41 @@
     <when t="T">2024-09-01T09:10:39Z</when>
   </f>
   <f>
-    <_id t="I">2179</_id>
-    <_time t="T">2024-09-01T22:09:51Z</_time>
+    <_id t="I">2181</_id>
+    <_job t="I">5844</_job>
+    <_time t="T">2024-09-01T22:10:05Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.50</_version>
+    <cost_of_qod>
+      <v t="F">6.589785831960461</v>
+      <v t="F">8.298755186721992</v>
+      <v t="F">-1.3740982480247337</v>
+      <v t="F">-2.083695085952422</v>
+      <v t="F">-1.9423761735189382</v>
+    </cost_of_qod>
+    <qod_per_day>
+      <v t="F">0.0867142857250893</v>
+      <v t="F">0.06885714286545011</v>
+      <v t="F">0.8317142858188166</v>
+      <v t="F">0.8227142858351995</v>
+      <v t="F">0.8825714286500107</v>
+    </qod_per_day>
+    <what t="S">learn-eva</what>
+    <when t="T">2024-09-01T22:10:05Z</when>
+  </f>
+  <f>
+    <_id t="I">2182</_id>
+    <_time t="T">2024-09-01T23:09:16Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">41528430759</latest>
+    <latest t="I">41528911906</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">2180</_id>
-    <_time t="T">2024-09-01T22:09:55Z</_time>
+    <_id t="I">2183</_id>
+    <_time t="T">2024-09-01T23:09:18Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">36</latest>
+    <latest t="I">0</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
