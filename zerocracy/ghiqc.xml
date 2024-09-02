@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="101491">
+<fb version="0.4.0" size="101828">
   <f>
     <added t="I">8</added>
-    <cycles t="I">1</cycles>
+    <cycles t="I">2</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">8.683617521</seconds>
+    <seconds t="F">15.202138102</seconds>
     <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-09-02T14:09:36Z</when>
+    <when t="T">2024-09-02T15:10:30Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -4058,17 +4058,33 @@
     <when t="T">2024-09-02T12:20:40Z</when>
   </f>
   <f>
-    <_id t="I">2214</_id>
-    <_time t="T">2024-09-02T14:09:30Z</_time>
+    <_id t="I">2216</_id>
+    <_time t="T">2024-09-02T15:10:18Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">41548596895</latest>
+    <branch t="S">renovate/actions-checkout-digest</branch>
+    <details t="S">The pull request h1alexbel/ghiqc#49 has been opened by @renovate[bot].</details>
+    <event_id t="I">41550404630</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">49</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2024-09-02T14:10:07Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">2219</_id>
+    <_time t="T">2024-09-02T15:10:23Z</_time>
+    <_version t="S">0.4.0/0.26.0/</_version>
+    <latest t="I">41550466347</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">2215</_id>
-    <_time t="T">2024-09-02T14:09:36Z</_time>
+    <_id t="I">2220</_id>
+    <_time t="T">2024-09-02T15:10:30Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
     <latest t="I">36</latest>
     <repository t="I">833604403</repository>
