@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 2
   removed: 8
-  seconds: 4.386979493
+  seconds: 10.29704771
   version: 0.26.0
   what: judges-summary
-  when: 2024-09-02 16:12:17.754495046 Z
+  when: 2024-09-02 17:08:48.152625711 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -3787,15 +3787,29 @@
   when: 2024-09-02 14:10:07.000000000 Z
   where: github
   who: 29139614
-- _id: 2221
-  _time: 2024-09-02 16:12:15.580360140 Z
+- _id: 2223
+  _time: 2024-09-02 17:08:39.863232638 Z
   _version: 0.4.0/0.26.0/
-  latest: 41550466347
+  branch: renovate/jamesives-github-pages-deploy-action-4.x
+  details: The pull request h1alexbel/ghiqc#50 has been opened by @renovate[bot].
+  event_id: 41553865492
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 50
+  repository: 833604403
+  what: pull-was-opened
+  when: 2024-09-02 16:12:59.000000000 Z
+  where: github
+  who: 29139614
+- _id: 2226
+  _time: 2024-09-02 17:08:46.329801044 Z
+  _version: 0.4.0/0.26.0/
+  latest: 41553865492
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 2222
-  _time: 2024-09-02 16:12:17.738426407 Z
+- _id: 2227
+  _time: 2024-09-02 17:08:48.138665030 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 833604403
