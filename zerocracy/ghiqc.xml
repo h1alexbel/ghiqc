@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="104345">
+<fb version="0.4.0" size="105845">
   <f>
     <added t="I">8</added>
-    <cycles t="I">2</cycles>
+    <cycles t="I">1</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">24.115483705</seconds>
+    <seconds t="F">6.343999977</seconds>
     <version t="S">0.26.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-09-03T08:13:35Z</when>
+    <when t="T">2024-09-03T09:11:01Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -4213,19 +4213,55 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">2267</_id>
-    <_time t="T">2024-09-03T08:13:30Z</_time>
+    <_id t="I">2269</_id>
+    <_job t="I">5954</_job>
+    <_time t="T">2024-09-03T08:13:39Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.50</_version>
+    <award t="I">4</award>
+    <details t="S">It's time to reward @h1alexbel for the code review in h1alexbel/ghiqc#50, the reward amount is 4.</details>
+    <greeting t="S">Thank you for your code review contribution! We appreciate your effort, but there are areas for improvement. According to our policy, you've earned 4 base points. However, we had to deduct 10 points due to the low number of comments (3) and 8 points for insufficient hits-of-code (2). To ensure a minimum reward, we've added 18 points, resulting in a total of +4 points for this review. Your current balance stands at [-8](https://www.h1alexbel.xyz/ghiqc/zerocracy/ghiqc-vitals.html). For future reviews, please aim for at least 6 comments and 16 hits-of-code to maximize your points. Keep up the good work and let's continue improving together!</greeting>
+    <href t="S">https://github.com/h1alexbel/ghiqc/issues/50/#issuecomment-2325877702</href>
+    <is_human t="I">1</is_human>
+    <issue t="I">50</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">code-review-was-rewarded</what>
+    <when t="T">2024-09-03T08:13:39Z</when>
+    <where t="S">github</where>
+    <who t="I">83453843</who>
+    <why t="S">Reviewed code in h1alexbel/ghiqc#50</why>
+  </f>
+  <f>
+    <_id t="I">2270</_id>
+    <_job t="I">5954</_job>
+    <_time t="T">2024-09-03T08:13:44Z</_time>
+    <_version t="S">0.4.0/0.26.0/0.0.50</_version>
+    <comments t="I">3</comments>
+    <details t="S">The pull request h1alexbel/ghiqc#50 with 2 HoC created by @renovate[bot] was merged by @rultor after 15 hours of being in review and 3 comments.</details>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">50</issue>
+    <merger t="I">8086956</merger>
+    <repository t="I">833604403</repository>
+    <seconds t="I">54454</seconds>
+    <what t="S">code-was-contributed</what>
+    <when t="T">2024-09-03T07:20:33Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">2271</_id>
+    <_time t="T">2024-09-03T09:10:58Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">41568118385</latest>
+    <latest t="I">41569798359</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">2268</_id>
-    <_time t="T">2024-09-03T08:13:35Z</_time>
+    <_id t="I">2272</_id>
+    <_time t="T">2024-09-03T09:11:01Z</_time>
     <_version t="S">0.4.0/0.26.0/</_version>
-    <latest t="I">36</latest>
+    <latest t="I">0</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
