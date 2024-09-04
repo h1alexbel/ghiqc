@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 2
   removed: 8
-  seconds: 5.898324991
+  seconds: 11.390487251
   version: 0.26.1
   what: judges-summary
-  when: 2024-09-04 18:12:43.331909216 Z
+  when: 2024-09-04 19:08:22.028694091 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -3975,15 +3975,29 @@
   total_stars: 4
   what: dimensions-of-terrain
   when: 2024-09-04 10:10:54.706119086 Z
-- _id: 2343
-  _time: 2024-09-04 18:12:40.434200699 Z
+- _id: 2345
+  _time: 2024-09-04 19:08:12.739225137 Z
   _version: 0.4.0/0.26.1/
-  latest: 41623287826
+  branch: renovate/zerocracy-judges-action-0.x
+  details: The pull request h1alexbel/ghiqc#51 has been opened by @renovate[bot].
+  event_id: 41625475850
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 51
+  repository: 833604403
+  what: pull-was-opened
+  when: 2024-09-04 16:12:56.000000000 Z
+  where: github
+  who: 29139614
+- _id: 2348
+  _time: 2024-09-04 19:08:19.909332497 Z
+  _version: 0.4.0/0.26.1/
+  latest: 41625475850
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 2344
-  _time: 2024-09-04 18:12:43.315972847 Z
+- _id: 2349
+  _time: 2024-09-04 19:08:22.013855270 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 833604403
