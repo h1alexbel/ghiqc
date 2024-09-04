@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 2
+  cycles: 1
   removed: 8
-  seconds: 12.663809158
+  seconds: 10.43872932
   version: 0.26.1
   what: judges-summary
-  when: 2024-09-04 20:11:22.815005673 Z
+  when: 2024-09-04 21:09:31.131283691 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -4007,17 +4007,34 @@
   when: 2024-09-04 16:58:41.000000000 Z
   where: github
   who: 83453843
-- _id: 2353
-  _time: 2024-09-04 20:11:20.671687848 Z
+- _id: 2355
+  _job: 6098
+  _time: 2024-09-04 20:11:31.076506998 Z
+  _version: 0.4.0/0.26.1/0.0.51
+  author: 29139614
+  comments: 4
+  details: The pull request h1alexbel/ghiqc#51 with 2 HoC created by @renovate[bot]
+    was reviewed by @h1alexbel after 45 minutes and 4 comments.
+  hoc: 2
+  is_human: 1
+  issue: 51
+  repository: 833604403
+  seconds: 2745
+  what: code-was-reviewed
+  when: 2024-09-04 16:58:41.000000000 Z
+  where: github
+  who: 83453843
+- _id: 2356
+  _time: 2024-09-04 21:09:23.438600504 Z
   _version: 0.4.0/0.26.1/
-  latest: 41626945225
+  latest: 41627200363
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 2354
-  _time: 2024-09-04 20:11:22.799903170 Z
+- _id: 2357
+  _time: 2024-09-04 21:09:31.112993776 Z
   _version: 0.4.0/0.26.1/
-  latest: 0
+  latest: 36
   repository: 833604403
   what: labels-were-scanned
   where: github
