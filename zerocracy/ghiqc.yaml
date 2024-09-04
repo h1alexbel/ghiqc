@@ -2,10 +2,10 @@
 - added: 8
   cycles: 2
   removed: 8
-  seconds: 11.390487251
+  seconds: 12.663809158
   version: 0.26.1
   what: judges-summary
-  when: 2024-09-04 19:08:22.028694091 Z
+  when: 2024-09-04 20:11:22.815005673 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -3989,15 +3989,33 @@
   when: 2024-09-04 16:12:56.000000000 Z
   where: github
   who: 29139614
-- _id: 2348
-  _time: 2024-09-04 19:08:19.909332497 Z
+- _id: 2350
+  _time: 2024-09-04 20:11:12.771994593 Z
   _version: 0.4.0/0.26.1/
-  latest: 41625475850
+  comments: 4
+  commits: 1
+  details: The pull request h1alexbel/ghiqc#51 has been reviewed by @h1alexbel with
+    2 HoC and 4 comments.
+  event_id: 41626878833
+  event_type: PullRequestReviewEvent
+  files: 1
+  hoc: 2
+  is_human: 1
+  issue: 51
+  repository: 833604403
+  what: pull-was-reviewed
+  when: 2024-09-04 16:58:41.000000000 Z
+  where: github
+  who: 83453843
+- _id: 2353
+  _time: 2024-09-04 20:11:20.671687848 Z
+  _version: 0.4.0/0.26.1/
+  latest: 41626945225
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 2349
-  _time: 2024-09-04 19:08:22.013855270 Z
+- _id: 2354
+  _time: 2024-09-04 20:11:22.799903170 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 833604403
