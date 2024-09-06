@@ -4,10 +4,10 @@
     <added t="I">8</added>
     <cycles t="I">1</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">3.610585663</seconds>
+    <seconds t="F">10.327527866</seconds>
     <version t="S">0.26.1</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-09-06T17:08:58Z</when>
+    <when t="T">2024-09-06T18:12:56Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -4460,19 +4460,19 @@
     <when t="T">2024-09-06T11:09:44Z</when>
   </f>
   <f>
-    <_id t="I">2461</_id>
-    <_time t="T">2024-09-06T17:08:57Z</_time>
+    <_id t="I">2463</_id>
+    <_time t="T">2024-09-06T18:12:49Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
-    <latest t="I">41689731802</latest>
+    <latest t="I">41691654732</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">2462</_id>
-    <_time t="T">2024-09-06T17:08:58Z</_time>
+    <_id t="I">2464</_id>
+    <_time t="T">2024-09-06T18:12:56Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
-    <latest t="I">0</latest>
+    <latest t="I">36</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
