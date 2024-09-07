@@ -1,12 +1,11 @@
 ---
 - added: 8
-  cycles: 2
-  error: undefined method `-' for nil
+  cycles: 1
   removed: 8
-  seconds: 45.886724763
+  seconds: 9.881641484
   version: 0.26.1
   what: judges-summary
-  when: 2024-09-07 03:12:00.658398681 Z
+  when: 2024-09-07 04:12:38.258029677 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -4168,12 +4167,16 @@
   average_pull_lifetime: 39583.333333333336
   average_pull_rejection_rate: 0.3333333333333333
   average_release_interval: 0
+  composite: 0.333
+  ffact: 1047
   since: 2024-08-31 03:11:21.967076057 Z
   what: quality-of-service
   when: 2024-09-07 03:11:21.967014522 Z
 - _id: 2482
   _time: 2024-09-07 03:11:57.196369168 Z
   _version: 0.4.0/0.26.1/
+  composite: 1.906
+  ffact: 1385
   since: 2024-08-31 03:11:57.196613152 Z
   total_commits_pushed: 2
   total_hoc_committed: 4
@@ -4182,17 +4185,17 @@
   total_releases_published: 0
   what: quantity-of-deliverables
   when: 2024-09-07 03:11:57.196533153 Z
-- _id: 2483
-  _time: 2024-09-07 03:11:58.866631606 Z
+- _id: 2485
+  _time: 2024-09-07 04:12:30.886680038 Z
   _version: 0.4.0/0.26.1/
-  latest: 41703546059
+  latest: 41704954295
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 2484
-  _time: 2024-09-07 03:12:00.642917990 Z
+- _id: 2486
+  _time: 2024-09-07 04:12:38.236503632 Z
   _version: 0.4.0/0.26.1/
-  latest: 0
+  latest: 36
   repository: 833604403
   what: labels-were-scanned
   where: github
