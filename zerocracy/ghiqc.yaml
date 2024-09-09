@@ -1,12 +1,11 @@
 ---
 - added: 8
-  cycles: 2
-  error: undefined method `-' for nil
+  cycles: 1
   removed: 8
-  seconds: 44.516544381
+  seconds: 5.016142266
   version: 0.26.1
   what: judges-summary
-  when: 2024-09-09 03:14:19.003197063 Z
+  when: 2024-09-09 04:12:40.148523390 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -4182,9 +4181,40 @@
   total_stars: 4
   what: dimensions-of-terrain
   when: 2024-09-08 12:16:21.737021872 Z
-- _id: 2564
-  _job: 6377
-  _time: 2024-09-08 15:10:18.585993256 Z
+- _id: 2587
+  _time: 2024-09-09 03:13:38.537378354 Z
+  _version: 0.4.0/0.26.1/
+  average_backlog_size: 0.0
+  average_build_duration: 56.58730158730159
+  average_build_mttr: 0
+  average_build_success_rate: 0.9947089947089947
+  average_issue_lifetime: 0
+  average_pull_files_size: 1.0
+  average_pull_hoc_size: 2.0
+  average_pull_lifetime: 39583.333333333336
+  average_pull_rejection_rate: 0.3333333333333333
+  average_release_interval: 0
+  composite: 0.333
+  ffact: 1047
+  since: 2024-09-02 03:13:38.537579789 Z
+  what: quality-of-service
+  when: 2024-09-09 03:13:38.537498387 Z
+- _id: 2588
+  _time: 2024-09-09 03:14:11.774245483 Z
+  _version: 0.4.0/0.26.1/
+  composite: 1.906
+  ffact: 1385
+  since: 2024-09-02 03:14:11.774455635 Z
+  total_commits_pushed: 2
+  total_hoc_committed: 4
+  total_issues_created: 3
+  total_pulls_submitted: 1
+  total_releases_published: 0
+  what: quantity-of-deliverables
+  when: 2024-09-09 03:14:11.774386747 Z
+- _id: 2591
+  _job: 6413
+  _time: 2024-09-09 03:14:26.495436481 Z
   _version: 0.4.0/0.26.1/0.0.51
   cost_of_qod:
   - 6.589785831960461
@@ -4205,45 +4235,18 @@
   - 0.1375714285890856
   - 0.27228571432173043
   what: learn-eva
-  when: 2024-09-08 15:10:18.556950250 Z
-- _id: 2587
-  _time: 2024-09-09 03:13:38.537378354 Z
+  when: 2024-09-09 03:14:26.466948086 Z
+- _id: 2592
+  _time: 2024-09-09 04:12:37.669234172 Z
   _version: 0.4.0/0.26.1/
-  average_backlog_size: 0.0
-  average_build_duration: 56.58730158730159
-  average_build_mttr: 0
-  average_build_success_rate: 0.9947089947089947
-  average_issue_lifetime: 0
-  average_pull_files_size: 1.0
-  average_pull_hoc_size: 2.0
-  average_pull_lifetime: 39583.333333333336
-  average_pull_rejection_rate: 0.3333333333333333
-  average_release_interval: 0
-  since: 2024-09-02 03:13:38.537579789 Z
-  what: quality-of-service
-  when: 2024-09-09 03:13:38.537498387 Z
-- _id: 2588
-  _time: 2024-09-09 03:14:11.774245483 Z
-  _version: 0.4.0/0.26.1/
-  since: 2024-09-02 03:14:11.774455635 Z
-  total_commits_pushed: 2
-  total_hoc_committed: 4
-  total_issues_created: 3
-  total_pulls_submitted: 1
-  total_releases_published: 0
-  what: quantity-of-deliverables
-  when: 2024-09-09 03:14:11.774386747 Z
-- _id: 2589
-  _time: 2024-09-09 03:14:13.708102173 Z
-  _version: 0.4.0/0.26.1/
-  latest: 41734088797
+  latest: 41735043790
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 2590
-  _time: 2024-09-09 03:14:18.987536348 Z
+- _id: 2593
+  _time: 2024-09-09 04:12:40.131147793 Z
   _version: 0.4.0/0.26.1/
-  latest: 36
+  latest: 0
   repository: 833604403
   what: labels-were-scanned
   where: github
