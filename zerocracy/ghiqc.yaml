@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 2
   removed: 8
-  seconds: 7.548808618
+  seconds: 33.888566385
   version: 0.26.1
   what: judges-summary
-  when: 2024-09-09 07:10:25.772130934 Z
+  when: 2024-09-09 08:15:20.243783155 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -4236,15 +4236,39 @@
   - 0.27228571432173043
   what: learn-eva
   when: 2024-09-09 03:14:26.466948086 Z
-- _id: 2598
-  _time: 2024-09-09 07:10:20.264687880 Z
+- _id: 2600
+  _time: 2024-09-09 08:14:49.105802198 Z
   _version: 0.4.0/0.26.1/
-  latest: 41738179047
+  branch: renovate/actions-checkout-digest
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request h1alexbel/ghiqc#52 has been closed by @rultor, with 2
+    HoC and 3 comments.
+  event_id: 41740819450
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 52
+  repository: 833604403
+  succeeded_builds: 11
+  what: pull-was-merged
+  when: 2024-09-09 07:47:42.000000000 Z
+  where: github
+  who: 8086956
+- _id: 2603
+  _time: 2024-09-09 08:15:12.289758711 Z
+  _version: 0.4.0/0.26.1/
+  latest: 41740834525
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 2599
-  _time: 2024-09-09 07:10:25.755234174 Z
+- _id: 2604
+  _time: 2024-09-09 08:15:20.228583065 Z
   _version: 0.4.0/0.26.1/
   latest: 36
   repository: 833604403
