@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="114149">
+<fb version="0.4.0" size="114186">
   <f>
     <added t="I">8</added>
-    <cycles t="I">2</cycles>
+    <cycles t="I">1</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">11.311482018</seconds>
+    <seconds t="F">7.963042513</seconds>
     <version t="S">0.26.1</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-09-11T13:17:36Z</when>
+    <when t="T">2024-09-11T14:09:27Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -4590,35 +4590,6 @@
     <when t="T">2024-09-09T14:13:14Z</when>
   </f>
   <f>
-    <_id t="I">2656</_id>
-    <_job t="I">6501</_job>
-    <_time t="T">2024-09-10T07:11:14Z</_time>
-    <_version t="S">0.4.0/0.26.1/0.0.51</_version>
-    <cost_of_qod>
-      <v t="F">6.589785831960461</v>
-      <v t="F">8.298755186721992</v>
-      <v t="F">-1.3740982480247337</v>
-      <v t="F">-2.083695085952422</v>
-      <v t="F">-1.9423761735189382</v>
-      <v t="F">1.4689680499449138</v>
-      <v t="F">8.307372793354102</v>
-      <v t="F">4.197271773347325</v>
-    </cost_of_qod>
-    <qod_per_day>
-      <v t="F">0.0867142857250893</v>
-      <v t="F">0.06885714286545011</v>
-      <v t="F">0.8317142858188166</v>
-      <v t="F">0.8227142858351995</v>
-      <v t="F">0.8825714286500107</v>
-      <v t="F">0.38900000003935986</v>
-      <v t="F">0.1375714285890856</v>
-      <v t="F">0.27228571432173043</v>
-      <v t="F">0.27228571431672816</v>
-    </qod_per_day>
-    <what t="S">learn-eva</what>
-    <when t="T">2024-09-10T07:11:14Z</when>
-  </f>
-  <f>
     <_id t="I">2665</_id>
     <_time t="T">2024-09-10T12:20:15Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
@@ -4677,19 +4648,50 @@
     <when t="T">2024-09-11T13:17:25Z</when>
   </f>
   <f>
-    <_id t="I">2715</_id>
-    <_time t="T">2024-09-11T13:17:34Z</_time>
+    <_id t="I">2717</_id>
+    <_job t="I">6611</_job>
+    <_time t="T">2024-09-11T13:17:45Z</_time>
+    <_version t="S">0.4.0/0.26.1/0.0.51</_version>
+    <cost_of_qod>
+      <v t="F">6.589785831960461</v>
+      <v t="F">8.298755186721992</v>
+      <v t="F">-1.3740982480247337</v>
+      <v t="F">-2.083695085952422</v>
+      <v t="F">-1.9423761735189382</v>
+      <v t="F">1.4689680499449138</v>
+      <v t="F">8.307372793354102</v>
+      <v t="F">4.197271773347325</v>
+      <v t="F">7.339449541284403</v>
+    </cost_of_qod>
+    <qod_per_day>
+      <v t="F">0.0867142857250893</v>
+      <v t="F">0.06885714286545011</v>
+      <v t="F">0.8317142858188166</v>
+      <v t="F">0.8227142858351995</v>
+      <v t="F">0.8825714286500107</v>
+      <v t="F">0.38900000003935986</v>
+      <v t="F">0.1375714285890856</v>
+      <v t="F">0.27228571432173043</v>
+      <v t="F">0.27228571431672816</v>
+      <v t="F">0.07785714286710994</v>
+    </qod_per_day>
+    <what t="S">learn-eva</what>
+    <when t="T">2024-09-11T13:17:45Z</when>
+  </f>
+  <f>
+    <_id t="I">2718</_id>
+    <_time t="T">2024-09-11T14:09:21Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
-    <latest t="I">41826237523</latest>
+    <latest t="I">41828474451</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">2716</_id>
-    <_time t="T">2024-09-11T13:17:36Z</_time>
+    <_id t="I">2719</_id>
+    <_time t="T">2024-09-11T14:09:27Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
-    <latest t="I">0</latest>
+    <latest t="I">36</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
