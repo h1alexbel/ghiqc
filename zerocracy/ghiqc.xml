@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="115116">
+<fb version="0.4.0" size="115457">
   <f>
     <added t="I">8</added>
-    <cycles t="I">1</cycles>
+    <cycles t="I">2</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">8.267462752</seconds>
+    <seconds t="F">10.661024757</seconds>
     <version t="S">0.26.1</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-09-14T06:13:32Z</when>
+    <when t="T">2024-09-14T07:10:24Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -4737,17 +4737,33 @@
     <when t="T">2024-09-13T23:10:25Z</when>
   </f>
   <f>
-    <_id t="I">2855</_id>
-    <_time t="T">2024-09-14T06:13:26Z</_time>
+    <_id t="I">2857</_id>
+    <_time t="T">2024-09-14T07:10:16Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
-    <latest t="I">41925444248</latest>
+    <branch t="S">renovate/zerocracy-judges-action-0.x</branch>
+    <details t="S">The pull request h1alexbel/ghiqc#53 has been opened by @renovate[bot].</details>
+    <event_id t="I">41925993269</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">53</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2024-09-14T06:13:58Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">2860</_id>
+    <_time t="T">2024-09-14T07:10:19Z</_time>
+    <_version t="S">0.4.0/0.26.1/</_version>
+    <latest t="I">41926013036</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">2856</_id>
-    <_time t="T">2024-09-14T06:13:32Z</_time>
+    <_id t="I">2861</_id>
+    <_time t="T">2024-09-14T07:10:24Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
     <latest t="I">36</latest>
     <repository t="I">833604403</repository>
