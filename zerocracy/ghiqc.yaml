@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 2
+  cycles: 1
   removed: 8
-  seconds: 28.534969281
+  seconds: 7.873300662
   version: 0.26.1
   what: judges-summary
-  when: 2024-09-16 08:14:48.710054383 Z
+  when: 2024-09-16 09:12:29.906124939 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -4520,17 +4520,57 @@
   when: 2024-09-16 07:51:09.000000000 Z
   where: github
   who: 8086956
-- _id: 2975
-  _time: 2024-09-16 08:14:46.574904574 Z
+- _id: 2977
+  _job: 7085
+  _time: 2024-09-16 08:14:55.538122155 Z
+  _version: 0.4.0/0.26.1/0.0.52
+  award: 4
+  details: It's time to reward @h1alexbel for the code review in h1alexbel/ghiqc#53,
+    the reward amount is 4.
+  greeting: "Thanks for the review! Your contribution earned you +4 points: +4 base
+    points; -24 for self-review; +0.02 for 2 [hits-of-code](https://www.yegor256.com/2014/11/14/hits-of-code.html);
+    -16 for no comments; -8 for fewer than 16 hits-of-code; +23.98 to meet the minimum
+    4-point reward. Keep up the good work and aim for more hits-of-code and comments
+    in future reviews! \U0001F4BB\U0001F44D\n\n<!-- Thanks for the review! You've
+    earned +4 points for this: +4 as a basis; -10 for very few (3) comments; -8 for
+    too few (2) hits-of-code; +18 to give you at least something.   -->"
+  href: https://github.com/h1alexbel/ghiqc/issues/53/#issuecomment-2352271854
+  is_human: 1
+  issue: 53
+  repository: 833604403
+  what: code-review-was-rewarded
+  when: 2024-09-16 08:14:55.542744015 Z
+  where: github
+  who: 83453843
+  why: Reviewed code in h1alexbel/ghiqc#53
+- _id: 2978
+  _job: 7085
+  _time: 2024-09-16 08:14:58.774385852 Z
+  _version: 0.4.0/0.26.1/0.0.52
+  comments: 3
+  details: The pull request h1alexbel/ghiqc#53 with 2 HoC created by @renovate[bot]
+    was merged by @rultor after 2 days of being in review and 3 comments.
+  hoc: 2
+  is_human: 0
+  issue: 53
+  merger: 8086956
+  repository: 833604403
+  seconds: 178631
+  what: code-was-contributed
+  when: 2024-09-16 07:51:09.000000000 Z
+  where: github
+  who: 29139614
+- _id: 2979
+  _time: 2024-09-16 09:12:24.168623668 Z
   _version: 0.4.0/0.26.1/
-  latest: 41954165151
+  latest: 41954832537
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 2976
-  _time: 2024-09-16 08:14:48.692909043 Z
+- _id: 2980
+  _time: 2024-09-16 09:12:29.888384538 Z
   _version: 0.4.0/0.26.1/
-  latest: 0
+  latest: 36
   repository: 833604403
   what: labels-were-scanned
   where: github
