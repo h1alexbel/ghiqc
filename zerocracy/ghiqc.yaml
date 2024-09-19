@@ -1,12 +1,11 @@
 ---
 - added: 8
-  cycles: 2
-  error: undefined method `-' for nil
+  cycles: 1
   removed: 8
-  seconds: 59.274366131
+  seconds: 9.17982223
   version: 0.26.1
   what: judges-summary
-  when: 2024-09-19 13:19:35.710677347 Z
+  when: 2024-09-19 14:09:58.073685551 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -4583,9 +4582,49 @@
   total_stars: 4
   what: dimensions-of-terrain
   when: 2024-09-17 17:09:28.056861817 Z
-- _id: 3102
-  _job: 7348
-  _time: 2024-09-18 17:22:03.709097380 Z
+- _id: 3103
+  _time: 2024-09-18 18:13:32.098719824 Z
+  _version: 0.4.0/0.26.1/
+  total_forks: 0
+  total_releases: 3
+  total_repositories: 1
+  total_stars: 4
+  what: dimensions-of-terrain
+  when: 2024-09-18 18:13:32.098877418 Z
+- _id: 3116
+  _time: 2024-09-19 13:18:46.421550543 Z
+  _version: 0.4.0/0.26.1/
+  average_backlog_size: 0.0
+  average_build_duration: 72.98245614035088
+  average_build_mttr: -10680
+  average_build_success_rate: 0.8596491228070176
+  average_issue_lifetime: 0
+  average_pull_files_size: 1.0
+  average_pull_hoc_size: 2.0
+  average_pull_lifetime: 178631.0
+  average_pull_rejection_rate: 0.0
+  average_release_interval: 0
+  composite: 0.228
+  ffact: 1047
+  since: 2024-09-12 13:18:46.421795934 Z
+  what: quality-of-service
+  when: 2024-09-19 13:18:46.421719380 Z
+- _id: 3117
+  _time: 2024-09-19 13:19:31.040410173 Z
+  _version: 0.4.0/0.26.1/
+  composite: 1.319
+  ffact: 1385
+  since: 2024-09-12 13:19:31.041091631 Z
+  total_commits_pushed: 1
+  total_hoc_committed: 2
+  total_issues_created: 3
+  total_pulls_submitted: 0
+  total_releases_published: 0
+  what: quantity-of-deliverables
+  when: 2024-09-19 13:19:31.041010268 Z
+- _id: 3120
+  _job: 7387
+  _time: 2024-09-19 13:20:08.408465485 Z
   _version: 0.4.0/0.26.1/0.0.52
   cost_of_qod:
   - 6.589785831960461
@@ -4610,55 +4649,20 @@
   - 0.27228571431672816
   - 0.07785714286710994
   - 0.18842857146148007
+  - 0.1884285714539205
   what: learn-eva
-  when: 2024-09-18 17:22:03.659468490 Z
-- _id: 3103
-  _time: 2024-09-18 18:13:32.098719824 Z
-  _version: 0.4.0/0.26.1/
-  total_forks: 0
-  total_releases: 3
-  total_repositories: 1
-  total_stars: 4
-  what: dimensions-of-terrain
-  when: 2024-09-18 18:13:32.098877418 Z
-- _id: 3116
-  _time: 2024-09-19 13:18:46.421550543 Z
-  _version: 0.4.0/0.26.1/
-  average_backlog_size: 0.0
-  average_build_duration: 72.98245614035088
-  average_build_mttr: -10680
-  average_build_success_rate: 0.8596491228070176
-  average_issue_lifetime: 0
-  average_pull_files_size: 1.0
-  average_pull_hoc_size: 2.0
-  average_pull_lifetime: 178631.0
-  average_pull_rejection_rate: 0.0
-  average_release_interval: 0
-  since: 2024-09-12 13:18:46.421795934 Z
-  what: quality-of-service
-  when: 2024-09-19 13:18:46.421719380 Z
-- _id: 3117
-  _time: 2024-09-19 13:19:31.040410173 Z
-  _version: 0.4.0/0.26.1/
-  since: 2024-09-12 13:19:31.041091631 Z
-  total_commits_pushed: 1
-  total_hoc_committed: 2
-  total_issues_created: 3
-  total_pulls_submitted: 0
-  total_releases_published: 0
-  what: quantity-of-deliverables
-  when: 2024-09-19 13:19:31.041010268 Z
-- _id: 3118
-  _time: 2024-09-19 13:19:33.143610034 Z
+  when: 2024-09-19 13:20:08.356311108 Z
+- _id: 3121
+  _time: 2024-09-19 14:09:51.143686837 Z
   _version: 0.4.0/0.26.1/
   latest: 42076668344
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 3119
-  _time: 2024-09-19 13:19:35.689099796 Z
+- _id: 3122
+  _time: 2024-09-19 14:09:58.053098729 Z
   _version: 0.4.0/0.26.1/
-  latest: 0
+  latest: 36
   repository: 833604403
   what: labels-were-scanned
   where: github
