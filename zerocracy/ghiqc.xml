@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="121221">
+<fb version="0.4.0" size="121798">
   <f>
     <added t="I">8</added>
-    <cycles t="I">1</cycles>
+    <cycles t="I">2</cycles>
+    <error t="S">undefined method `-' for nil</error>
     <removed t="I">8</removed>
-    <seconds t="F">3.746126855</seconds>
+    <seconds t="F">38.888197721</seconds>
     <version t="S">0.26.1</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-09-21T13:14:05Z</when>
+    <when t="T">2024-09-21T14:09:05Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -5049,17 +5050,48 @@
     <when t="T">2024-09-20T19:08:36Z</when>
   </f>
   <f>
-    <_id t="I">3218</_id>
-    <_time t="T">2024-09-21T13:14:03Z</_time>
+    <_id t="I">3222</_id>
+    <_time t="T">2024-09-21T14:08:34Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
-    <latest t="I">42140121812</latest>
+    <average_backlog_size t="F">0.0</average_backlog_size>
+    <average_build_duration t="F">74.50617283950618</average_build_duration>
+    <average_build_mttr t="I">-10680</average_build_mttr>
+    <average_build_success_rate t="F">0.8518518518518519</average_build_success_rate>
+    <average_issue_lifetime t="I">0</average_issue_lifetime>
+    <average_pull_files_size t="F">1.0</average_pull_files_size>
+    <average_pull_hoc_size t="F">2.0</average_pull_hoc_size>
+    <average_pull_lifetime t="F">178631.0</average_pull_lifetime>
+    <average_pull_rejection_rate t="F">0.0</average_pull_rejection_rate>
+    <average_release_interval t="I">0</average_release_interval>
+    <since t="T">2024-09-14T14:08:34Z</since>
+    <what t="S">quality-of-service</what>
+    <when t="T">2024-09-21T14:08:34Z</when>
+  </f>
+  <f>
+    <_id t="I">3223</_id>
+    <_time t="T">2024-09-21T14:09:02Z</_time>
+    <_version t="S">0.4.0/0.26.1/</_version>
+    <since t="T">2024-09-14T14:09:02Z</since>
+    <total_commits_pushed t="I">0</total_commits_pushed>
+    <total_hoc_committed t="I">0</total_hoc_committed>
+    <total_issues_created t="I">3</total_issues_created>
+    <total_pulls_submitted t="I">0</total_pulls_submitted>
+    <total_releases_published t="I">0</total_releases_published>
+    <what t="S">quantity-of-deliverables</what>
+    <when t="T">2024-09-21T14:09:02Z</when>
+  </f>
+  <f>
+    <_id t="I">3224</_id>
+    <_time t="T">2024-09-21T14:09:03Z</_time>
+    <_version t="S">0.4.0/0.26.1/</_version>
+    <latest t="I">42140704780</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">3219</_id>
-    <_time t="T">2024-09-21T13:14:05Z</_time>
+    <_id t="I">3225</_id>
+    <_time t="T">2024-09-21T14:09:05Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
     <latest t="I">0</latest>
     <repository t="I">833604403</repository>

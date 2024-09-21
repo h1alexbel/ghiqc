@@ -1,11 +1,12 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 2
+  error: undefined method `-' for nil
   removed: 8
-  seconds: 3.746126855
+  seconds: 38.888197721
   version: 0.26.1
   what: judges-summary
-  when: 2024-09-21 13:14:05.837859646 Z
+  when: 2024-09-21 14:09:05.694543493 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -4678,15 +4679,42 @@
   total_stars: 4
   what: dimensions-of-terrain
   when: 2024-09-20 19:08:36.474361129 Z
-- _id: 3218
-  _time: 2024-09-21 13:14:03.944666928 Z
+- _id: 3222
+  _time: 2024-09-21 14:08:34.224625554 Z
   _version: 0.4.0/0.26.1/
-  latest: 42140121812
+  average_backlog_size: 0.0
+  average_build_duration: 74.50617283950618
+  average_build_mttr: -10680
+  average_build_success_rate: 0.8518518518518519
+  average_issue_lifetime: 0
+  average_pull_files_size: 1.0
+  average_pull_hoc_size: 2.0
+  average_pull_lifetime: 178631.0
+  average_pull_rejection_rate: 0.0
+  average_release_interval: 0
+  since: 2024-09-14 14:08:34.226333780 Z
+  what: quality-of-service
+  when: 2024-09-21 14:08:34.226259482 Z
+- _id: 3223
+  _time: 2024-09-21 14:09:02.440860214 Z
+  _version: 0.4.0/0.26.1/
+  since: 2024-09-14 14:09:02.441168589 Z
+  total_commits_pushed: 0
+  total_hoc_committed: 0
+  total_issues_created: 3
+  total_pulls_submitted: 0
+  total_releases_published: 0
+  what: quantity-of-deliverables
+  when: 2024-09-21 14:09:02.441097767 Z
+- _id: 3224
+  _time: 2024-09-21 14:09:03.702622254 Z
+  _version: 0.4.0/0.26.1/
+  latest: 42140704780
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 3219
-  _time: 2024-09-21 13:14:05.819360278 Z
+- _id: 3225
+  _time: 2024-09-21 14:09:05.676729530 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 833604403
