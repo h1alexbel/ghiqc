@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="123572">
+<fb version="0.4.0" size="123907">
   <f>
     <added t="I">8</added>
     <cycles t="I">5</cycles>
     <error t="S">undefined method `[]' for nil</error>
     <removed t="I">8</removed>
-    <seconds t="F">59.723657468</seconds>
+    <seconds t="F">57.831156285</seconds>
     <version t="S">0.26.1</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-09-24T15:11:42Z</when>
+    <when t="T">2024-09-24T16:13:50Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -5189,10 +5189,26 @@
     <when t="T">2024-09-23T20:12:25Z</when>
   </f>
   <f>
-    <_id t="I">3345</_id>
-    <_time t="T">2024-09-24T15:11:42Z</_time>
+    <_id t="I">3346</_id>
+    <_time t="T">2024-09-24T16:12:55Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
-    <latest t="I">0</latest>
+    <branch t="S">renovate/zerocracy-judges-action-0.x</branch>
+    <details t="S">The pull request h1alexbel/ghiqc#56 has been opened by @renovate[bot].</details>
+    <event_id t="I">42218566642</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">56</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2024-09-24T13:20:49Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">3347</_id>
+    <_time t="T">2024-09-24T16:13:50Z</_time>
+    <_version t="S">0.4.0/0.26.1/</_version>
+    <latest t="I">36</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
