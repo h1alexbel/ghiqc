@@ -30,7 +30,7 @@ name: codecov
       - master
 jobs:
   tarpaulin:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions-rs/tarpaulin@v0.1
