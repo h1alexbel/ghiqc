@@ -3,10 +3,10 @@
   cycles: 5
   error: undefined method `[]' for nil
   removed: 8
-  seconds: 71.285407749
+  seconds: 72.327219554
   version: 0.26.1
   what: judges-summary
-  when: 2024-09-27 00:49:48.231938644 Z
+  when: 2024-09-27 02:14:22.845593235 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -4904,10 +4904,24 @@
   total_stars: 4
   what: dimensions-of-terrain
   when: 2024-09-26 22:09:36.366521290 Z
-- _id: 3360
-  _time: 2024-09-27 00:49:48.207305913 Z
+- _id: 3361
+  _time: 2024-09-27 02:13:12.751571168 Z
   _version: 0.4.0/0.26.1/
-  latest: 36
+  branch: renovate/ubuntu-24.x
+  details: The pull request h1alexbel/ghiqc#59 has been opened by @renovate[bot].
+  event_id: 42310125130
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 59
+  repository: 833604403
+  what: pull-was-opened
+  when: 2024-09-26 19:09:46.000000000 Z
+  where: github
+  who: 29139614
+- _id: 3362
+  _time: 2024-09-27 02:14:22.828691686 Z
+  _version: 0.4.0/0.26.1/
+  latest: 0
   repository: 833604403
   what: labels-were-scanned
   where: github
