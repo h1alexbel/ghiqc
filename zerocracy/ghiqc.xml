@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="127909">
+<fb version="0.4.0" size="127954">
   <f>
     <added t="I">8</added>
     <cycles t="I">5</cycles>
     <error t="S">undefined method `[]' for nil</error>
     <removed t="I">8</removed>
-    <seconds t="F">131.636826465</seconds>
+    <seconds t="F">97.946158682</seconds>
     <version t="S">0.26.1</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-09-29T15:12:59Z</when>
+    <when t="T">2024-09-29T16:12:50Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -5419,6 +5419,8 @@
     <average_review_time t="I">0</average_review_time>
     <average_reviewers_per_pull t="F">0.0</average_reviewers_per_pull>
     <average_reviews_per_pull t="F">0.0</average_reviews_per_pull>
+    <composite t="F">0.275</composite>
+    <ffact t="I">1047</ffact>
     <since t="T">2024-09-22T15:11:07Z</since>
     <what t="S">quality-of-service</what>
     <when t="T">2024-09-29T15:11:07Z</when>
@@ -5427,6 +5429,8 @@
     <_id t="I">3374</_id>
     <_time t="T">2024-09-29T15:11:52Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
+    <composite t="F">5.319</composite>
+    <ffact t="I">1385</ffact>
     <since t="T">2024-09-22T15:11:52Z</since>
     <total_commits_pushed t="I">3</total_commits_pushed>
     <total_hoc_committed t="I">6</total_hoc_committed>
@@ -5438,9 +5442,9 @@
   </f>
   <f>
     <_id t="I">3375</_id>
-    <_time t="T">2024-09-29T15:12:59Z</_time>
+    <_time t="T">2024-09-29T16:12:50Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
-    <latest t="I">36</latest>
+    <latest t="I">0</latest>
     <repository t="I">833604403</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
