@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="133047">
+<fb version="0.4.0" size="133370">
   <f>
     <added t="I">8</added>
-    <cycles t="I">1</cycles>
+    <cycles t="I">2</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">10.348037163</seconds>
+    <seconds t="F">11.823658345</seconds>
     <version t="S">0.26.1</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-09-30T18:13:59Z</when>
+    <when t="T">2024-09-30T19:07:48Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -5716,17 +5716,33 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">3412</_id>
-    <_time t="T">2024-09-30T18:13:52Z</_time>
+    <_id t="I">3414</_id>
+    <_time t="T">2024-09-30T19:07:39Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
-    <latest t="I">42399383144</latest>
+    <branch t="S">renovate/octocrab-0.x</branch>
+    <details t="S">The pull request h1alexbel/ghiqc#61 has been opened by @renovate[bot].</details>
+    <event_id t="I">42401851047</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">61</issue>
+    <repository t="I">833604403</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2024-09-30T15:12:16Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">3417</_id>
+    <_time t="T">2024-09-30T19:07:42Z</_time>
+    <_version t="S">0.4.0/0.26.1/</_version>
+    <latest t="I">42401955431</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">3413</_id>
-    <_time t="T">2024-09-30T18:13:59Z</_time>
+    <_id t="I">3418</_id>
+    <_time t="T">2024-09-30T19:07:48Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
     <latest t="I">36</latest>
     <repository t="I">833604403</repository>
