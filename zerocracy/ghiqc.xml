@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.4.0" size="130759">
+<fb version="0.4.0" size="132663">
   <f>
     <added t="I">8</added>
     <cycles t="I">2</cycles>
     <removed t="I">8</removed>
-    <seconds t="F">74.53199339</seconds>
+    <seconds t="F">23.709360455</seconds>
     <version t="S">0.26.1</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-09-30T09:13:55Z</when>
+    <when t="T">2024-09-30T10:12:25Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
@@ -5601,17 +5601,114 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">3386</_id>
-    <_time t="T">2024-09-30T09:13:49Z</_time>
+    <_id t="I">3388</_id>
+    <_job t="I">8434</_job>
+    <_time t="T">2024-09-30T09:14:03Z</_time>
+    <_version t="S">0.4.0/0.26.1/0.0.53</_version>
+    <comments t="I">3</comments>
+    <details t="S">The pull request h1alexbel/ghiqc#56 with 2 HoC created by @renovate[bot] was merged by @rultor after 5 days of being in review and 3 comments.</details>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">56</issue>
+    <merger t="I">8086956</merger>
+    <repository t="I">833604403</repository>
+    <seconds t="I">501134</seconds>
+    <what t="S">code-was-contributed</what>
+    <when t="T">2024-09-30T08:33:03Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">3389</_id>
+    <_job t="I">8434</_job>
+    <_time t="T">2024-09-30T09:14:03Z</_time>
+    <_version t="S">0.4.0/0.26.1/0.0.53</_version>
+    <comments t="I">3</comments>
+    <details t="S">The pull request h1alexbel/ghiqc#60 with 2 HoC created by @renovate[bot] was merged by @rultor after 2 days of being in review and 3 comments.</details>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">60</issue>
+    <merger t="I">8086956</merger>
+    <repository t="I">833604403</repository>
+    <seconds t="I">227961</seconds>
+    <what t="S">code-was-contributed</what>
+    <when t="T">2024-09-30T07:33:15Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">3390</_id>
+    <_job t="I">8434</_job>
+    <_time t="T">2024-09-30T09:14:03Z</_time>
+    <_version t="S">0.4.0/0.26.1/0.0.53</_version>
+    <comments t="I">3</comments>
+    <details t="S">The pull request h1alexbel/ghiqc#54 with 2 HoC created by @renovate[bot] was merged by @rultor after 1 days of being in review and 3 comments.</details>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">54</issue>
+    <merger t="I">8086956</merger>
+    <repository t="I">833604403</repository>
+    <seconds t="I">105346</seconds>
+    <what t="S">code-was-contributed</what>
+    <when t="T">2024-09-24T10:27:37Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">3391</_id>
+    <_job t="I">8434</_job>
+    <_time t="T">2024-09-30T09:14:03Z</_time>
+    <_version t="S">0.4.0/0.26.1/0.0.53</_version>
+    <comments t="I">3</comments>
+    <details t="S">The pull request h1alexbel/ghiqc#55 with 2 HoC created by @renovate[bot] was merged by @rultor after 21 hours of being in review and 3 comments.</details>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">55</issue>
+    <merger t="I">8086956</merger>
+    <repository t="I">833604403</repository>
+    <seconds t="I">76476</seconds>
+    <what t="S">code-was-contributed</what>
+    <when t="T">2024-09-24T09:34:57Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">3392</_id>
+    <_time t="T">2024-09-30T10:12:04Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
-    <latest t="I">42387081647</latest>
+    <branch t="S">renovate/zerocracy-pages-action-0.x</branch>
+    <comments t="I">3</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">4</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request h1alexbel/ghiqc#58 has been closed by @rultor, with 2 HoC and 3 comments.</details>
+    <event_id t="I">42388957816</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">58</issue>
+    <repository t="I">833604403</repository>
+    <succeeded_builds t="I">11</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2024-09-30T09:27:45Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">3395</_id>
+    <_time t="T">2024-09-30T10:12:19Z</_time>
+    <_version t="S">0.4.0/0.26.1/</_version>
+    <latest t="I">42388972286</latest>
     <repository t="I">833604403</repository>
     <what t="S">events-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">3387</_id>
-    <_time t="T">2024-09-30T09:13:55Z</_time>
+    <_id t="I">3396</_id>
+    <_time t="T">2024-09-30T10:12:25Z</_time>
     <_version t="S">0.4.0/0.26.1/</_version>
     <latest t="I">36</latest>
     <repository t="I">833604403</repository>
