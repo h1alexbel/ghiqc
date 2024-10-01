@@ -2,10 +2,10 @@
 - added: 8
   cycles: 2
   removed: 8
-  seconds: 18.716342788
+  seconds: 33.942837441
   version: 0.26.1
   what: judges-summary
-  when: 2024-10-01 09:12:06.418371766 Z
+  when: 2024-10-01 10:12:16.460297693 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -5324,15 +5324,56 @@
   when: 2024-10-01 06:56:14.000000000 Z
   where: github
   who: 83453843
-- _id: 3449
-  _time: 2024-10-01 09:12:03.271097373 Z
+- _id: 3451
+  _job: 8545
+  _time: 2024-10-01 09:12:11.950976246 Z
+  _version: 0.4.0/0.26.1/0.0.53
+  author: 29139614
+  comments: 4
+  details: The pull request h1alexbel/ghiqc#61 with 2 HoC created by @renovate[bot]
+    was reviewed by @h1alexbel after 15 hours and 4 comments.
+  hoc: 2
+  is_human: 1
+  issue: 61
+  repository: 833604403
+  seconds: 56638
+  what: code-was-reviewed
+  when: 2024-10-01 06:56:14.000000000 Z
+  where: github
+  who: 83453843
+- _id: 3452
+  _time: 2024-10-01 10:11:45.178018453 Z
   _version: 0.4.0/0.26.1/
-  latest: 42424042531
+  branch: renovate/octocrab-0.x
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request h1alexbel/ghiqc#61 has been closed by @rultor, with 2
+    HoC and 3 comments.
+  event_id: 42425382830
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 61
+  repository: 833604403
+  succeeded_builds: 11
+  what: pull-was-merged
+  when: 2024-10-01 07:54:13.000000000 Z
+  where: github
+  who: 8086956
+- _id: 3455
+  _time: 2024-10-01 10:12:13.948233581 Z
+  _version: 0.4.0/0.26.1/
+  latest: 42426075619
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 3450
-  _time: 2024-10-01 09:12:06.400362492 Z
+- _id: 3456
+  _time: 2024-10-01 10:12:16.437030650 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 833604403
