@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 2
   removed: 8
-  seconds: 4.261252817
+  seconds: 18.716342788
   version: 0.26.1
   what: judges-summary
-  when: 2024-10-01 08:14:44.619986050 Z
+  when: 2024-10-01 09:12:06.418371766 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -5306,15 +5306,33 @@
   total_stars: 4
   what: dimensions-of-terrain
   when: 2024-09-30 23:10:10.268272671 Z
-- _id: 3444
-  _time: 2024-10-01 08:14:42.466296408 Z
+- _id: 3446
+  _time: 2024-10-01 09:11:51.468175583 Z
   _version: 0.4.0/0.26.1/
-  latest: 42422500935
+  comments: 4
+  commits: 1
+  details: The pull request h1alexbel/ghiqc#61 has been reviewed by @h1alexbel with
+    2 HoC and 4 comments.
+  event_id: 42423598149
+  event_type: PullRequestReviewEvent
+  files: 1
+  hoc: 2
+  is_human: 1
+  issue: 61
+  repository: 833604403
+  what: pull-was-reviewed
+  when: 2024-10-01 06:56:14.000000000 Z
+  where: github
+  who: 83453843
+- _id: 3449
+  _time: 2024-10-01 09:12:03.271097373 Z
+  _version: 0.4.0/0.26.1/
+  latest: 42424042531
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 3445
-  _time: 2024-10-01 08:14:44.599363944 Z
+- _id: 3450
+  _time: 2024-10-01 09:12:06.400362492 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 833604403
