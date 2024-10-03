@@ -2,10 +2,10 @@
 - added: 8
   cycles: 2
   removed: 8
-  seconds: 16.213969006
+  seconds: 25.408881505
   version: 0.26.1
   what: judges-summary
-  when: 2024-10-03 13:19:35.869144688 Z
+  when: 2024-10-03 14:10:29.777298236 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -5520,15 +5520,39 @@
   when: 2024-10-03 09:11:36.000000000 Z
   where: github
   who: 29139614
-- _id: 3574
-  _time: 2024-10-03 13:19:27.496828221 Z
+- _id: 3576
+  _time: 2024-10-03 14:10:07.060689705 Z
   _version: 0.4.0/0.26.1/
-  latest: 42502560916
+  branch: renovate/actions-checkout-digest
+  comments: 1
+  comments_appreciated: 0
+  comments_by_author: 1
+  comments_by_reviewers: 1
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request h1alexbel/ghiqc#63 has been closed by @h1alexbel, with
+    2 HoC and 1 comments.
+  event_id: 42504167178
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 1
+  issue: 63
+  repository: 833604403
+  succeeded_builds: 11
+  what: pull-was-closed
+  when: 2024-10-03 10:03:00.000000000 Z
+  where: github
+  who: 83453843
+- _id: 3579
+  _time: 2024-10-03 14:10:22.225526216 Z
+  _version: 0.4.0/0.26.1/
+  latest: 42504445367
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 3575
-  _time: 2024-10-03 13:19:35.850307683 Z
+- _id: 3580
+  _time: 2024-10-03 14:10:29.757009610 Z
   _version: 0.4.0/0.26.1/
   latest: 36
   repository: 833604403
