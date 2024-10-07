@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 2
   removed: 8
-  seconds: 6.941641197
+  seconds: 30.830125866
   version: 0.26.1
   what: judges-summary
-  when: 2024-10-07 08:13:26.280409639 Z
+  when: 2024-10-07 09:12:40.790559883 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -5680,15 +5680,39 @@
   total_stars: 4
   what: dimensions-of-terrain
   when: 2024-10-07 04:13:24.126177145 Z
-- _id: 3774
-  _time: 2024-10-07 08:13:23.084271440 Z
+- _id: 3776
+  _time: 2024-10-07 09:12:12.552327753 Z
   _version: 0.4.0/0.26.1/
-  latest: 42595113670
+  branch: renovate/zerocracy-judges-action-0.x
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request h1alexbel/ghiqc#64 has been closed by @rultor, with 2
+    HoC and 3 comments.
+  event_id: 42597050459
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 64
+  repository: 833604403
+  succeeded_builds: 11
+  what: pull-was-merged
+  when: 2024-10-07 08:34:04.000000000 Z
+  where: github
+  who: 8086956
+- _id: 3779
+  _time: 2024-10-07 09:12:38.320612727 Z
+  _version: 0.4.0/0.26.1/
+  latest: 42597076228
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 3775
-  _time: 2024-10-07 08:13:26.256899841 Z
+- _id: 3780
+  _time: 2024-10-07 09:12:40.770151489 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 833604403
