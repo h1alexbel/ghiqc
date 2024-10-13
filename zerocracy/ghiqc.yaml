@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 2
   removed: 8
-  seconds: 5.128352818
+  seconds: 91.506626666
   version: 0.26.1
   what: judges-summary
-  when: 2024-10-13 20:11:41.912394131 Z
+  when: 2024-10-13 21:11:56.228686373 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -5969,15 +5969,51 @@
   total_stars: 4
   what: dimensions-of-terrain
   when: 2024-10-13 08:13:00.056238074 Z
-- _id: 4114
-  _time: 2024-10-13 20:11:39.378845054 Z
+- _id: 4118
+  _time: 2024-10-13 21:10:35.342142113 Z
   _version: 0.4.0/0.26.1/
-  latest: 42802654622
+  average_backlog_size: 0.0
+  average_build_duration: 68.74719101123596
+  average_build_mttr: 0
+  average_build_success_rate: 0.9943820224719101
+  average_issue_lifetime: 0
+  average_pull_files_size: 1.0
+  average_pull_hoc_size: 2.0
+  average_pull_lifetime: 140656.0
+  average_pull_rejection_rate: 0.5
+  average_release_commits_size: 0
+  average_release_hoc_size: 0
+  average_release_interval: 0
+  average_review_size: 0.0
+  average_review_time: 0
+  average_reviewers_per_pull: 0.0
+  average_reviews_per_pull: 0.0
+  average_triage_time: 0
+  since: 2024-10-06 21:10:35.342384823 Z
+  what: quality-of-service
+  when: 2024-10-13 21:10:35.342293714 Z
+- _id: 4119
+  _time: 2024-10-13 21:11:36.839822172 Z
+  _version: 0.4.0/0.26.1/
+  since: 2024-10-06 21:11:36.840024539 Z
+  total_builds_ran: 178
+  total_commits_pushed: 0
+  total_hoc_committed: 0
+  total_issues_created: 1
+  total_pulls_submitted: 0
+  total_releases_published: 0
+  total_reviews_submitted: 0
+  what: quantity-of-deliverables
+  when: 2024-10-13 21:11:36.839962614 Z
+- _id: 4120
+  _time: 2024-10-13 21:11:53.576385853 Z
+  _version: 0.4.0/0.26.1/
+  latest: 42803220751
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 4115
-  _time: 2024-10-13 20:11:41.889439555 Z
+- _id: 4121
+  _time: 2024-10-13 21:11:56.204541253 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 833604403
