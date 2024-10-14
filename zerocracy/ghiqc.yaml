@@ -1,11 +1,11 @@
 ---
 - added: 8
-  cycles: 1
+  cycles: 2
   removed: 8
-  seconds: 5.862517869
+  seconds: 14.371589316
   version: 0.26.1
   what: judges-summary
-  when: 2024-10-14 19:08:38.446642990 Z
+  when: 2024-10-14 20:12:31.679584202 Z
 - _id: 1
   _time: 2024-07-25 16:12:03.780276574 Z
   _version: 0.2.1/0.20.0/0.0.35
@@ -6079,22 +6079,36 @@
   when: 2024-10-14 08:34:33.000000000 Z
   where: github
   who: 29139614
-- _id: 4183
-  _time: 2024-10-14 19:08:34.723905339 Z
+- _id: 4187
+  _time: 2024-10-14 20:12:20.328235693 Z
+  _version: 0.4.0/0.26.1/
+  branch: renovate/zerocracy-pages-action-0.x
+  details: The pull request h1alexbel/ghiqc#67 has been opened by @renovate[bot].
+  event_id: 42829423369
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 67
+  repository: 833604403
+  what: pull-was-opened
+  when: 2024-10-14 15:11:52.000000000 Z
+  where: github
+  who: 29139614
+- _id: 4190
+  _time: 2024-10-14 20:12:28.300168508 Z
   _version: 0.4.0/0.26.1/
   latest: 1
   repository: 833604403
   what: min-issue-was-found
   where: github
-- _id: 4184
-  _time: 2024-10-14 19:08:35.862825940 Z
+- _id: 4191
+  _time: 2024-10-14 20:12:29.213227601 Z
   _version: 0.4.0/0.26.1/
-  latest: 42827098603
+  latest: 42829513647
   repository: 833604403
   what: events-were-scanned
   where: github
-- _id: 4185
-  _time: 2024-10-14 19:08:38.422677711 Z
+- _id: 4192
+  _time: 2024-10-14 20:12:31.659120808 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 833604403
